@@ -1,0 +1,16 @@
+{
+  "name": "covid-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  },
+  "scripts": {
+    "http-server": "./node_modules/.bin/http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}
