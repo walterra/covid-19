@@ -1,9 +1,24 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
     "config": {
+        "axis": {
+            "domainColor": "#ddd",
+            "grid": true,
+            "gridColor": "#eee",
+            "labelBound": true,
+            "labelColor": "gray",
+            "tickColor": "#ddd"
+        },
+        "title": {
+            "anchor": "start",
+            "color": "gray",
+            "fontSize": 12,
+            "fontWeight": "normal"
+        },
         "view": {
             "continuousHeight": 300,
-            "continuousWidth": 400
+            "continuousWidth": 400,
+            "strokeWidth": 0
         }
     },
     "data": {
@@ -617,6 +632,14 @@
                 "total_death": 384,
                 "total_recovered": 7633.0
             }
+        ],
+        "data-793b2339a016668726e02e8737965916": [
+            {
+                "label": "Tageswert"
+            },
+            {
+                "label": "7d Moving Average"
+            }
         ]
     },
     "hconcat": [
@@ -778,6 +801,359 @@
                         }
                     ],
                     "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "diff",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "#1f77b4",
+                        "dx": 5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#1f77b4",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "rolling_mean",
+                            "format": ",.2f",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "lightblue",
+                        "dx": 5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "frame": [
+                                -6,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "lightblue",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "frame": [
+                                -6,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
                 }
             ],
             "title": "Neue F\u00e4lle pro Tag"
@@ -802,8 +1178,11 @@
                             "type": "temporal"
                         },
                         "y": {
+                            "axis": {
+                                "format": "%",
+                                "title": ""
+                            },
                             "field": "rolling_mean",
-                            "title": "",
                             "type": "quantitative"
                         }
                     },
@@ -851,7 +1230,7 @@
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max * 100"
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
                         },
                         {
                             "frame": [
@@ -887,8 +1266,11 @@
                             "type": "temporal"
                         },
                         "y": {
+                            "axis": {
+                                "format": "%",
+                                "title": ""
+                            },
                             "field": "diff",
-                            "title": "",
                             "type": "quantitative"
                         }
                     },
@@ -936,13 +1318,425 @@
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max * 100"
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "rolling_mean",
+                            "format": ".2%",
+                            "type": "quantitative"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "rolling_mean",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "lightblue",
+                        "dx": 5,
+                        "dy": -5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "frame": [
+                                -6,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "rolling_mean",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "lightblue",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "frame": [
+                                -6,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "diff",
+                            "format": ".2%",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "#1f77b4",
+                        "dx": 5,
+                        "dy": 5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#1f77b4",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
                         }
                     ],
                     "width": 300
                 }
             ],
             "title": "Neue F\u00e4lle pro Tag Steigerung %"
+        },
+        {
+            "data": {
+                "name": "data-793b2339a016668726e02e8737965916"
+            },
+            "encoding": {
+                "color": {
+                    "field": "label",
+                    "legend": null,
+                    "scale": {
+                        "domain": [
+                            "Tageswert",
+                            "7d Moving Average"
+                        ],
+                        "range": [
+                            "#1f77b4",
+                            "lightblue"
+                        ]
+                    },
+                    "type": "nominal"
+                },
+                "y": {
+                    "axis": {
+                        "domain": false,
+                        "orient": "right",
+                        "ticks": false
+                    },
+                    "field": "label",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "mark": {
+                "size": 150,
+                "type": "square"
+            }
         }
     ]
 }
