@@ -22,10 +22,21 @@
         }
     },
     "data": {
-        "name": "data-0b9ace300515331289dccb422d81e866"
+        "name": "data-86698980a0e397e2aec20ec8a2d1cf2a"
     },
     "datasets": {
-        "data-0b9ace300515331289dccb422d81e866": [
+        "data-2b6b64a5e689443bb63b3244c84a1d9c": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            }
+        ],
+        "data-86698980a0e397e2aec20ec8a2d1cf2a": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -631,17 +642,18 @@
                 "total_confirmed": 14159,
                 "total_death": 384,
                 "total_recovered": 7633.0
-            }
-        ],
-        "data-729142938f80d3cfe1eb62712bd6c18a": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
             },
             {
-                "label": "Todesf\u00e4lle"
+                "dataTime": "2020-04-15T08:00:00",
+                "total_confirmed": 14246,
+                "total_death": 384,
+                "total_recovered": 7633.0
             },
             {
-                "label": "Genesungen"
+                "dataTime": "2020-04-15T15:00:00",
+                "total_confirmed": 14321,
+                "total_death": 393,
+                "total_recovered": 8098.0
             }
         ]
     },
@@ -1822,7 +1834,7 @@
         },
         {
             "data": {
-                "name": "data-729142938f80d3cfe1eb62712bd6c18a"
+                "name": "data-2b6b64a5e689443bb63b3244c84a1d9c"
             },
             "encoding": {
                 "color": {
@@ -1832,7 +1844,7 @@
                         "domain": [
                             "Best\u00e4tigte F\u00e4lle",
                             "Todesf\u00e4lle",
-                            "Genesungen"
+                            "Genesene"
                         ],
                         "range": [
                             "#1f77b4",
