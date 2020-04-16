@@ -7,6 +7,7 @@
             "gridColor": "#eee",
             "labelBound": true,
             "labelColor": "gray",
+            "minExtent": 50,
             "tickColor": "#ddd"
         },
         "title": {
@@ -22,7 +23,7 @@
         }
     },
     "data": {
-        "name": "data-86698980a0e397e2aec20ec8a2d1cf2a"
+        "name": "data-a0ac1e27137379dd1958ac5c96484e43"
     },
     "datasets": {
         "data-793b2339a016668726e02e8737965916": [
@@ -33,7 +34,7 @@
                 "label": "7d Moving Average"
             }
         ],
-        "data-86698980a0e397e2aec20ec8a2d1cf2a": [
+        "data-a0ac1e27137379dd1958ac5c96484e43": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -651,6 +652,18 @@
                 "total_confirmed": 14321,
                 "total_death": 393,
                 "total_recovered": 8098.0
+            },
+            {
+                "dataTime": "2020-04-16T08:00:00",
+                "total_confirmed": 14370,
+                "total_death": 410,
+                "total_recovered": 8986.0
+            },
+            {
+                "dataTime": "2020-04-16T15:00:00",
+                "total_confirmed": 14451,
+                "total_death": 410,
+                "total_recovered": 8986.0
             }
         ]
     },
@@ -728,7 +741,7 @@
                         },
                         {
                             "frame": [
-                                -6,
+                                -7,
                                 0
                             ],
                             "window": [
@@ -1043,7 +1056,7 @@
                         },
                         {
                             "frame": [
-                                -6,
+                                -7,
                                 0
                             ],
                             "window": [
@@ -1135,7 +1148,7 @@
                         },
                         {
                             "frame": [
-                                -6,
+                                -7,
                                 0
                             ],
                             "window": [
@@ -1246,7 +1259,7 @@
                         },
                         {
                             "frame": [
-                                -6,
+                                -7,
                                 0
                             ],
                             "window": [
@@ -1412,7 +1425,7 @@
                         },
                         {
                             "frame": [
-                                -6,
+                                -7,
                                 0
                             ],
                             "window": [
@@ -1514,7 +1527,7 @@
                         },
                         {
                             "frame": [
-                                -6,
+                                -7,
                                 0
                             ],
                             "window": [

@@ -22,7 +22,7 @@
         }
     },
     "data": {
-        "name": "data-86698980a0e397e2aec20ec8a2d1cf2a"
+        "name": "data-a0ac1e27137379dd1958ac5c96484e43"
     },
     "datasets": {
         "data-2b6b64a5e689443bb63b3244c84a1d9c": [
@@ -36,7 +36,7 @@
                 "label": "Genesene"
             }
         ],
-        "data-86698980a0e397e2aec20ec8a2d1cf2a": [
+        "data-a0ac1e27137379dd1958ac5c96484e43": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -654,6 +654,18 @@
                 "total_confirmed": 14321,
                 "total_death": 393,
                 "total_recovered": 8098.0
+            },
+            {
+                "dataTime": "2020-04-16T08:00:00",
+                "total_confirmed": 14370,
+                "total_death": 410,
+                "total_recovered": 8986.0
+            },
+            {
+                "dataTime": "2020-04-16T15:00:00",
+                "total_confirmed": 14451,
+                "total_death": 410,
+                "total_recovered": 8986.0
             }
         ]
     },
@@ -680,6 +692,9 @@
                                     "type": "temporal"
                                 },
                                 "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
                                     "field": "max_att",
                                     "scale": {
                                         "base": 10,
@@ -744,7 +759,8 @@
                                 "align": "left",
                                 "color": "#1f77b4",
                                 "dx": 5,
-                                "type": "text"
+                                "type": "text",
+                                "width": 500
                             },
                             "transform": [
                                 {
@@ -874,6 +890,9 @@
                                     "type": "temporal"
                                 },
                                 "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
                                     "field": "max_att",
                                     "scale": {
                                         "base": 10,
@@ -938,7 +957,8 @@
                                 "align": "left",
                                 "color": "#d62728",
                                 "dx": 5,
-                                "type": "text"
+                                "type": "text",
+                                "width": 500
                             },
                             "transform": [
                                 {
@@ -1068,6 +1088,9 @@
                                     "type": "temporal"
                                 },
                                 "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
                                     "field": "max_att",
                                     "scale": {
                                         "base": 10,
@@ -1132,7 +1155,8 @@
                                 "align": "left",
                                 "color": "#ff7f0e",
                                 "dx": 5,
-                                "type": "text"
+                                "type": "text",
+                                "width": 500
                             },
                             "transform": [
                                 {
@@ -1267,6 +1291,9 @@
                                     "type": "temporal"
                                 },
                                 "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
                                     "field": "max_att",
                                     "scale": {
                                         "base": 10,
@@ -1331,7 +1358,8 @@
                                 "align": "left",
                                 "color": "#1f77b4",
                                 "dx": 5,
-                                "type": "text"
+                                "type": "text",
+                                "width": 500
                             },
                             "transform": [
                                 {
@@ -1461,6 +1489,9 @@
                                     "type": "temporal"
                                 },
                                 "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
                                     "field": "max_att",
                                     "scale": {
                                         "base": 10,
@@ -1525,7 +1556,8 @@
                                 "align": "left",
                                 "color": "#d62728",
                                 "dx": 5,
-                                "type": "text"
+                                "type": "text",
+                                "width": 500
                             },
                             "transform": [
                                 {
@@ -1655,6 +1687,9 @@
                                     "type": "temporal"
                                 },
                                 "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
                                     "field": "max_att",
                                     "scale": {
                                         "base": 10,
@@ -1719,7 +1754,8 @@
                                 "align": "left",
                                 "color": "#ff7f0e",
                                 "dx": 5,
-                                "type": "text"
+                                "type": "text",
+                                "width": 500
                             },
                             "transform": [
                                 {
