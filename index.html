@@ -11,14 +11,21 @@
 <body>
   <div class="main_content">
     <h1>COVID19 AT</h1>
-    <p><small>Letztes Update: 16.04.2020 15:00, Datenquelle: <a href="https://corin.at/raw.php">corin.at</a></small></p>
+    <p><small>Letztes Update: 17.04.2020 08:00, Datenquelle: <a href="https://corin.at/raw.php">corin.at</a></small></p>
     <p>Disclaimer: Dieses Projekt entstand als persönliche Datenaufbereitung. Angaben ohne Gewähr.</p>
     <p>Feedback sehr willkommen: Entweder auf <a href="https://twitter.com/walterra">Twitter</a> oder im <a href="https://github.com/walterra/covid-19">GitHub Repository</a>.</p>
     <div class="vis_wrapper">
+      <h3>Vergleich Bestätigte Fälle / Todesfälle / Genesene</h3>
       <div id="vega_chart_1"></div>
+      <p>Vorsicht bei der Interpretation: Die Anzahl der Infizierten mag auf den ersten Blick ein Indikator für die Ausbreitung sein. Wir haben es aber mit einem komplexen System mit vielen Unbekannten zu tun: Wir kennen die tatsächliche Anzahl der Infizierten nicht. Die Dauer von der Infektion bis zum Auftreten von Symptomen hat eine große Spannweite. Und die Dauer von der Ausführung eines Tests bis zum Vorliegen des Ergebnisses kann mehrere Tage dauern. All das führt dazu, dass sich die scheinbar einfachen Zahlenreihen schwer bis gar nicht in Beziehung stellen lassen und gesicherte Aussagen kaum gemacht werden können.</p>
     </div>
-    <div id="vega_chart_2" class="vis_wrapper">
-
+    <div class="vis_wrapper">
+      <h3>Bestätigte Fälle</h3>
+      <div id="vega_chart_2"></div>
+    </div>
+    <div class="vis_wrapper">
+      <h3>Todesfälle</h3>
+      <div id="vega_chart_3"></div>
     </div>
   </div>
   <script src="src-www/vega_renderer.js?v=1.1.0"></script>

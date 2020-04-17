@@ -691,7 +691,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "size": 2,
                         "type": "line"
                     },
@@ -704,8 +704,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -721,12 +721,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -776,7 +776,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "size": 2,
                         "type": "line"
                     },
@@ -789,8 +789,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -806,12 +806,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -842,7 +842,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "dx": 5,
                         "type": "text"
                     },
@@ -855,8 +855,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -872,12 +872,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -921,7 +921,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -934,8 +934,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -951,12 +951,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1006,7 +1006,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "dx": 5,
                         "type": "text"
                     },
@@ -1019,8 +1019,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1036,12 +1036,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1098,7 +1098,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -1111,8 +1111,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1128,12 +1128,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1203,7 +1203,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -1217,8 +1217,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1234,12 +1234,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1274,7 +1274,7 @@
                             },
                             {
                                 "field": "diff",
-                                "title": "Neue F\u00e4lle",
+                                "title": "Neue Todesf\u00e4lle",
                                 "type": "quantitative"
                             }
                         ],
@@ -1291,7 +1291,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -1305,8 +1305,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1322,12 +1322,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1340,7 +1340,7 @@
                     "width": 300
                 }
             ],
-            "title": "Neue F\u00e4lle pro Tag"
+            "title": "Neue Todesf\u00e4lle pro Tag"
         },
         {
             "layer": [
@@ -1362,7 +1362,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "size": 2,
                         "type": "line"
                     },
@@ -1375,8 +1375,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1392,12 +1392,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1440,7 +1440,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "size": 2,
                         "type": "line"
                     },
@@ -1453,8 +1453,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1470,12 +1470,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1507,7 +1507,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -1521,8 +1521,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1538,12 +1538,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1600,7 +1600,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -1613,8 +1613,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1630,12 +1630,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1698,7 +1698,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -1712,8 +1712,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1729,12 +1729,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1778,7 +1778,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -1791,8 +1791,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1808,12 +1808,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1871,7 +1871,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#ff9896",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -1885,8 +1885,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1902,12 +1902,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -1960,7 +1960,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#d62728",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -1974,8 +1974,8 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_death",
+                                    "field": "total_death",
                                     "op": "max"
                                 }
                             ],
@@ -1991,12 +1991,12 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_confirmed",
+                                    "field": "max_total_death",
                                     "op": "min"
                                 }
                             ]
@@ -2009,7 +2009,7 @@
                     "width": 300
                 }
             ],
-            "title": "Neue F\u00e4lle pro Tag akkumuliert Steigerung % zum Vortag"
+            "title": "Neue Todesf\u00e4lle akkumuliert Steigerung % zum Vortag"
         },
         {
             "data": {
@@ -2025,8 +2025,8 @@
                             "7d Moving Average"
                         ],
                         "range": [
-                            "#1f77b4",
-                            "lightblue"
+                            "#d62728",
+                            "#ff9896"
                         ]
                     },
                     "type": "nominal"

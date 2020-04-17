@@ -22,7 +22,7 @@
         }
     },
     "data": {
-        "name": "data-a0ac1e27137379dd1958ac5c96484e43"
+        "name": "data-c67c4b988d403ccee80ab0ed288602d8"
     },
     "datasets": {
         "data-2b6b64a5e689443bb63b3244c84a1d9c": [
@@ -36,7 +36,7 @@
                 "label": "Genesene"
             }
         ],
-        "data-a0ac1e27137379dd1958ac5c96484e43": [
+        "data-c67c4b988d403ccee80ab0ed288602d8": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -666,6 +666,12 @@
                 "total_confirmed": 14451,
                 "total_death": 410,
                 "total_recovered": 8986.0
+            },
+            {
+                "dataTime": "2020-04-17T08:00:00",
+                "total_confirmed": 14484,
+                "total_death": 431,
+                "total_recovered": 9704.0
             }
         ]
     },
@@ -676,16 +682,6 @@
                     "layer": [
                         {
                             "encoding": {
-                                "tooltip": [
-                                    {
-                                        "field": "date",
-                                        "type": "temporal"
-                                    },
-                                    {
-                                        "field": "max_att",
-                                        "type": "quantitative"
-                                    }
-                                ],
                                 "x": {
                                     "field": "date",
                                     "title": "",
@@ -864,6 +860,69 @@
                                 },
                                 {
                                     "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Best\u00e4tigte F\u00e4lle",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#1f77b4",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_confirmed'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_confirmed",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
                                 }
                             ],
                             "width": 300
@@ -874,16 +933,6 @@
                     "layer": [
                         {
                             "encoding": {
-                                "tooltip": [
-                                    {
-                                        "field": "date",
-                                        "type": "temporal"
-                                    },
-                                    {
-                                        "field": "max_att",
-                                        "type": "quantitative"
-                                    }
-                                ],
                                 "x": {
                                     "field": "date",
                                     "title": "",
@@ -1062,6 +1111,69 @@
                                 },
                                 {
                                     "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Todesf\u00e4lle",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#d62728",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_death'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_death",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
                                 }
                             ],
                             "width": 300
@@ -1072,16 +1184,6 @@
                     "layer": [
                         {
                             "encoding": {
-                                "tooltip": [
-                                    {
-                                        "field": "date",
-                                        "type": "temporal"
-                                    },
-                                    {
-                                        "field": "max_att",
-                                        "type": "quantitative"
-                                    }
-                                ],
                                 "x": {
                                     "field": "date",
                                     "title": "",
@@ -1260,6 +1362,69 @@
                                 },
                                 {
                                     "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Genesene",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#ff7f0e",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_recovered'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_recovered",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
                                 }
                             ],
                             "width": 300
@@ -1275,16 +1440,6 @@
                     "layer": [
                         {
                             "encoding": {
-                                "tooltip": [
-                                    {
-                                        "field": "date",
-                                        "type": "temporal"
-                                    },
-                                    {
-                                        "field": "max_att",
-                                        "type": "quantitative"
-                                    }
-                                ],
                                 "x": {
                                     "field": "date",
                                     "title": "",
@@ -1463,6 +1618,69 @@
                                 },
                                 {
                                     "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Best\u00e4tigte F\u00e4lle",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#1f77b4",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_confirmed'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_confirmed",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
                                 }
                             ],
                             "width": 300
@@ -1473,16 +1691,6 @@
                     "layer": [
                         {
                             "encoding": {
-                                "tooltip": [
-                                    {
-                                        "field": "date",
-                                        "type": "temporal"
-                                    },
-                                    {
-                                        "field": "max_att",
-                                        "type": "quantitative"
-                                    }
-                                ],
                                 "x": {
                                     "field": "date",
                                     "title": "",
@@ -1661,6 +1869,69 @@
                                 },
                                 {
                                     "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Todesf\u00e4lle",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#d62728",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_death'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_death",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
                                 }
                             ],
                             "width": 300
@@ -1671,16 +1942,6 @@
                     "layer": [
                         {
                             "encoding": {
-                                "tooltip": [
-                                    {
-                                        "field": "date",
-                                        "type": "temporal"
-                                    },
-                                    {
-                                        "field": "max_att",
-                                        "type": "quantitative"
-                                    }
-                                ],
                                 "x": {
                                     "field": "date",
                                     "title": "",
@@ -1859,6 +2120,69 @@
                                 },
                                 {
                                     "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Genesene",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#ff7f0e",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_recovered'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_recovered",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
                                 }
                             ],
                             "width": 300
