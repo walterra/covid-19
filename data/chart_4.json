@@ -1,0 +1,2051 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
+    "config": {
+        "axis": {
+            "domainColor": "#ddd",
+            "grid": true,
+            "gridColor": "#eee",
+            "labelBound": true,
+            "labelColor": "gray",
+            "minExtent": 50,
+            "tickColor": "#ddd"
+        },
+        "title": {
+            "anchor": "start",
+            "color": "gray",
+            "fontSize": 12,
+            "fontWeight": "normal"
+        },
+        "view": {
+            "continuousHeight": 300,
+            "continuousWidth": 400,
+            "strokeWidth": 0
+        }
+    },
+    "data": {
+        "name": "data-c67c4b988d403ccee80ab0ed288602d8"
+    },
+    "datasets": {
+        "data-793b2339a016668726e02e8737965916": [
+            {
+                "label": "Tageswert"
+            },
+            {
+                "label": "7d Moving Average"
+            }
+        ],
+        "data-c67c4b988d403ccee80ab0ed288602d8": [
+            {
+                "dataTime": "2020-02-25T14:30:00",
+                "total_confirmed": 2,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-02-26T10:00:00",
+                "total_confirmed": 2,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-02-27T17:15:00",
+                "total_confirmed": 3,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-02-28T16:30:00",
+                "total_confirmed": 6,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-02-29T10:45:00",
+                "total_confirmed": 9,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-01T12:00:00",
+                "total_confirmed": 10,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-02T18:00:00",
+                "total_confirmed": 18,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-03T11:30:00",
+                "total_confirmed": 21,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-03T16:00:00",
+                "total_confirmed": 24,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-04T18:00:00",
+                "total_confirmed": 29,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-05T15:00:00",
+                "total_confirmed": 41,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-06T15:00:00",
+                "total_confirmed": 55,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-07T15:00:00",
+                "total_confirmed": 79,
+                "total_death": 0,
+                "total_recovered": 0.0
+            },
+            {
+                "dataTime": "2020-03-08T11:45:00",
+                "total_confirmed": 99,
+                "total_death": 0,
+                "total_recovered": 2.0
+            },
+            {
+                "dataTime": "2020-03-09T15:00:00",
+                "total_confirmed": 131,
+                "total_death": 0,
+                "total_recovered": 2.0
+            },
+            {
+                "dataTime": "2020-03-10T08:00:00",
+                "total_confirmed": 157,
+                "total_death": 0,
+                "total_recovered": 2.0
+            },
+            {
+                "dataTime": "2020-03-10T15:00:00",
+                "total_confirmed": 182,
+                "total_death": 0,
+                "total_recovered": 4.0
+            },
+            {
+                "dataTime": "2020-03-11T08:00:00",
+                "total_confirmed": 206,
+                "total_death": 0,
+                "total_recovered": 4.0
+            },
+            {
+                "dataTime": "2020-03-11T15:00:00",
+                "total_confirmed": 246,
+                "total_death": 0,
+                "total_recovered": 4.0
+            },
+            {
+                "dataTime": "2020-03-12T12:30:00",
+                "total_confirmed": 302,
+                "total_death": 1,
+                "total_recovered": 4.0
+            },
+            {
+                "dataTime": "2020-03-12T15:00:00",
+                "total_confirmed": 361,
+                "total_death": 1,
+                "total_recovered": 4.0
+            },
+            {
+                "dataTime": "2020-03-13T08:00:00",
+                "total_confirmed": 422,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-13T15:00:00",
+                "total_confirmed": 504,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-14T08:00:00",
+                "total_confirmed": 602,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-14T15:00:00",
+                "total_confirmed": 655,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-15T08:00:00",
+                "total_confirmed": 800,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-15T15:00:00",
+                "total_confirmed": 860,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-16T08:00:00",
+                "total_confirmed": 959,
+                "total_death": 1,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-16T15:00:00",
+                "total_confirmed": 1016,
+                "total_death": 3,
+                "total_recovered": 6.0
+            },
+            {
+                "dataTime": "2020-03-17T08:00:00",
+                "total_confirmed": 1132,
+                "total_death": 3,
+                "total_recovered": 8.0
+            },
+            {
+                "dataTime": "2020-03-17T15:00:00",
+                "total_confirmed": 1332,
+                "total_death": 3,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-18T08:00:00",
+                "total_confirmed": 1471,
+                "total_death": 3,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-18T15:00:00",
+                "total_confirmed": 1646,
+                "total_death": 4,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-19T08:00:00",
+                "total_confirmed": 1843,
+                "total_death": 5,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-19T14:30:00",
+                "total_confirmed": 2013,
+                "total_death": 6,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-20T08:00:00",
+                "total_confirmed": 2203,
+                "total_death": 6,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-20T14:30:00",
+                "total_confirmed": 2388,
+                "total_death": 6,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-21T08:00:00",
+                "total_confirmed": 2664,
+                "total_death": 7,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-21T15:00:00",
+                "total_confirmed": 2814,
+                "total_death": 8,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-22T08:00:00",
+                "total_confirmed": 3026,
+                "total_death": 9,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-22T15:00:00",
+                "total_confirmed": 3244,
+                "total_death": 16,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-23T08:00:00",
+                "total_confirmed": 3611,
+                "total_death": 16,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-23T15:00:00",
+                "total_confirmed": 3924,
+                "total_death": 21,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-24T08:00:00",
+                "total_confirmed": 4486,
+                "total_death": 25,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-24T15:00:00",
+                "total_confirmed": 4876,
+                "total_death": 28,
+                "total_recovered": 9.0
+            },
+            {
+                "dataTime": "2020-03-25T08:00:00",
+                "total_confirmed": 5282,
+                "total_death": 30,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-25T15:00:00",
+                "total_confirmed": 5560,
+                "total_death": 31,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-26T08:00:00",
+                "total_confirmed": 5888,
+                "total_death": 34,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-26T08:00:00",
+                "total_confirmed": 5888,
+                "total_death": 34,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-26T15:00:00",
+                "total_confirmed": 6398,
+                "total_death": 49,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-27T08:00:00",
+                "total_confirmed": 7029,
+                "total_death": 52,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-27T08:00:00",
+                "total_confirmed": 7029,
+                "total_death": 52,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-27T15:00:00",
+                "total_confirmed": 7399,
+                "total_death": 52,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-28T08:00:00",
+                "total_confirmed": 7697,
+                "total_death": 68,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-28T08:00:00",
+                "total_confirmed": 7995,
+                "total_death": 68,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-28T08:00:00",
+                "total_confirmed": 7697,
+                "total_death": 68,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-28T15:00:00",
+                "total_confirmed": 7995,
+                "total_death": 68,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-27T15:00:00",
+                "total_confirmed": 7441,
+                "total_death": 58,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-29T08:00:00",
+                "total_confirmed": 8291,
+                "total_death": 68,
+                "total_recovered": null
+            },
+            {
+                "dataTime": "2020-03-29T08:00:00",
+                "total_confirmed": 8291,
+                "total_death": 86,
+                "total_recovered": 479.0
+            },
+            {
+                "dataTime": "2020-03-29T15:00:00",
+                "total_confirmed": 8536,
+                "total_death": 86,
+                "total_recovered": 479.0
+            },
+            {
+                "dataTime": "2020-03-30T08:00:00",
+                "total_confirmed": 8813,
+                "total_death": 86,
+                "total_recovered": 479.0
+            },
+            {
+                "dataTime": "2020-03-30T08:00:00",
+                "total_confirmed": 8813,
+                "total_death": 108,
+                "total_recovered": 636.0
+            },
+            {
+                "dataTime": "2020-03-30T15:00:00",
+                "total_confirmed": 9377,
+                "total_death": 108,
+                "total_recovered": 636.0
+            },
+            {
+                "dataTime": "2020-03-31T08:00:00",
+                "total_confirmed": 9634,
+                "total_death": 128,
+                "total_recovered": 1095.0
+            },
+            {
+                "dataTime": "2020-03-31T15:00:00",
+                "total_confirmed": 9974,
+                "total_death": 128,
+                "total_recovered": 1095.0
+            },
+            {
+                "dataTime": "2020-04-01T08:00:00",
+                "total_confirmed": 10192,
+                "total_death": 128,
+                "total_recovered": 1095.0
+            },
+            {
+                "dataTime": "2020-04-01T08:00:00",
+                "total_confirmed": 10192,
+                "total_death": 128,
+                "total_recovered": 1095.0
+            },
+            {
+                "dataTime": "2020-04-01T15:00:00",
+                "total_confirmed": 10482,
+                "total_death": 146,
+                "total_recovered": 1436.0
+            },
+            {
+                "dataTime": "2020-04-02T08:00:00",
+                "total_confirmed": 10769,
+                "total_death": 158,
+                "total_recovered": 1749.0
+            },
+            {
+                "dataTime": "2020-04-02T15:00:00",
+                "total_confirmed": 10967,
+                "total_death": 158,
+                "total_recovered": 1749.0
+            },
+            {
+                "dataTime": "2020-04-03T08:00:00",
+                "total_confirmed": 11171,
+                "total_death": 158,
+                "total_recovered": 1749.0
+            },
+            {
+                "dataTime": "2020-04-03T08:00:00",
+                "total_confirmed": 11171,
+                "total_death": 158,
+                "total_recovered": 2022.0
+            },
+            {
+                "dataTime": "2020-04-03T15:00:00",
+                "total_confirmed": 11383,
+                "total_death": 168,
+                "total_recovered": 2022.0
+            },
+            {
+                "dataTime": "2020-04-04T09:30:00",
+                "total_confirmed": 11781,
+                "total_death": 168,
+                "total_recovered": 2507.0
+            },
+            {
+                "dataTime": "2020-04-04T15:00:00",
+                "total_confirmed": 11665,
+                "total_death": 186,
+                "total_recovered": 2507.0
+            },
+            {
+                "dataTime": "2020-04-05T08:00:00",
+                "total_confirmed": 11767,
+                "total_death": 186,
+                "total_recovered": 2507.0
+            },
+            {
+                "dataTime": "2020-04-05T15:00:00",
+                "total_confirmed": 11907,
+                "total_death": 204,
+                "total_recovered": 2998.0
+            },
+            {
+                "dataTime": "2020-04-06T08:00:00",
+                "total_confirmed": 12008,
+                "total_death": 204,
+                "total_recovered": 2998.0
+            },
+            {
+                "dataTime": "2020-04-06T08:00:00",
+                "total_confirmed": 12008,
+                "total_death": 220,
+                "total_recovered": 3463.0
+            },
+            {
+                "dataTime": "2020-04-06T15:00:00",
+                "total_confirmed": 12206,
+                "total_death": 220,
+                "total_recovered": 3463.0
+            },
+            {
+                "dataTime": "2020-04-07T08:00:00",
+                "total_confirmed": 12332,
+                "total_death": 220,
+                "total_recovered": 3463.0
+            },
+            {
+                "dataTime": "2020-04-07T15:00:00",
+                "total_confirmed": 12519,
+                "total_death": 243,
+                "total_recovered": 4046.0
+            },
+            {
+                "dataTime": "2020-04-08T08:00:00",
+                "total_confirmed": 12675,
+                "total_death": 273,
+                "total_recovered": 4512.0
+            },
+            {
+                "dataTime": "2020-04-08T08:00:00",
+                "total_confirmed": 12675,
+                "total_death": 273,
+                "total_recovered": 4512.0
+            },
+            {
+                "dataTime": "2020-04-08T15:00:00",
+                "total_confirmed": 12852,
+                "total_death": 273,
+                "total_recovered": 4512.0
+            },
+            {
+                "dataTime": "2020-04-09T08:00:00",
+                "total_confirmed": 12969,
+                "total_death": 273,
+                "total_recovered": 4512.0
+            },
+            {
+                "dataTime": "2020-04-09T08:00:00",
+                "total_confirmed": 12969,
+                "total_death": 295,
+                "total_recovered": 5240.0
+            },
+            {
+                "dataTime": "2020-04-09T15:00:00",
+                "total_confirmed": 13138,
+                "total_death": 295,
+                "total_recovered": 5240.0
+            },
+            {
+                "dataTime": "2020-04-10T08:00:00",
+                "total_confirmed": 13271,
+                "total_death": 295,
+                "total_recovered": 5240.0
+            },
+            {
+                "dataTime": "2020-04-10T08:00:00",
+                "total_confirmed": 13271,
+                "total_death": 319,
+                "total_recovered": 6064.0
+            },
+            {
+                "dataTime": "2020-04-10T15:00:00",
+                "total_confirmed": 13492,
+                "total_death": 319,
+                "total_recovered": 6064.0
+            },
+            {
+                "dataTime": "2020-04-11T08:00:00",
+                "total_confirmed": 13561,
+                "total_death": 337,
+                "total_recovered": 6604.0
+            },
+            {
+                "dataTime": "2020-04-11T15:00:00",
+                "total_confirmed": 13776,
+                "total_death": 337,
+                "total_recovered": 6604.0
+            },
+            {
+                "dataTime": "2020-04-12T09:30:00",
+                "total_confirmed": 13945,
+                "total_death": 350,
+                "total_recovered": 6987.0
+            },
+            {
+                "dataTime": "2020-04-12T09:30:00",
+                "total_confirmed": 13945,
+                "total_death": 350,
+                "total_recovered": 6987.0
+            },
+            {
+                "dataTime": "2020-04-12T15:00:00",
+                "total_confirmed": 13894,
+                "total_death": 350,
+                "total_recovered": 6987.0
+            },
+            {
+                "dataTime": "2020-04-13T08:00:00",
+                "total_confirmed": 13942,
+                "total_death": 368,
+                "total_recovered": 7343.0
+            },
+            {
+                "dataTime": "2020-04-13T15:00:00",
+                "total_confirmed": 13999,
+                "total_death": 368,
+                "total_recovered": 7343.0
+            },
+            {
+                "dataTime": "2020-04-14T08:00:00",
+                "total_confirmed": 14060,
+                "total_death": 384,
+                "total_recovered": 7633.0
+            },
+            {
+                "dataTime": "2020-04-14T15:00:00",
+                "total_confirmed": 14159,
+                "total_death": 384,
+                "total_recovered": 7633.0
+            },
+            {
+                "dataTime": "2020-04-15T08:00:00",
+                "total_confirmed": 14246,
+                "total_death": 384,
+                "total_recovered": 7633.0
+            },
+            {
+                "dataTime": "2020-04-15T15:00:00",
+                "total_confirmed": 14321,
+                "total_death": 393,
+                "total_recovered": 8098.0
+            },
+            {
+                "dataTime": "2020-04-16T08:00:00",
+                "total_confirmed": 14370,
+                "total_death": 410,
+                "total_recovered": 8986.0
+            },
+            {
+                "dataTime": "2020-04-16T15:00:00",
+                "total_confirmed": 14451,
+                "total_death": 410,
+                "total_recovered": 8986.0
+            },
+            {
+                "dataTime": "2020-04-17T08:00:00",
+                "total_confirmed": 14484,
+                "total_death": 431,
+                "total_recovered": 9704.0
+            }
+        ]
+    },
+    "hconcat": [
+        {
+            "layer": [
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ffbb78",
+                        "size": 2,
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ff7f0e",
+                        "size": 2,
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "diff",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "#ff7f0e",
+                        "dx": 5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ff7f0e",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "rolling_mean",
+                            "format": ",.2f",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "#ffbb78",
+                        "dx": 5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ffbb78",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "title": "Datum",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "title": "7d Moving Average",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ffbb78",
+                        "opacity": 0,
+                        "size": 200,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "title": "Datum",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "title": "Neue Genesene",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ff7f0e",
+                        "opacity": 0,
+                        "size": 200,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        }
+                    ],
+                    "width": 300
+                }
+            ],
+            "title": "Neue Genesene pro Tag"
+        },
+        {
+            "layer": [
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "axis": {
+                                "format": "%",
+                                "title": ""
+                            },
+                            "field": "rolling_mean",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ffbb78",
+                        "size": 2,
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "axis": {
+                                "format": "%",
+                                "title": ""
+                            },
+                            "field": "diff",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ff7f0e",
+                        "size": 2,
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "rolling_mean",
+                            "format": ".2%",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "#ffbb78",
+                        "dx": 5,
+                        "dy": -5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ffbb78",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "text": {
+                            "field": "diff",
+                            "format": ".2%",
+                            "type": "quantitative"
+                        },
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "align": "left",
+                        "color": "#ff7f0e",
+                        "dx": 5,
+                        "dy": 5,
+                        "type": "text"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ff7f0e",
+                        "opacity": 1,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "sort": [
+                                {
+                                    "field": "date",
+                                    "order": "descending"
+                                }
+                            ],
+                            "window": [
+                                {
+                                    "as": "rank",
+                                    "field": "date",
+                                    "op": "rank"
+                                }
+                            ]
+                        },
+                        {
+                            "filter": "(datum.rank === 1)"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "title": "Datum",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "rolling_mean",
+                                "format": ".2%",
+                                "title": "7d Moving Average",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "rolling_mean",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ffbb78",
+                        "opacity": 0,
+                        "size": 200,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        },
+                        {
+                            "frame": [
+                                -7,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_mean",
+                                    "field": "diff",
+                                    "op": "mean"
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "title": "Datum",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "format": ".2%",
+                                "title": "Steigerung %",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "#ff7f0e",
+                        "opacity": 0,
+                        "size": 200,
+                        "type": "circle"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        }
+                    ],
+                    "width": 300
+                }
+            ],
+            "title": "Neue Genesene akkumuliert Steigerung % zum Vortag"
+        },
+        {
+            "data": {
+                "name": "data-793b2339a016668726e02e8737965916"
+            },
+            "encoding": {
+                "color": {
+                    "field": "label",
+                    "legend": null,
+                    "scale": {
+                        "domain": [
+                            "Tageswert",
+                            "7d Moving Average"
+                        ],
+                        "range": [
+                            "#ff7f0e",
+                            "#ffbb78"
+                        ]
+                    },
+                    "type": "nominal"
+                },
+                "y": {
+                    "axis": {
+                        "domain": false,
+                        "orient": "right",
+                        "ticks": false
+                    },
+                    "field": "label",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "mark": {
+                "size": 150,
+                "type": "square"
+            }
+        }
+    ]
+}
