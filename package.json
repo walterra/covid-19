@@ -8,10 +8,11 @@
     "http-server": "^0.12.1"
   },
   "scripts": {
-    "all": "npm run fetch && npm run notebook",
+    "all": "npm run fetch && npm run notebook && npm run notebook-counties-confirmed",
     "fetch": "./bin/fetch.sh",
     "http-server": "./node_modules/.bin/http-server",
     "notebook": "jupyter nbconvert --execute jupyter/covid19-at.ipynb",
+    "notebook-counties-confirmed": "jupyter nbconvert --execute jupyter/covid19-at-counties.ipynb",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

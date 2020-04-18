@@ -1,5 +1,11 @@
 
-var supportedKeys = ['chart_1', 'chart_2', 'chart_3', 'chart_4'];
+var supportedKeys = [
+  'chart_1',
+  'chart_2',
+  'chart_3',
+  'chart_4',
+  'chart_counties_confirmed',
+];
 function loadVega(f, id) {
   if (!supportedKeys.includes(f)) {
     console.error('unsupported key:', f);
@@ -17,4 +23,5 @@ $(document).ready(function(){
   loadVega('chart_2', 'vega_chart_2');
   loadVega('chart_3', 'vega_chart_3');
   loadVega('chart_4', 'vega_chart_4');
+  loadVega('chart_counties_confirmed', 'vega_chart_counties_confirmed');
 });
