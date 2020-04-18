@@ -1,3 +1,6 @@
+body {
+  background-color: #eee;
+}
 
 h3 {
   color : #444;
@@ -8,6 +11,12 @@ p {
   color: gray;
 }
 a { color: #369; }
-.main_content { width: 960px; margin: 20px auto; }
+.main_content {
+  width: 940px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 32px #ccc;
+}
 .vis_wrapper { width: 100%; padding-top: 20px; margin: 20px 0; border-top: 1px solid #ddd; clear: both; }
 .vis_wrapper p { width: 650px; margin-left: 55px; float: left; }
