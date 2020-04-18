@@ -5,6 +5,7 @@ var supportedKeys = [
   'chart_3',
   'chart_4',
   'chart_counties_confirmed',
+  'chart_counties_death',
 ];
 function loadVega(f, id) {
   if (!supportedKeys.includes(f)) {
@@ -24,4 +25,5 @@ $(document).ready(function(){
   loadVega('chart_3', 'vega_chart_3');
   loadVega('chart_4', 'vega_chart_4');
   loadVega('chart_counties_confirmed', 'vega_chart_counties_confirmed');
+  loadVega('chart_counties_death', 'vega_chart_counties_death');
 });
