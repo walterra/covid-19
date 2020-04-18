@@ -7,20 +7,29 @@ The code that creates the VEGA specifications for the charts can be found in thi
 
 # development
 
-To run an edit the Jupyter Notebook:
+To run and edit the Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-To run a web server to run the website locally:
-
-```bash
-npm run http-server
-```
-
-To get the latest date, run the jupyter notebook in headless mode and update the VEGA specs:
+To get the latest data, run the jupyter notebook in headless mode and update the VEGA specs:
 
 ```bash
 npm run all
+```
+
+----
+
+The web page (`index.html`) uses `vega-embed` to display the charts. To make them work in IE11, rollup+babel is used to transpile the original vega code.
+
+```bash
+# for development without minification but a file watcher
+npm run dev
+
+# to create the final build
+npm run build
+
+# to just start a web server without triggering any build process
+npm run start
 ```
