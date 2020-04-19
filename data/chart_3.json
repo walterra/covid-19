@@ -1215,7 +1215,7 @@
                                 "type": "temporal"
                             },
                             {
-                                "field": "diff",
+                                "field": "rolling_mean",
                                 "title": "7d Moving Average",
                                 "type": "quantitative"
                             }
