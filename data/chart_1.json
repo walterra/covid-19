@@ -22,21 +22,10 @@
         }
     },
     "data": {
-        "name": "data-d3756701e5f8a24e95725dc6eedb28ea"
+        "name": "data-0a1beb773ec16b1bf1802af728568ca9"
     },
     "datasets": {
-        "data-2b6b64a5e689443bb63b3244c84a1d9c": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
-            },
-            {
-                "label": "Todesf\u00e4lle"
-            },
-            {
-                "label": "Genesene"
-            }
-        ],
-        "data-d3756701e5f8a24e95725dc6eedb28ea": [
+        "data-0a1beb773ec16b1bf1802af728568ca9": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -702,6 +691,35 @@
                 "total_confirmed": 14696,
                 "total_death": 452,
                 "total_recovered": 10501.0
+            },
+            {
+                "dataTime": "2020-04-20T08:00:00",
+                "total_confirmed": 14713,
+                "total_death": 452,
+                "total_recovered": 10501.0
+            },
+            {
+                "dataTime": "2020-04-20T08:00:00",
+                "total_confirmed": 14713,
+                "total_death": 470,
+                "total_recovered": 10631.0
+            },
+            {
+                "dataTime": "2020-04-20T15:00:00",
+                "total_confirmed": 14755,
+                "total_death": 470,
+                "total_recovered": 10631.0
+            }
+        ],
+        "data-2b6b64a5e689443bb63b3244c84a1d9c": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
             }
         ]
     },
