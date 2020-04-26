@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-c896eb75ef492db740c39831d4b6f547"
+        "name": "data-66c3cb8e8c47be41e2701122b564a4e5"
     },
     "datasets": {
-        "data-c896eb75ef492db740c39831d4b6f547": [
+        "data-66c3cb8e8c47be41e2701122b564a4e5": [
             {
                 "B_recovered": null,
                 "K_recovered": null,
@@ -1464,6 +1464,54 @@
                 "V_recovered": 749.0,
                 "W_recovered": 1716.0,
                 "dataTime": "2020-04-24T08:00:00"
+            },
+            {
+                "B_recovered": 230.0,
+                "K_recovered": 356.0,
+                "Noe_recovered": 1890.0,
+                "Ooe_recovered": 2007.0,
+                "S_recovered": 1008.0,
+                "St_recovered": 973.0,
+                "T_recovered": 2943.0,
+                "V_recovered": 749.0,
+                "W_recovered": 1716.0,
+                "dataTime": "2020-04-24T15:00:00"
+            },
+            {
+                "B_recovered": 235.0,
+                "K_recovered": 360.0,
+                "Noe_recovered": 1950.0,
+                "Ooe_recovered": 2021.0,
+                "S_recovered": 1041.0,
+                "St_recovered": 1011.0,
+                "T_recovered": 2982.0,
+                "V_recovered": 755.0,
+                "W_recovered": 1748.0,
+                "dataTime": "2020-04-25T08:00:00"
+            },
+            {
+                "B_recovered": 235.0,
+                "K_recovered": 360.0,
+                "Noe_recovered": 1950.0,
+                "Ooe_recovered": 2021.0,
+                "S_recovered": 1041.0,
+                "St_recovered": 1011.0,
+                "T_recovered": 2982.0,
+                "V_recovered": 755.0,
+                "W_recovered": 1748.0,
+                "dataTime": "2020-04-25T15:00:00"
+            },
+            {
+                "B_recovered": 235.0,
+                "K_recovered": 360.0,
+                "Noe_recovered": 1950.0,
+                "Ooe_recovered": 2021.0,
+                "S_recovered": 1041.0,
+                "St_recovered": 1011.0,
+                "T_recovered": 2982.0,
+                "V_recovered": 755.0,
+                "W_recovered": 1748.0,
+                "dataTime": "2020-04-26T08:00:00"
             }
         ]
     },
