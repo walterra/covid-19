@@ -22,7 +22,7 @@
         }
     },
     "data": {
-        "name": "data-c5c0bd0163cd22d72274e83aaf013db6"
+        "name": "data-4a95c977fce1386f7d6d0762b17fa55a"
     },
     "datasets": {
         "data-2b6b64a5e689443bb63b3244c84a1d9c": [
@@ -36,7 +36,7 @@
                 "label": "Genesene"
             }
         ],
-        "data-c5c0bd0163cd22d72274e83aaf013db6": [
+        "data-4a95c977fce1386f7d6d0762b17fa55a": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -780,6 +780,24 @@
                 "total_confirmed": 15134,
                 "total_death": 536,
                 "total_recovered": 12103.0
+            },
+            {
+                "dataTime": "2020-04-26T08:00:00",
+                "total_confirmed": 15134,
+                "total_death": 542,
+                "total_recovered": 12282.0
+            },
+            {
+                "dataTime": "2020-04-26T15:00:00",
+                "total_confirmed": 15175,
+                "total_death": 542,
+                "total_recovered": 12282.0
+            },
+            {
+                "dataTime": "2020-04-27T08:00:00",
+                "total_confirmed": 15190,
+                "total_death": 549,
+                "total_recovered": 12362.0
             }
         ]
     },
