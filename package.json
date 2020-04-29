@@ -31,11 +31,12 @@
     "serve": "^11.0.2"
   },
   "scripts": {
-    "all": "npm run fetch && npm run notebook && npm run notebook-counties",
+    "all": "npm run fetch && npm run notebook && npm run notebook-counties && npm run notebook-counties-daily",
     "all-notebooks": "npm run notebook && npm run notebook-counties",
     "fetch": "./bin/fetch.sh",
     "notebook": "jupyter nbconvert --execute jupyter/covid19-at.ipynb",
     "notebook-counties": "jupyter nbconvert --execute jupyter/covid19-at-counties.ipynb",
+    "notebook-counties-daily": "jupyter nbconvert --execute jupyter/covid19-at-counties-daily.ipynb",
     "notebook-regression": "jupyter nbconvert --execute jupyter/covid19-regression.ipynb",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",

@@ -22,10 +22,10 @@
         }
     },
     "data": {
-        "name": "data-9b21fd982a2cccb711650a8b2a27bb28"
+        "name": "data-ab6a0ead31a2699e9160d212c4fffd31"
     },
     "datasets": {
-        "data-2b6b64a5e689443bb63b3244c84a1d9c": [
+        "data-05f1d7075f456091e59c7cac5168ad5a": [
             {
                 "label": "Best\u00e4tigte F\u00e4lle"
             },
@@ -34,798 +34,940 @@
             },
             {
                 "label": "Genesene"
+            },
+            {
+                "label": "Aktuell Erkrankte"
             }
         ],
-        "data-9b21fd982a2cccb711650a8b2a27bb28": [
+        "data-ab6a0ead31a2699e9160d212c4fffd31": [
             {
                 "dataTime": "2020-02-25T14:30:00",
+                "total_active": 2.0,
                 "total_confirmed": 2,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-02-26T10:00:00",
+                "total_active": 2.0,
                 "total_confirmed": 2,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-02-27T17:15:00",
+                "total_active": 3.0,
                 "total_confirmed": 3,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-02-28T16:30:00",
+                "total_active": 6.0,
                 "total_confirmed": 6,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-02-29T10:45:00",
+                "total_active": 9.0,
                 "total_confirmed": 9,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-01T12:00:00",
+                "total_active": 10.0,
                 "total_confirmed": 10,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-02T18:00:00",
+                "total_active": 18.0,
                 "total_confirmed": 18,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-03T11:30:00",
+                "total_active": 21.0,
                 "total_confirmed": 21,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-03T16:00:00",
+                "total_active": 24.0,
                 "total_confirmed": 24,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-04T18:00:00",
+                "total_active": 29.0,
                 "total_confirmed": 29,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-05T15:00:00",
+                "total_active": 41.0,
                 "total_confirmed": 41,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-06T15:00:00",
+                "total_active": 55.0,
                 "total_confirmed": 55,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-07T15:00:00",
+                "total_active": 79.0,
                 "total_confirmed": 79,
                 "total_death": 0,
                 "total_recovered": 0.0
             },
             {
                 "dataTime": "2020-03-08T11:45:00",
+                "total_active": 97.0,
                 "total_confirmed": 99,
                 "total_death": 0,
                 "total_recovered": 2.0
             },
             {
                 "dataTime": "2020-03-09T15:00:00",
+                "total_active": 129.0,
                 "total_confirmed": 131,
                 "total_death": 0,
                 "total_recovered": 2.0
             },
             {
                 "dataTime": "2020-03-10T08:00:00",
+                "total_active": 155.0,
                 "total_confirmed": 157,
                 "total_death": 0,
                 "total_recovered": 2.0
             },
             {
                 "dataTime": "2020-03-10T15:00:00",
+                "total_active": 178.0,
                 "total_confirmed": 182,
                 "total_death": 0,
                 "total_recovered": 4.0
             },
             {
                 "dataTime": "2020-03-11T08:00:00",
+                "total_active": 202.0,
                 "total_confirmed": 206,
                 "total_death": 0,
                 "total_recovered": 4.0
             },
             {
                 "dataTime": "2020-03-11T15:00:00",
+                "total_active": 242.0,
                 "total_confirmed": 246,
                 "total_death": 0,
                 "total_recovered": 4.0
             },
             {
                 "dataTime": "2020-03-12T12:30:00",
+                "total_active": 297.0,
                 "total_confirmed": 302,
                 "total_death": 1,
                 "total_recovered": 4.0
             },
             {
                 "dataTime": "2020-03-12T15:00:00",
+                "total_active": 356.0,
                 "total_confirmed": 361,
                 "total_death": 1,
                 "total_recovered": 4.0
             },
             {
                 "dataTime": "2020-03-13T08:00:00",
+                "total_active": 415.0,
                 "total_confirmed": 422,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-13T15:00:00",
+                "total_active": 497.0,
                 "total_confirmed": 504,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-14T08:00:00",
+                "total_active": 595.0,
                 "total_confirmed": 602,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-14T15:00:00",
+                "total_active": 648.0,
                 "total_confirmed": 655,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-15T08:00:00",
+                "total_active": 793.0,
                 "total_confirmed": 800,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-15T15:00:00",
+                "total_active": 853.0,
                 "total_confirmed": 860,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-16T08:00:00",
+                "total_active": 952.0,
                 "total_confirmed": 959,
                 "total_death": 1,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-16T15:00:00",
+                "total_active": 1007.0,
                 "total_confirmed": 1016,
                 "total_death": 3,
                 "total_recovered": 6.0
             },
             {
                 "dataTime": "2020-03-17T08:00:00",
+                "total_active": 1121.0,
                 "total_confirmed": 1132,
                 "total_death": 3,
                 "total_recovered": 8.0
             },
             {
                 "dataTime": "2020-03-17T15:00:00",
+                "total_active": 1320.0,
                 "total_confirmed": 1332,
                 "total_death": 3,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-18T08:00:00",
+                "total_active": 1459.0,
                 "total_confirmed": 1471,
                 "total_death": 3,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-18T15:00:00",
+                "total_active": 1633.0,
                 "total_confirmed": 1646,
                 "total_death": 4,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-19T08:00:00",
+                "total_active": 1829.0,
                 "total_confirmed": 1843,
                 "total_death": 5,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-19T14:30:00",
+                "total_active": 1998.0,
                 "total_confirmed": 2013,
                 "total_death": 6,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-20T08:00:00",
+                "total_active": 2188.0,
                 "total_confirmed": 2203,
                 "total_death": 6,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-20T14:30:00",
+                "total_active": 2373.0,
                 "total_confirmed": 2388,
                 "total_death": 6,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-21T08:00:00",
+                "total_active": 2648.0,
                 "total_confirmed": 2664,
                 "total_death": 7,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-21T15:00:00",
+                "total_active": 2797.0,
                 "total_confirmed": 2814,
                 "total_death": 8,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-22T08:00:00",
+                "total_active": 3008.0,
                 "total_confirmed": 3026,
                 "total_death": 9,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-22T15:00:00",
+                "total_active": 3219.0,
                 "total_confirmed": 3244,
                 "total_death": 16,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-23T08:00:00",
+                "total_active": 3586.0,
                 "total_confirmed": 3611,
                 "total_death": 16,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-23T15:00:00",
+                "total_active": 3894.0,
                 "total_confirmed": 3924,
                 "total_death": 21,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-24T08:00:00",
+                "total_active": 4452.0,
                 "total_confirmed": 4486,
                 "total_death": 25,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-24T15:00:00",
+                "total_active": 4839.0,
                 "total_confirmed": 4876,
                 "total_death": 28,
                 "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-25T08:00:00",
+                "total_active": 5243.0,
                 "total_confirmed": 5282,
                 "total_death": 30,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-25T15:00:00",
+                "total_active": 5520.0,
                 "total_confirmed": 5560,
                 "total_death": 31,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-26T08:00:00",
+                "total_active": 5845.0,
                 "total_confirmed": 5888,
                 "total_death": 34,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-26T08:00:00",
+                "total_active": 5845.0,
                 "total_confirmed": 5888,
                 "total_death": 34,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-26T15:00:00",
+                "total_active": 6340.0,
                 "total_confirmed": 6398,
                 "total_death": 49,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-27T08:00:00",
+                "total_active": 6968.0,
                 "total_confirmed": 7029,
                 "total_death": 52,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-27T08:00:00",
+                "total_active": 6968.0,
                 "total_confirmed": 7029,
                 "total_death": 52,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-27T15:00:00",
+                "total_active": 7338.0,
                 "total_confirmed": 7399,
                 "total_death": 52,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-28T08:00:00",
+                "total_active": 7620.0,
                 "total_confirmed": 7697,
                 "total_death": 68,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-28T08:00:00",
+                "total_active": 7918.0,
                 "total_confirmed": 7995,
                 "total_death": 68,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-28T08:00:00",
+                "total_active": 7620.0,
                 "total_confirmed": 7697,
                 "total_death": 68,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-28T15:00:00",
+                "total_active": 7918.0,
                 "total_confirmed": 7995,
                 "total_death": 68,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-27T15:00:00",
+                "total_active": 7374.0,
                 "total_confirmed": 7441,
                 "total_death": 58,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-29T08:00:00",
+                "total_active": 8214.0,
                 "total_confirmed": 8291,
                 "total_death": 68,
-                "total_recovered": null
+                "total_recovered": 9.0
             },
             {
                 "dataTime": "2020-03-29T08:00:00",
+                "total_active": 7726.0,
                 "total_confirmed": 8291,
                 "total_death": 86,
                 "total_recovered": 479.0
             },
             {
                 "dataTime": "2020-03-29T15:00:00",
+                "total_active": 7971.0,
                 "total_confirmed": 8536,
                 "total_death": 86,
                 "total_recovered": 479.0
             },
             {
                 "dataTime": "2020-03-30T08:00:00",
+                "total_active": 8248.0,
                 "total_confirmed": 8813,
                 "total_death": 86,
                 "total_recovered": 479.0
             },
             {
                 "dataTime": "2020-03-30T08:00:00",
+                "total_active": 8069.0,
                 "total_confirmed": 8813,
                 "total_death": 108,
                 "total_recovered": 636.0
             },
             {
                 "dataTime": "2020-03-30T15:00:00",
+                "total_active": 8633.0,
                 "total_confirmed": 9377,
                 "total_death": 108,
                 "total_recovered": 636.0
             },
             {
                 "dataTime": "2020-03-31T08:00:00",
+                "total_active": 8411.0,
                 "total_confirmed": 9634,
                 "total_death": 128,
                 "total_recovered": 1095.0
             },
             {
                 "dataTime": "2020-03-31T15:00:00",
+                "total_active": 8751.0,
                 "total_confirmed": 9974,
                 "total_death": 128,
                 "total_recovered": 1095.0
             },
             {
                 "dataTime": "2020-04-01T08:00:00",
+                "total_active": 8969.0,
                 "total_confirmed": 10192,
                 "total_death": 128,
                 "total_recovered": 1095.0
             },
             {
                 "dataTime": "2020-04-01T08:00:00",
+                "total_active": 8969.0,
                 "total_confirmed": 10192,
                 "total_death": 128,
                 "total_recovered": 1095.0
             },
             {
                 "dataTime": "2020-04-01T15:00:00",
+                "total_active": 8900.0,
                 "total_confirmed": 10482,
                 "total_death": 146,
                 "total_recovered": 1436.0
             },
             {
                 "dataTime": "2020-04-02T08:00:00",
+                "total_active": 8862.0,
                 "total_confirmed": 10769,
                 "total_death": 158,
                 "total_recovered": 1749.0
             },
             {
                 "dataTime": "2020-04-02T15:00:00",
+                "total_active": 9060.0,
                 "total_confirmed": 10967,
                 "total_death": 158,
                 "total_recovered": 1749.0
             },
             {
                 "dataTime": "2020-04-03T08:00:00",
+                "total_active": 9264.0,
                 "total_confirmed": 11171,
                 "total_death": 158,
                 "total_recovered": 1749.0
             },
             {
                 "dataTime": "2020-04-03T08:00:00",
+                "total_active": 8991.0,
                 "total_confirmed": 11171,
                 "total_death": 158,
                 "total_recovered": 2022.0
             },
             {
                 "dataTime": "2020-04-03T15:00:00",
+                "total_active": 9193.0,
                 "total_confirmed": 11383,
                 "total_death": 168,
                 "total_recovered": 2022.0
             },
             {
                 "dataTime": "2020-04-04T09:30:00",
+                "total_active": 9106.0,
                 "total_confirmed": 11781,
                 "total_death": 168,
                 "total_recovered": 2507.0
             },
             {
                 "dataTime": "2020-04-04T15:00:00",
+                "total_active": 8972.0,
                 "total_confirmed": 11665,
                 "total_death": 186,
                 "total_recovered": 2507.0
             },
             {
                 "dataTime": "2020-04-05T08:00:00",
+                "total_active": 9074.0,
                 "total_confirmed": 11767,
                 "total_death": 186,
                 "total_recovered": 2507.0
             },
             {
                 "dataTime": "2020-04-05T15:00:00",
+                "total_active": 8705.0,
                 "total_confirmed": 11907,
                 "total_death": 204,
                 "total_recovered": 2998.0
             },
             {
                 "dataTime": "2020-04-06T08:00:00",
+                "total_active": 8806.0,
                 "total_confirmed": 12008,
                 "total_death": 204,
                 "total_recovered": 2998.0
             },
             {
                 "dataTime": "2020-04-06T08:00:00",
+                "total_active": 8325.0,
                 "total_confirmed": 12008,
                 "total_death": 220,
                 "total_recovered": 3463.0
             },
             {
                 "dataTime": "2020-04-06T15:00:00",
+                "total_active": 8523.0,
                 "total_confirmed": 12206,
                 "total_death": 220,
                 "total_recovered": 3463.0
             },
             {
                 "dataTime": "2020-04-07T08:00:00",
+                "total_active": 8649.0,
                 "total_confirmed": 12332,
                 "total_death": 220,
                 "total_recovered": 3463.0
             },
             {
                 "dataTime": "2020-04-07T15:00:00",
+                "total_active": 8230.0,
                 "total_confirmed": 12519,
                 "total_death": 243,
                 "total_recovered": 4046.0
             },
             {
                 "dataTime": "2020-04-08T08:00:00",
+                "total_active": 7890.0,
                 "total_confirmed": 12675,
                 "total_death": 273,
                 "total_recovered": 4512.0
             },
             {
                 "dataTime": "2020-04-08T08:00:00",
+                "total_active": 7890.0,
                 "total_confirmed": 12675,
                 "total_death": 273,
                 "total_recovered": 4512.0
             },
             {
                 "dataTime": "2020-04-08T15:00:00",
+                "total_active": 8067.0,
                 "total_confirmed": 12852,
                 "total_death": 273,
                 "total_recovered": 4512.0
             },
             {
                 "dataTime": "2020-04-09T08:00:00",
+                "total_active": 8184.0,
                 "total_confirmed": 12969,
                 "total_death": 273,
                 "total_recovered": 4512.0
             },
             {
                 "dataTime": "2020-04-09T08:00:00",
+                "total_active": 7434.0,
                 "total_confirmed": 12969,
                 "total_death": 295,
                 "total_recovered": 5240.0
             },
             {
                 "dataTime": "2020-04-09T15:00:00",
+                "total_active": 7603.0,
                 "total_confirmed": 13138,
                 "total_death": 295,
                 "total_recovered": 5240.0
             },
             {
                 "dataTime": "2020-04-10T08:00:00",
+                "total_active": 7736.0,
                 "total_confirmed": 13271,
                 "total_death": 295,
                 "total_recovered": 5240.0
             },
             {
                 "dataTime": "2020-04-10T08:00:00",
+                "total_active": 6888.0,
                 "total_confirmed": 13271,
                 "total_death": 319,
                 "total_recovered": 6064.0
             },
             {
                 "dataTime": "2020-04-10T15:00:00",
+                "total_active": 7109.0,
                 "total_confirmed": 13492,
                 "total_death": 319,
                 "total_recovered": 6064.0
             },
             {
                 "dataTime": "2020-04-11T08:00:00",
+                "total_active": 6620.0,
                 "total_confirmed": 13561,
                 "total_death": 337,
                 "total_recovered": 6604.0
             },
             {
                 "dataTime": "2020-04-11T15:00:00",
+                "total_active": 6835.0,
                 "total_confirmed": 13776,
                 "total_death": 337,
                 "total_recovered": 6604.0
             },
             {
                 "dataTime": "2020-04-12T09:30:00",
+                "total_active": 6608.0,
                 "total_confirmed": 13945,
                 "total_death": 350,
                 "total_recovered": 6987.0
             },
             {
                 "dataTime": "2020-04-12T09:30:00",
+                "total_active": 6608.0,
                 "total_confirmed": 13945,
                 "total_death": 350,
                 "total_recovered": 6987.0
             },
             {
                 "dataTime": "2020-04-12T15:00:00",
+                "total_active": 6557.0,
                 "total_confirmed": 13894,
                 "total_death": 350,
                 "total_recovered": 6987.0
             },
             {
                 "dataTime": "2020-04-13T08:00:00",
+                "total_active": 6231.0,
                 "total_confirmed": 13942,
                 "total_death": 368,
                 "total_recovered": 7343.0
             },
             {
                 "dataTime": "2020-04-13T15:00:00",
+                "total_active": 6288.0,
                 "total_confirmed": 13999,
                 "total_death": 368,
                 "total_recovered": 7343.0
             },
             {
                 "dataTime": "2020-04-14T08:00:00",
+                "total_active": 6043.0,
                 "total_confirmed": 14060,
                 "total_death": 384,
                 "total_recovered": 7633.0
             },
             {
                 "dataTime": "2020-04-14T15:00:00",
+                "total_active": 6142.0,
                 "total_confirmed": 14159,
                 "total_death": 384,
                 "total_recovered": 7633.0
             },
             {
                 "dataTime": "2020-04-15T08:00:00",
+                "total_active": 6229.0,
                 "total_confirmed": 14246,
                 "total_death": 384,
                 "total_recovered": 7633.0
             },
             {
                 "dataTime": "2020-04-15T15:00:00",
+                "total_active": 5830.0,
                 "total_confirmed": 14321,
                 "total_death": 393,
                 "total_recovered": 8098.0
             },
             {
                 "dataTime": "2020-04-16T08:00:00",
+                "total_active": 4974.0,
                 "total_confirmed": 14370,
                 "total_death": 410,
                 "total_recovered": 8986.0
             },
             {
                 "dataTime": "2020-04-16T15:00:00",
+                "total_active": 5055.0,
                 "total_confirmed": 14451,
                 "total_death": 410,
                 "total_recovered": 8986.0
             },
             {
                 "dataTime": "2020-04-17T08:00:00",
+                "total_active": 4349.0,
                 "total_confirmed": 14484,
                 "total_death": 431,
                 "total_recovered": 9704.0
             },
             {
                 "dataTime": "2020-04-17T15:00:00",
+                "total_active": 4418.0,
                 "total_confirmed": 14553,
                 "total_death": 431,
                 "total_recovered": 9704.0
             },
             {
                 "dataTime": "2020-04-18T08:00:00",
+                "total_active": 3938.0,
                 "total_confirmed": 14595,
                 "total_death": 443,
                 "total_recovered": 10214.0
             },
             {
                 "dataTime": "2020-04-18T15:00:00",
+                "total_active": 3980.0,
                 "total_confirmed": 14637,
                 "total_death": 443,
                 "total_recovered": 10214.0
             },
             {
                 "dataTime": "2020-04-19T08:00:00",
+                "total_active": 4005.0,
                 "total_confirmed": 14662,
                 "total_death": 443,
                 "total_recovered": 10214.0
             },
             {
                 "dataTime": "2020-04-19T15:00:00",
+                "total_active": 3743.0,
                 "total_confirmed": 14696,
                 "total_death": 452,
                 "total_recovered": 10501.0
             },
             {
                 "dataTime": "2020-04-20T08:00:00",
+                "total_active": 3760.0,
                 "total_confirmed": 14713,
                 "total_death": 452,
                 "total_recovered": 10501.0
             },
             {
                 "dataTime": "2020-04-20T08:00:00",
+                "total_active": 3612.0,
                 "total_confirmed": 14713,
                 "total_death": 470,
                 "total_recovered": 10631.0
             },
             {
                 "dataTime": "2020-04-20T15:00:00",
+                "total_active": 3654.0,
                 "total_confirmed": 14755,
                 "total_death": 470,
                 "total_recovered": 10631.0
             },
             {
                 "dataTime": "2020-04-21T08:00:00",
+                "total_active": 3328.0,
                 "total_confirmed": 14790,
                 "total_death": 491,
                 "total_recovered": 10971.0
             },
             {
                 "dataTime": "2020-04-21T15:00:00",
+                "total_active": 3348.0,
                 "total_confirmed": 14810,
                 "total_death": 491,
                 "total_recovered": 10971.0
             },
             {
                 "dataTime": "2020-04-22T15:00:00",
+                "total_active": 3051.0,
                 "total_confirmed": 14889,
                 "total_death": 510,
                 "total_recovered": 11328.0
             },
             {
                 "dataTime": "2020-04-23T08:00:00",
+                "total_active": 2716.0,
                 "total_confirmed": 14932,
                 "total_death": 522,
                 "total_recovered": 11694.0
             },
             {
                 "dataTime": "2020-04-23T15:00:00",
+                "total_active": 2747.0,
                 "total_confirmed": 14963,
                 "total_death": 522,
                 "total_recovered": 11694.0
             },
             {
                 "dataTime": "2020-04-24T08:00:00",
+                "total_active": 2585.0,
                 "total_confirmed": 14987,
                 "total_death": 530,
                 "total_recovered": 11872.0
             },
             {
                 "dataTime": "2020-04-24T15:00:00",
+                "total_active": 2636.0,
                 "total_confirmed": 15038,
                 "total_death": 530,
                 "total_recovered": 11872.0
             },
             {
                 "dataTime": "2020-04-25T08:00:00",
+                "total_active": 2430.0,
                 "total_confirmed": 15069,
                 "total_death": 536,
                 "total_recovered": 12103.0
             },
             {
                 "dataTime": "2020-04-25T15:00:00",
+                "total_active": 2478.0,
                 "total_confirmed": 15117,
                 "total_death": 536,
                 "total_recovered": 12103.0
             },
             {
                 "dataTime": "2020-04-26T08:00:00",
+                "total_active": 2495.0,
                 "total_confirmed": 15134,
                 "total_death": 536,
                 "total_recovered": 12103.0
             },
             {
                 "dataTime": "2020-04-26T08:00:00",
+                "total_active": 2310.0,
                 "total_confirmed": 15134,
                 "total_death": 542,
                 "total_recovered": 12282.0
             },
             {
                 "dataTime": "2020-04-26T15:00:00",
+                "total_active": 2351.0,
                 "total_confirmed": 15175,
                 "total_death": 542,
                 "total_recovered": 12282.0
             },
             {
                 "dataTime": "2020-04-27T08:00:00",
+                "total_active": 2279.0,
                 "total_confirmed": 15190,
                 "total_death": 549,
                 "total_recovered": 12362.0
             },
             {
                 "dataTime": "2020-04-28T08:00:00",
+                "total_active": 2345.0,
                 "total_confirmed": 15256,
                 "total_death": 549,
                 "total_recovered": 12362.0
             },
             {
                 "dataTime": "2020-04-27T15:00:00",
+                "total_active": 2328.0,
                 "total_confirmed": 15239,
                 "total_death": 549,
                 "total_recovered": 12362.0
             },
             {
                 "dataTime": "2020-04-28T08:00:00",
+                "total_active": 2107.0,
                 "total_confirmed": 15256,
                 "total_death": 569,
                 "total_recovered": 12580.0
             },
             {
                 "dataTime": "2020-04-28T15:00:00",
+                "total_active": 2137.0,
                 "total_confirmed": 15286,
                 "total_death": 569,
                 "total_recovered": 12580.0
             },
             {
                 "dataTime": "2020-04-29T08:00:00",
+                "total_active": 1964.0,
                 "total_confirmed": 15323,
+                "total_death": 580,
+                "total_recovered": 12779.0
+            },
+            {
+                "dataTime": "2020-04-29T15:00:00",
+                "total_active": 1993.0,
+                "total_confirmed": 15352,
                 "total_death": 580,
                 "total_recovered": 12779.0
             }
@@ -858,8 +1000,262 @@
                             },
                             "height": 200,
                             "mark": {
+                                "color": "#17becf",
+                                "size": 2,
+                                "strokeJoin": "round",
+                                "type": "line"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "text": {
+                                    "field": "max_att",
+                                    "type": "quantitative"
+                                },
+                                "x": {
+                                    "field": "date",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "align": "left",
+                                "color": "#17becf",
+                                "dx": 5,
+                                "dy": 0,
+                                "type": "text",
+                                "width": 500
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                },
+                                {
+                                    "sort": [
+                                        {
+                                            "field": "date",
+                                            "order": "descending"
+                                        }
+                                    ],
+                                    "window": [
+                                        {
+                                            "as": "rank",
+                                            "field": "date",
+                                            "op": "rank"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "x": {
+                                    "field": "date",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#17becf",
+                                "opacity": 1,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                },
+                                {
+                                    "sort": [
+                                        {
+                                            "field": "date",
+                                            "order": "descending"
+                                        }
+                                    ],
+                                    "window": [
+                                        {
+                                            "as": "rank",
+                                            "field": "date",
+                                            "op": "rank"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Aktuell Erkrankte",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#17becf",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                }
+                            ],
+                            "width": 300
+                        }
+                    ]
+                },
+                {
+                    "layer": [
+                        {
+                            "encoding": {
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "linear"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
                                 "color": "#1f77b4",
                                 "size": 2,
+                                "strokeJoin": "round",
                                 "type": "line"
                             },
                             "transform": [
@@ -1112,6 +1508,7 @@
                             "mark": {
                                 "color": "#d62728",
                                 "size": 2,
+                                "strokeJoin": "round",
                                 "type": "line"
                             },
                             "transform": [
@@ -1364,6 +1761,7 @@
                             "mark": {
                                 "color": "#ff7f0e",
                                 "size": 2,
+                                "strokeJoin": "round",
                                 "type": "line"
                             },
                             "transform": [
@@ -1619,8 +2017,262 @@
                             },
                             "height": 200,
                             "mark": {
+                                "color": "#17becf",
+                                "size": 2,
+                                "strokeJoin": "round",
+                                "type": "line"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "text": {
+                                    "field": "max_att",
+                                    "type": "quantitative"
+                                },
+                                "x": {
+                                    "field": "date",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "align": "left",
+                                "color": "#17becf",
+                                "dx": 5,
+                                "dy": 0,
+                                "type": "text",
+                                "width": 500
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                },
+                                {
+                                    "sort": [
+                                        {
+                                            "field": "date",
+                                            "order": "descending"
+                                        }
+                                    ],
+                                    "window": [
+                                        {
+                                            "as": "rank",
+                                            "field": "date",
+                                            "op": "rank"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "x": {
+                                    "field": "date",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#17becf",
+                                "opacity": 1,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                },
+                                {
+                                    "sort": [
+                                        {
+                                            "field": "date",
+                                            "order": "descending"
+                                        }
+                                    ],
+                                    "window": [
+                                        {
+                                            "as": "rank",
+                                            "field": "date",
+                                            "op": "rank"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "filter": "(datum.rank === 1)"
+                                }
+                            ],
+                            "width": 300
+                        },
+                        {
+                            "encoding": {
+                                "tooltip": [
+                                    {
+                                        "field": "date",
+                                        "title": "Datum",
+                                        "type": "temporal"
+                                    },
+                                    {
+                                        "field": "max_att",
+                                        "title": "Aktuell Erkrankte",
+                                        "type": "quantitative"
+                                    }
+                                ],
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
+                                "color": "#17becf",
+                                "opacity": 0,
+                                "size": 200,
+                                "type": "circle"
+                            },
+                            "transform": [
+                                {
+                                    "filter": "(datum['total_active'] > 0)"
+                                },
+                                {
+                                    "as": "date",
+                                    "field": "dataTime",
+                                    "timeUnit": "yearmonthdate"
+                                },
+                                {
+                                    "aggregate": [
+                                        {
+                                            "as": "max_att",
+                                            "field": "total_active",
+                                            "op": "max"
+                                        }
+                                    ],
+                                    "groupby": [
+                                        "date"
+                                    ]
+                                }
+                            ],
+                            "width": 300
+                        }
+                    ]
+                },
+                {
+                    "layer": [
+                        {
+                            "encoding": {
+                                "x": {
+                                    "field": "date",
+                                    "title": "",
+                                    "type": "temporal"
+                                },
+                                "y": {
+                                    "axis": {
+                                        "minExtent": 50
+                                    },
+                                    "field": "max_att",
+                                    "scale": {
+                                        "base": 10,
+                                        "type": "log"
+                                    },
+                                    "title": "",
+                                    "type": "quantitative"
+                                }
+                            },
+                            "height": 200,
+                            "mark": {
                                 "color": "#1f77b4",
                                 "size": 2,
+                                "strokeJoin": "round",
                                 "type": "line"
                             },
                             "transform": [
@@ -1873,6 +2525,7 @@
                             "mark": {
                                 "color": "#d62728",
                                 "size": 2,
+                                "strokeJoin": "round",
                                 "type": "line"
                             },
                             "transform": [
@@ -2125,6 +2778,7 @@
                             "mark": {
                                 "color": "#ff7f0e",
                                 "size": 2,
+                                "strokeJoin": "round",
                                 "type": "line"
                             },
                             "transform": [
@@ -2356,7 +3010,7 @@
         },
         {
             "data": {
-                "name": "data-2b6b64a5e689443bb63b3244c84a1d9c"
+                "name": "data-05f1d7075f456091e59c7cac5168ad5a"
             },
             "encoding": {
                 "color": {
@@ -2366,12 +3020,14 @@
                         "domain": [
                             "Best\u00e4tigte F\u00e4lle",
                             "Todesf\u00e4lle",
-                            "Genesene"
+                            "Genesene",
+                            "Aktuell Erkrankte"
                         ],
                         "range": [
                             "#1f77b4",
                             "#d62728",
-                            "#ff7f0e"
+                            "#ff7f0e",
+                            "#17becf"
                         ]
                     },
                     "type": "nominal"

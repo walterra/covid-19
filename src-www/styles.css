@@ -20,3 +20,16 @@ a { color: #369; }
 }
 .vis_wrapper { width: 100%; padding-top: 20px; margin: 20px 0; border-top: 1px solid #ddd; clear: both; }
 .vis_wrapper p { width: 650px; margin-left: 55px; float: left; }
+
+.vis_table_notes {
+  width: 750px;
+  margin: 0 0 0 55px;
+}
+
+.vis_table_notes td {
+  width: 200px;
+  padding-right: 50px;
+  font-size: 12px;
+  color: gray;
+  vertical-align: top;
+}

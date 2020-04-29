@@ -12,6 +12,9 @@ var supportedKeys = [
   'chart_counties_confirmed',
   'chart_counties_death',
   'chart_counties_recovered',
+  'chart_counties_confirmed_daily',
+  'chart_counties_death_daily',
+  'chart_counties_recovered_daily',
 ];
 function loadVega(f, id) {
   if (supportedKeys.indexOf(f) === -1) {
@@ -33,4 +36,7 @@ $(document).ready(function(){
   loadVega('chart_counties_confirmed', 'vega_chart_counties_confirmed');
   loadVega('chart_counties_death', 'vega_chart_counties_death');
   loadVega('chart_counties_recovered', 'vega_chart_counties_recovered');
+  loadVega('chart_counties_confirmed_daily', 'vega_chart_counties_confirmed_daily');
+  loadVega('chart_counties_death_daily', 'vega_chart_counties_death_daily');
+  loadVega('chart_counties_recovered_daily', 'vega_chart_counties_recovered_daily');
 });
