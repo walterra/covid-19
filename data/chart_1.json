@@ -22,10 +22,21 @@
         }
     },
     "data": {
-        "name": "data-2072a37c594ab2f5d6f65ef5d66e3e6a"
+        "name": "data-9b21fd982a2cccb711650a8b2a27bb28"
     },
     "datasets": {
-        "data-2072a37c594ab2f5d6f65ef5d66e3e6a": [
+        "data-2b6b64a5e689443bb63b3244c84a1d9c": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            }
+        ],
+        "data-9b21fd982a2cccb711650a8b2a27bb28": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_confirmed": 2,
@@ -805,17 +816,18 @@
                 "total_confirmed": 15256,
                 "total_death": 569,
                 "total_recovered": 12580.0
-            }
-        ],
-        "data-2b6b64a5e689443bb63b3244c84a1d9c": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
             },
             {
-                "label": "Todesf\u00e4lle"
+                "dataTime": "2020-04-28T15:00:00",
+                "total_confirmed": 15286,
+                "total_death": 569,
+                "total_recovered": 12580.0
             },
             {
-                "label": "Genesene"
+                "dataTime": "2020-04-29T08:00:00",
+                "total_confirmed": 15323,
+                "total_death": 580,
+                "total_recovered": 12779.0
             }
         ]
     },
@@ -899,6 +911,7 @@
                                 "align": "left",
                                 "color": "#1f77b4",
                                 "dx": 5,
+                                "dy": 0,
                                 "type": "text",
                                 "width": 500
                             },
@@ -1150,6 +1163,7 @@
                                 "align": "left",
                                 "color": "#d62728",
                                 "dx": 5,
+                                "dy": 0,
                                 "type": "text",
                                 "width": 500
                             },
@@ -1401,6 +1415,7 @@
                                 "align": "left",
                                 "color": "#ff7f0e",
                                 "dx": 5,
+                                "dy": 0,
                                 "type": "text",
                                 "width": 500
                             },
@@ -1657,6 +1672,7 @@
                                 "align": "left",
                                 "color": "#1f77b4",
                                 "dx": 5,
+                                "dy": -5,
                                 "type": "text",
                                 "width": 500
                             },
@@ -1908,6 +1924,7 @@
                                 "align": "left",
                                 "color": "#d62728",
                                 "dx": 5,
+                                "dy": 0,
                                 "type": "text",
                                 "width": 500
                             },
@@ -2159,6 +2176,7 @@
                                 "align": "left",
                                 "color": "#ff7f0e",
                                 "dx": 5,
+                                "dy": 5,
                                 "type": "text",
                                 "width": 500
                             },
