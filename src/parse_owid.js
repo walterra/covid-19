@@ -5,6 +5,34 @@ const fs = require('fs').promises;
 
 (async () => {
   try {
+    // Google Mobility
+    const mobilityCSV = await fs.readFile('./data/Global_Mobility_Report_2020-04-23.csv');
+    const mobility = await neatCsv(mobilityCSV);
+
+    const groupedMobility = d3.groups(mobility, d => d.country_region);
+
+    // https://ourworldindata.org/air-pollution
+
+
+    // https://ourworldindata.org/most-densely-populated-countries
+    const densityCSV = await fs.readFile('./data/owid-population-density.csv');
+    const density = await neatCsv(densityCSV);
+    const groupedDensity = d3.groups(density, d => d.Entity, d => d.Year)
+
+    const densityMax = {};
+
+    groupedDensity.forEach(l => {
+      const location = l[0];
+      const maxYear = l[1].reduce((prev, curr) => {
+        const year = parseInt(curr[1][0]['Year']);
+        return Math.max(prev, year);
+      }, 0);
+      const maxExp = l[1].find(d => {
+        return parseInt(d[1][0]['Year']) === maxYear;
+      });
+      densityMax[location] = Math.round(parseFloat(maxExp[1][0]['Population density (people per sq. km of land area) (people per km² of land area)']));
+    });
+
     // https://ourworldindata.org/world-population-growth#all-charts-preview
     const ageCSV = await fs.readFile('./data/owid-size-of-young-working-elderly-populations.csv');
     const age = await neatCsv(ageCSV);
@@ -92,10 +120,10 @@ const fs = require('fs').promises;
     });
 
     const data = await fs.readFile('./data/owid-covid-data.csv');
-    const csv = await neatCsv(data);
+    const csv = (await neatCsv(data)).filter(r => r.location !== 'World');
     // console.log(csv[0]);
 
-    const cases = csv.map(({ location, date, total_cases }) => ({ location, date, total_cases }));
+    const cases = csv.map(({ location, date, total_cases }) => ({ location, date, total_cases: total_cases }));
     // console.log(cases[0]);
     const grouped = d3.groups(cases, d => d.location, d => d.date);
 
@@ -147,7 +175,9 @@ const fs = require('fs').promises;
       'population',
       'age_young',
       'age_working',
-      'age_eldery'
+      'age_eldery',
+      'mobility',
+      'population_density',
     ].join(',')];
     output.push(
       ...cases.map(c => {
@@ -175,8 +205,54 @@ const fs = require('fs').promises;
           isNaN(popMax[location]) ||
           isNaN(youngMax[location]) ||
           isNaN(workingMax[location]) ||
-          isNaN(elderlyMax[location])
+          isNaN(elderlyMax[location]) ||
+          isNaN(densityMax[location])
         ) {
+          return ['SKIP'];
+        }
+
+        let mobility;
+        const dateSplit = date.split('-');
+        const currentDate = new Date(dateSplit[0], dateSplit[1], dateSplit[2]);
+
+        // mobility
+        const mobilityByLocation = groupedMobility.find(m => m[0] === location);
+        if (Array.isArray(mobilityByLocation) && mobilityByLocation.length === 2) {
+          const dates = mobilityByLocation[1].map(d => d.date);
+
+          if (dates.includes(date)) {
+            const mob = mobilityByLocation[1].find(d => d.date === date);
+            mobility = mob.retail_and_recreation_percent_change_from_baseline;
+          } else {
+
+            const beforedates = dates.filter(function(d) {
+              const s = d.split('-');
+              const c = new Date(s[0], s[1], s[2]);
+              return c - currentDate < 0;
+            });
+
+            const afterdates = dates.filter(function(d) {
+              const s = d.split('-');
+              const c = new Date(s[0], s[1], s[2]);
+              return c - currentDate > 0;
+            });
+
+            if (beforedates.length > 0) {
+              const searchDate = beforedates.pop();
+              const mob = mobilityByLocation[1].find(d => d.date === searchDate);
+              mobility = mob.retail_and_recreation_percent_change_from_baseline;
+            } else if (afterdates.length > 0) {
+              const searchDate = afterdates.shift();
+              const mob = mobilityByLocation[1].find(d => d.date === searchDate);
+              mobility = mob.retail_and_recreation_percent_change_from_baseline;
+            } else {
+              console.log('IMPOSSIBLE');
+            }
+
+          }
+        }
+
+        if (mobility === undefined) {
           return ['SKIP'];
         }
 
@@ -193,6 +269,8 @@ const fs = require('fs').promises;
           youngMax[location],
           workingMax[location],
           elderlyMax[location],
+          mobility,
+          densityMax[location],
         ].join(',');
       }).filter(d => d[0] !== 'SKIP')
     );
