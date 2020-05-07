@@ -22,10 +22,24 @@
         }
     },
     "data": {
-        "name": "data-003e01fcfb40d84794edc4c1cc2db2cb"
+        "name": "data-4f444c014555fbac0c866b265b02a449"
     },
     "datasets": {
-        "data-003e01fcfb40d84794edc4c1cc2db2cb": [
+        "data-05f1d7075f456091e59c7cac5168ad5a": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            },
+            {
+                "label": "Aktuell Erkrankte"
+            }
+        ],
+        "data-4f444c014555fbac0c866b265b02a449": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1047,20 +1061,27 @@
                 "total_confirmed": 15579,
                 "total_death": 606,
                 "total_recovered": 13462.0
-            }
-        ],
-        "data-05f1d7075f456091e59c7cac5168ad5a": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
             },
             {
-                "label": "Todesf\u00e4lle"
+                "dataTime": "2020-05-06T08:00:00",
+                "total_active": 1521.0,
+                "total_confirmed": 15589,
+                "total_death": 606,
+                "total_recovered": 13462.0
             },
             {
-                "label": "Genesene"
+                "dataTime": "2020-05-06T08:00:00",
+                "total_active": 1342.0,
+                "total_confirmed": 15589,
+                "total_death": 608,
+                "total_recovered": 13639.0
             },
             {
-                "label": "Aktuell Erkrankte"
+                "dataTime": "2020-05-06T15:00:00",
+                "total_active": 1386.0,
+                "total_confirmed": 15633,
+                "total_death": 608,
+                "total_recovered": 13639.0
             }
         ]
     },
