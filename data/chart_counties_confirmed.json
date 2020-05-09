@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-26cc34fdb6ef8b794f991e4f15bc6b04"
+        "name": "data-844a09f8494467c27cb5370412791560"
     },
     "datasets": {
-        "data-26cc34fdb6ef8b794f991e4f15bc6b04": [
+        "data-844a09f8494467c27cb5370412791560": [
             {
                 "B_confirmed": null,
                 "K_confirmed": null,
@@ -1812,6 +1812,66 @@
                 "V_confirmed": 875.0,
                 "W_confirmed": 2587.0,
                 "dataTime": "2020-05-06T15:00:00"
+            },
+            {
+                "B_confirmed": 330.0,
+                "K_confirmed": 411.0,
+                "Noe_confirmed": 2663.0,
+                "Ooe_confirmed": 2263.0,
+                "S_confirmed": 1213.0,
+                "St_confirmed": 1785.0,
+                "T_confirmed": 3513.0,
+                "V_confirmed": 875.0,
+                "W_confirmed": 2599.0,
+                "dataTime": "2020-05-07T08:00:00"
+            },
+            {
+                "B_confirmed": 330.0,
+                "K_confirmed": 411.0,
+                "Noe_confirmed": 2666.0,
+                "Ooe_confirmed": 2263.0,
+                "S_confirmed": 1213.0,
+                "St_confirmed": 1787.0,
+                "T_confirmed": 3515.0,
+                "V_confirmed": 875.0,
+                "W_confirmed": 2605.0,
+                "dataTime": "2020-05-07T15:00:00"
+            },
+            {
+                "B_confirmed": 330.0,
+                "K_confirmed": 411.0,
+                "Noe_confirmed": 2669.0,
+                "Ooe_confirmed": 2264.0,
+                "S_confirmed": 1213.0,
+                "St_confirmed": 1788.0,
+                "T_confirmed": 3516.0,
+                "V_confirmed": 875.0,
+                "W_confirmed": 2609.0,
+                "dataTime": "2020-05-08T08:00:00"
+            },
+            {
+                "B_confirmed": 330.0,
+                "K_confirmed": 411.0,
+                "Noe_confirmed": 2669.0,
+                "Ooe_confirmed": 2264.0,
+                "S_confirmed": 1213.0,
+                "St_confirmed": 1788.0,
+                "T_confirmed": 3516.0,
+                "V_confirmed": 875.0,
+                "W_confirmed": 2609.0,
+                "dataTime": "2020-05-08T08:00:00"
+            },
+            {
+                "B_confirmed": 330.0,
+                "K_confirmed": 411.0,
+                "Noe_confirmed": 2682.0,
+                "Ooe_confirmed": 2265.0,
+                "S_confirmed": 1212.0,
+                "St_confirmed": 1792.0,
+                "T_confirmed": 3517.0,
+                "V_confirmed": 874.0,
+                "W_confirmed": 2631.0,
+                "dataTime": "2020-05-08T15:00:00"
             }
         ]
     },

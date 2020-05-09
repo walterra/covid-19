@@ -23,10 +23,18 @@
         }
     },
     "data": {
-        "name": "data-4f444c014555fbac0c866b265b02a449"
+        "name": "data-c04c215376a42f2f4316dcaaf0ff8f58"
     },
     "datasets": {
-        "data-4f444c014555fbac0c866b265b02a449": [
+        "data-793b2339a016668726e02e8737965916": [
+            {
+                "label": "Tageswert"
+            },
+            {
+                "label": "7d Moving Average"
+            }
+        ],
+        "data-c04c215376a42f2f4316dcaaf0ff8f58": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1069,14 +1077,41 @@
                 "total_confirmed": 15633,
                 "total_death": 608,
                 "total_recovered": 13639.0
-            }
-        ],
-        "data-793b2339a016668726e02e8737965916": [
-            {
-                "label": "Tageswert"
             },
             {
-                "label": "7d Moving Average"
+                "dataTime": "2020-05-07T08:00:00",
+                "total_active": 1405.0,
+                "total_confirmed": 15652,
+                "total_death": 608,
+                "total_recovered": 13639.0
+            },
+            {
+                "dataTime": "2020-05-07T15:00:00",
+                "total_active": 1358.0,
+                "total_confirmed": 15665,
+                "total_death": 609,
+                "total_recovered": 13698.0
+            },
+            {
+                "dataTime": "2020-05-08T08:00:00",
+                "total_active": 1368.0,
+                "total_confirmed": 15675,
+                "total_death": 609,
+                "total_recovered": 13698.0
+            },
+            {
+                "dataTime": "2020-05-08T08:00:00",
+                "total_active": 1225.0,
+                "total_confirmed": 15675,
+                "total_death": 614,
+                "total_recovered": 13836.0
+            },
+            {
+                "dataTime": "2020-05-08T15:00:00",
+                "total_active": 1264.0,
+                "total_confirmed": 15714,
+                "total_death": 614,
+                "total_recovered": 13836.0
             }
         ]
     },
