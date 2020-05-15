@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-302e16111e4c432579add35eec8c40c1"
+        "name": "data-90a02d5e855da83f4011726c599a34f2"
     },
     "datasets": {
-        "data-302e16111e4c432579add35eec8c40c1": [
+        "data-90a02d5e855da83f4011726c599a34f2": [
             {
                 "B_death": null,
                 "K_death": null,
@@ -1980,6 +1980,30 @@
                 "V_death": 19.0,
                 "W_death": 144.0,
                 "dataTime": "2020-05-13T15:00:00"
+            },
+            {
+                "B_death": 11.0,
+                "K_death": 13.0,
+                "Noe_death": 95.0,
+                "Ooe_death": 59.0,
+                "S_death": 37.0,
+                "St_death": 139.0,
+                "T_death": 107.0,
+                "V_death": 19.0,
+                "W_death": 144.0,
+                "dataTime": "2020-05-14T08:00:00"
+            },
+            {
+                "B_death": 11.0,
+                "K_death": 13.0,
+                "Noe_death": 97.0,
+                "Ooe_death": 59.0,
+                "S_death": 37.0,
+                "St_death": 139.0,
+                "T_death": 107.0,
+                "V_death": 19.0,
+                "W_death": 144.0,
+                "dataTime": "2020-05-14T15:00:00"
             }
         ]
     },
