@@ -22,7 +22,7 @@
         }
     },
     "data": {
-        "name": "data-3799a5c15844894766a6b7755a015eb2"
+        "name": "data-b1978c9e2ac8b4294fc8d3d24f1f0316"
     },
     "datasets": {
         "data-05f1d7075f456091e59c7cac5168ad5a": [
@@ -39,7 +39,7 @@
                 "label": "Aktuell Erkrankte"
             }
         ],
-        "data-3799a5c15844894766a6b7755a015eb2": [
+        "data-b1978c9e2ac8b4294fc8d3d24f1f0316": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1194,6 +1194,20 @@
                 "total_confirmed": 16014,
                 "total_death": 626,
                 "total_recovered": 14405.0
+            },
+            {
+                "dataTime": "2020-05-15T08:00:00",
+                "total_active": 931.0,
+                "total_confirmed": 16030,
+                "total_death": 628,
+                "total_recovered": 14471.0
+            },
+            {
+                "dataTime": "2020-05-15T15:00:00",
+                "total_active": 994.0,
+                "total_confirmed": 16093,
+                "total_death": 628,
+                "total_recovered": 14471.0
             }
         ]
     },
