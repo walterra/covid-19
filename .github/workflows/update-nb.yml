@@ -35,9 +35,7 @@ jobs:
     - name: install dependencies
       run: |
         sudo apt-get update -y
-        sudo apt-get -y --force-yes install chromium-chromedriver
-        npm install -g electron@6.1.4 orca
-        pip3 install matplotlib pandas numpy scipy seaborn papermill ipykernel jupyter folium plotly plotnine psutil pymc3 arviz xlrd altair altair_saver jinja2 selenium
+        pip3 install pandas numpy ipykernel jupyter altair altair_saver
         python3 -m ipykernel install --user --name python3
         sudo chmod -R 777 .
 
