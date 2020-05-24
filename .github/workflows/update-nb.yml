@@ -1,7 +1,7 @@
 name: Update Notebooks
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   update-notebooks:
@@ -50,5 +50,5 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git add data/chart_*.json
         git add data/corin_data.csv
-        git commit -m'[bot] refresh notebooks'
-        git push -f
+        git commit -m "[bot] refresh notebooks" || echo "No changes to commit"
+        git push -f || echo "No changes to push"
