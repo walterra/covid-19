@@ -28,7 +28,14 @@ function loadVega(f, id) {
   });
 }
 
+function loadMetaData() {
+  $.get('data/metadata.json', function( metadata ) {
+    $('#lastUpdate').text(metadata.lastUpdate);
+  });
+}
+
 $(document).ready(function(){
+  loadMetaData();
   loadVega('chart_1', 'vega_chart_1');
   loadVega('chart_2', 'vega_chart_2');
   loadVega('chart_3', 'vega_chart_3');

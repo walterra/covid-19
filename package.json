@@ -31,9 +31,10 @@
     "serve": "^11.0.2"
   },
   "scripts": {
-    "all": "npm run fetch && npm run notebook && npm run notebook-counties && npm run notebook-counties-daily",
+    "all": "npm run fetch && npm run notebook && npm run notebook-counties && npm run notebook-counties-daily && npm run metadata",
     "all-notebooks": "npm run notebook && npm run notebook-counties",
     "fetch": "./bin/fetch.sh",
+    "metadata": "node src/parse_metadata",
     "notebook": "jupyter nbconvert --execute jupyter/covid19-at.ipynb",
     "notebook-counties": "jupyter nbconvert --execute jupyter/covid19-at-counties.ipynb",
     "notebook-counties-daily": "jupyter nbconvert --execute jupyter/covid19-at-counties-daily.ipynb",
