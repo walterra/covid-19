@@ -1,5 +1,3 @@
-const d3 = require('d3-array');
-const moment = require('moment');
 const neatCsv = require('neat-csv');
 const fs = require('fs').promises;
 

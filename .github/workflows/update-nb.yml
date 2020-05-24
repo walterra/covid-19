@@ -42,6 +42,7 @@ jobs:
     - name: update notebooks
       id: update_nb
       run: |
+        npm install
         npm run all
 
     - name: save notebooks & images
