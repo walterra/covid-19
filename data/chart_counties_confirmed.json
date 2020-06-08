@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-9ad09e497e4c352416ab6d280949d9e0"
+        "name": "data-4857439382e670b1e871323e821aea46"
     },
     "datasets": {
-        "data-9ad09e497e4c352416ab6d280949d9e0": [
+        "data-4857439382e670b1e871323e821aea46": [
             {
                 "B_confirmed": null,
                 "K_confirmed": null,
@@ -2472,6 +2472,18 @@
                 "V_confirmed": 905.0,
                 "W_confirmed": 3389.0,
                 "dataTime": "2020-06-07T15:00:00"
+            },
+            {
+                "B_confirmed": 342.0,
+                "K_confirmed": 416.0,
+                "Noe_confirmed": 2889.0,
+                "Ooe_confirmed": 2314.0,
+                "S_confirmed": 1221.0,
+                "St_confirmed": 1844.0,
+                "T_confirmed": 3538.0,
+                "V_confirmed": 905.0,
+                "W_confirmed": 3410.0,
+                "dataTime": "2020-06-08T15:00:00"
             }
         ]
     },
