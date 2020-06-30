@@ -1719,7 +1719,7 @@
                                 "align": "left",
                                 "color": "#17becf",
                                 "dx": 5,
-                                "dy": -1,
+                                "dy": 5,
                                 "type": "text",
                                 "width": 500
                             },
@@ -2225,7 +2225,7 @@
                                 "align": "left",
                                 "color": "#d62728",
                                 "dx": 5,
-                                "dy": 5,
+                                "dy": -5,
                                 "type": "text",
                                 "width": 500
                             },
@@ -2478,7 +2478,7 @@
                                 "align": "left",
                                 "color": "#ff7f0e",
                                 "dx": 5,
-                                "dy": 0,
+                                "dy": 5,
                                 "type": "text",
                                 "width": 500
                             },
@@ -2736,7 +2736,7 @@
                                 "align": "left",
                                 "color": "#17becf",
                                 "dx": 5,
-                                "dy": -1,
+                                "dy": 5,
                                 "type": "text",
                                 "width": 500
                             },
@@ -3242,7 +3242,7 @@
                                 "align": "left",
                                 "color": "#d62728",
                                 "dx": 5,
-                                "dy": 5,
+                                "dy": -5,
                                 "type": "text",
                                 "width": 500
                             },
