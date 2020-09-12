@@ -1,8 +1,4 @@
-import 'core-js';
-import 'regenerator-runtime/runtime';
-
 import $ from 'jquery';
-import vegaEmbed from 'vega-embed';
 
 var supportedKeys = [
   'chart_1',

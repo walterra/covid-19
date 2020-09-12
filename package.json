@@ -8,10 +8,7 @@
     "date-fns": "^1.30.1",
     "jquery": "^3.5.0",
     "moment": "^2.24.0",
-    "neat-csv": "^5.2.0",
-    "vega": "^5.10.1",
-    "vega-embed": "^6.6.0",
-    "vega-lite": "^4.10.4"
+    "neat-csv": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -27,7 +24,7 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-external-globals": "^0.5.0",
     "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-terser": "^7.0.2",
     "serve": "^11.3.2"
   },
   "scripts": {
