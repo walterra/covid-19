@@ -25,6 +25,20 @@
         "name": "data-0be150bbe8aa1673a8163dada9ad1a90"
     },
     "datasets": {
+        "data-05f1d7075f456091e59c7cac5168ad5a": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            },
+            {
+                "label": "Aktuell Erkrankte"
+            }
+        ],
         "data-0be150bbe8aa1673a8163dada9ad1a90": [
             {
                 "dataTime": "2020-02-25T14:30:00",
@@ -2273,20 +2287,6 @@
                 "total_death": 750,
                 "total_recovered": 26257.0
             }
-        ],
-        "data-798a3947830f696cdc5da7a1b847e1fd": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
-            },
-            {
-                "label": "Todesf\u00e4lle"
-            },
-            {
-                "label": "Genesene"
-            },
-            {
-                "label": "Aktuell Infizierte"
-            }
         ]
     },
     "hconcat": [
@@ -2490,7 +2490,7 @@
                                     },
                                     {
                                         "field": "max_att",
-                                        "title": "Aktuell Infizierte",
+                                        "title": "Aktuell Erkrankte",
                                         "type": "quantitative"
                                     }
                                 ],
@@ -3507,7 +3507,7 @@
                                     },
                                     {
                                         "field": "max_att",
-                                        "title": "Aktuell Infizierte",
+                                        "title": "Aktuell Erkrankte",
                                         "type": "quantitative"
                                     }
                                 ],
@@ -4326,7 +4326,7 @@
         },
         {
             "data": {
-                "name": "data-798a3947830f696cdc5da7a1b847e1fd"
+                "name": "data-05f1d7075f456091e59c7cac5168ad5a"
             },
             "encoding": {
                 "color": {
@@ -4337,7 +4337,7 @@
                             "Best\u00e4tigte F\u00e4lle",
                             "Todesf\u00e4lle",
                             "Genesene",
-                            "Aktuell Infizierte"
+                            "Aktuell Erkrankte"
                         ],
                         "range": [
                             "#1f77b4",
