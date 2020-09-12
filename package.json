@@ -32,7 +32,7 @@
     "all-notebooks": "npm run notebook && npm run notebook-counties",
     "fetch": "./bin/fetch.sh",
     "metadata": "node src/parse_metadata",
-    "notebook": "jupyter nbconvert --execute jupyter/covid19-at.ipynb",
+    "notebook": "jupyter nbconvert --execute jupyter/covid19-at.ipynb --to html",
     "notebook-counties": "jupyter nbconvert --execute jupyter/covid19-at-counties.ipynb --to html",
     "notebook-counties-daily": "jupyter nbconvert --execute jupyter/covid19-at-counties-daily.ipynb --to html",
     "notebook-regression": "jupyter nbconvert --execute jupyter/covid19-regression.ipynb --to html",
