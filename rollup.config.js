@@ -2,7 +2,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import { terser } from 'rollup-plugin-terser';
 import json from '@rollup/plugin-json';
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 import async from 'rollup-plugin-async';
 import builtins from 'rollup-plugin-node-builtins';
 import externalGlobals from "rollup-plugin-external-globals";
