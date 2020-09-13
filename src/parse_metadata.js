@@ -6,8 +6,14 @@ const fs = require('fs').promises;
     const covidCSV = await fs.readFile('./data/corin_data.csv');
     const covid = await neatCsv(covidCSV);
 
-    const lastUpdate = covid.pop().dataTime;
+    let lastUpdate = covid.pop().dataTime;
     console.log('last update', lastUpdate);
+
+    if (lastUpdate.search('8:00')) {
+      console.log('↥ last update was just this morning, skip it')
+      lastUpdate = covid.pop().dataTime;
+      console.log('last update', lastUpdate);
+    }
 
     const metadata = {
       lastUpdate

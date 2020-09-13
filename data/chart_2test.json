@@ -25,18 +25,10 @@
         }
     },
     "data": {
-        "name": "data-b69420be5a1967c5e97d24fa646e3076"
+        "name": "data-167b0ceba09abf359e7e9aa205908c5f"
     },
     "datasets": {
-        "data-793b2339a016668726e02e8737965916": [
-            {
-                "label": "Tageswert"
-            },
-            {
-                "label": "7d Moving Average"
-            }
-        ],
-        "data-b69420be5a1967c5e97d24fa646e3076": [
+        "data-167b0ceba09abf359e7e9aa205908c5f": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1596,6 +1588,22 @@
                 "total_death": 750,
                 "total_recovered": 26257.0,
                 "total_tests": 1316819
+            },
+            {
+                "dataTime": "2020-09-12T15:00:00",
+                "total_active": 5394.0,
+                "total_confirmed": 32727,
+                "total_death": 754,
+                "total_recovered": 26579.0,
+                "total_tests": 1331493
+            }
+        ],
+        "data-793b2339a016668726e02e8737965916": [
+            {
+                "label": "Tageswert"
+            },
+            {
+                "label": "7d Moving Average"
             }
         ]
     },
@@ -1620,7 +1628,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -1724,7 +1732,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -1807,7 +1815,7 @@
                     "height": 100,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -1902,7 +1910,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2002,7 +2010,7 @@
                     "height": 100,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2110,7 +2118,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2231,7 +2239,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2335,7 +2343,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2421,7 +2429,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -2525,7 +2533,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -2608,7 +2616,7 @@
                     "height": 100,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -2703,7 +2711,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2803,7 +2811,7 @@
                     "height": 100,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2911,7 +2919,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -3032,7 +3040,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3136,7 +3144,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3222,7 +3230,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -3326,7 +3334,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -3409,7 +3417,7 @@
                     "height": 100,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -3504,7 +3512,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -3604,7 +3612,7 @@
                     "height": 100,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -3712,7 +3720,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -3833,7 +3841,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#f4b1dd",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3920,7 +3928,7 @@
                             {
                                 "field": "diff",
                                 "format": ".2%",
-                                "title": "Steigerung",
+                                "title": "Verh\u00e4ltnis",
                                 "type": "quantitative"
                             }
                         ],
@@ -3937,7 +3945,7 @@
                     },
                     "height": 100,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "#f46ec6",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -4017,8 +4025,8 @@
                             "7d Moving Average"
                         ],
                         "range": [
-                            "#1f77b4",
-                            "lightblue"
+                            "#f46ec6",
+                            "#f4b1dd"
                         ]
                     },
                     "type": "nominal"
