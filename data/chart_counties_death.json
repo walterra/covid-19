@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-f4a1692cbf30c9f9b682aefcc63cd9f3"
+        "name": "data-78d43b65ce4c6e1a366ad8d2cdac875c"
     },
     "datasets": {
-        "data-f4a1692cbf30c9f9b682aefcc63cd9f3": [
+        "data-78d43b65ce4c6e1a366ad8d2cdac875c": [
             {
                 "B_death": null,
                 "K_death": null,
@@ -36,18 +36,6 @@
                 "V_death": null,
                 "W_death": null,
                 "dataTime": "2020-02-25T14:30:00"
-            },
-            {
-                "B_death": null,
-                "K_death": null,
-                "Noe_death": null,
-                "Ooe_death": null,
-                "S_death": null,
-                "St_death": null,
-                "T_death": null,
-                "V_death": null,
-                "W_death": null,
-                "dataTime": "2020-02-26T10:00:00"
             },
             {
                 "B_death": null,
@@ -74,30 +62,6 @@
                 "dataTime": "2020-02-28T16:30:00"
             },
             {
-                "B_death": null,
-                "K_death": null,
-                "Noe_death": null,
-                "Ooe_death": null,
-                "S_death": null,
-                "St_death": null,
-                "T_death": null,
-                "V_death": null,
-                "W_death": null,
-                "dataTime": "2020-02-29T10:45:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 0.0,
-                "dataTime": "2020-03-01T12:00:00"
-            },
-            {
                 "B_death": 0.0,
                 "K_death": 0.0,
                 "Noe_death": 0.0,
@@ -108,18 +72,6 @@
                 "V_death": 0.0,
                 "W_death": 0.0,
                 "dataTime": "2020-03-02T18:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 0.0,
-                "dataTime": "2020-03-03T11:30:00"
             },
             {
                 "B_death": 0.0,
@@ -191,31 +143,7 @@
                 "T_death": 0.0,
                 "V_death": 0.0,
                 "W_death": 0.0,
-                "dataTime": "2020-03-08T11:45:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 0.0,
                 "dataTime": "2020-03-09T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 0.0,
-                "dataTime": "2020-03-10T08:00:00"
             },
             {
                 "B_death": 0.0,
@@ -239,31 +167,7 @@
                 "T_death": 0.0,
                 "V_death": 0.0,
                 "W_death": 0.0,
-                "dataTime": "2020-03-11T08:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 0.0,
                 "dataTime": "2020-03-11T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 1.0,
-                "dataTime": "2020-03-12T12:30:00"
             },
             {
                 "B_death": 0.0,
@@ -287,31 +191,7 @@
                 "T_death": 0.0,
                 "V_death": 0.0,
                 "W_death": 1.0,
-                "dataTime": "2020-03-13T08:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 1.0,
                 "dataTime": "2020-03-13T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 1.0,
-                "dataTime": "2020-03-14T08:00:00"
             },
             {
                 "B_death": 0.0,
@@ -335,31 +215,7 @@
                 "T_death": 0.0,
                 "V_death": 0.0,
                 "W_death": 1.0,
-                "dataTime": "2020-03-15T08:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 1.0,
                 "dataTime": "2020-03-15T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 0.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 1.0,
-                "dataTime": "2020-03-16T08:00:00"
             },
             {
                 "B_death": 0.0,
@@ -383,31 +239,7 @@
                 "T_death": 0.0,
                 "V_death": 0.0,
                 "W_death": 2.0,
-                "dataTime": "2020-03-17T08:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 1.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 2.0,
                 "dataTime": "2020-03-17T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 1.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 2.0,
-                "dataTime": "2020-03-18T08:00:00"
             },
             {
                 "B_death": 0.0,
@@ -420,18 +252,6 @@
                 "V_death": 0.0,
                 "W_death": 2.0,
                 "dataTime": "2020-03-18T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 0.0,
-                "S_death": 0.0,
-                "St_death": 3.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 2.0,
-                "dataTime": "2020-03-19T08:00:00"
             },
             {
                 "B_death": 0.0,
@@ -455,31 +275,7 @@
                 "T_death": 0.0,
                 "V_death": 0.0,
                 "W_death": 2.0,
-                "dataTime": "2020-03-20T08:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 1.0,
-                "S_death": 0.0,
-                "St_death": 3.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 2.0,
                 "dataTime": "2020-03-20T14:30:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 0.0,
-                "Ooe_death": 1.0,
-                "S_death": 0.0,
-                "St_death": 3.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 3.0,
-                "dataTime": "2020-03-21T08:00:00"
             },
             {
                 "B_death": 0.0,
@@ -492,18 +288,6 @@
                 "V_death": 0.0,
                 "W_death": 3.0,
                 "dataTime": "2020-03-21T15:00:00"
-            },
-            {
-                "B_death": 0.0,
-                "K_death": 0.0,
-                "Noe_death": 1.0,
-                "Ooe_death": 1.0,
-                "S_death": 0.0,
-                "St_death": 4.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 3.0,
-                "dataTime": "2020-03-22T08:00:00"
             },
             {
                 "B_death": 1.0,
@@ -524,34 +308,10 @@
                 "Ooe_death": 2.0,
                 "S_death": 0.0,
                 "St_death": 4.0,
-                "T_death": 0.0,
-                "V_death": 0.0,
-                "W_death": 7.0,
-                "dataTime": "2020-03-23T08:00:00"
-            },
-            {
-                "B_death": 1.0,
-                "K_death": 1.0,
-                "Noe_death": 1.0,
-                "Ooe_death": 2.0,
-                "S_death": 0.0,
-                "St_death": 4.0,
                 "T_death": 1.0,
                 "V_death": 0.0,
                 "W_death": 11.0,
                 "dataTime": "2020-03-23T15:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 1.0,
-                "Noe_death": 3.0,
-                "Ooe_death": 2.0,
-                "S_death": 0.0,
-                "St_death": 5.0,
-                "T_death": 1.0,
-                "V_death": 0.0,
-                "W_death": 11.0,
-                "dataTime": "2020-03-24T08:00:00"
             },
             {
                 "B_death": 2.0,
@@ -568,18 +328,6 @@
             {
                 "B_death": 2.0,
                 "K_death": 1.0,
-                "Noe_death": 4.0,
-                "Ooe_death": 2.0,
-                "S_death": 0.0,
-                "St_death": 5.0,
-                "T_death": 4.0,
-                "V_death": 0.0,
-                "W_death": 12.0,
-                "dataTime": "2020-03-25T08:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 1.0,
                 "Noe_death": 5.0,
                 "Ooe_death": 2.0,
                 "S_death": 0.0,
@@ -588,30 +336,6 @@
                 "V_death": 0.0,
                 "W_death": 12.0,
                 "dataTime": "2020-03-25T15:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 1.0,
-                "Noe_death": 5.0,
-                "Ooe_death": 2.0,
-                "S_death": 1.0,
-                "St_death": 7.0,
-                "T_death": 4.0,
-                "V_death": 0.0,
-                "W_death": 12.0,
-                "dataTime": "2020-03-26T08:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 1.0,
-                "Noe_death": 5.0,
-                "Ooe_death": 2.0,
-                "S_death": 1.0,
-                "St_death": 7.0,
-                "T_death": 4.0,
-                "V_death": 0.0,
-                "W_death": 12.0,
-                "dataTime": "2020-03-26T08:00:00"
             },
             {
                 "B_death": 2.0,
@@ -629,30 +353,6 @@
                 "B_death": 2.0,
                 "K_death": 2.0,
                 "Noe_death": 13.0,
-                "Ooe_death": 3.0,
-                "S_death": 1.0,
-                "St_death": 11.0,
-                "T_death": 5.0,
-                "V_death": 1.0,
-                "W_death": 14.0,
-                "dataTime": "2020-03-27T08:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 2.0,
-                "Noe_death": 13.0,
-                "Ooe_death": 4.0,
-                "S_death": 1.0,
-                "St_death": 13.0,
-                "T_death": 6.0,
-                "V_death": 1.0,
-                "W_death": 16.0,
-                "dataTime": "2020-03-27T08:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 2.0,
-                "Noe_death": 13.0,
                 "Ooe_death": 4.0,
                 "S_death": 1.0,
                 "St_death": 13.0,
@@ -660,42 +360,6 @@
                 "V_death": 1.0,
                 "W_death": 16.0,
                 "dataTime": "2020-03-27T15:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 2.0,
-                "Noe_death": 13.0,
-                "Ooe_death": 4.0,
-                "S_death": 4.0,
-                "St_death": 17.0,
-                "T_death": 9.0,
-                "V_death": 1.0,
-                "W_death": 16.0,
-                "dataTime": "2020-03-28T08:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 2.0,
-                "Noe_death": 13.0,
-                "Ooe_death": 4.0,
-                "S_death": 4.0,
-                "St_death": 17.0,
-                "T_death": 9.0,
-                "V_death": 1.0,
-                "W_death": 16.0,
-                "dataTime": "2020-03-28T08:00:00"
-            },
-            {
-                "B_death": 2.0,
-                "K_death": 2.0,
-                "Noe_death": 13.0,
-                "Ooe_death": 4.0,
-                "S_death": 4.0,
-                "St_death": 17.0,
-                "T_death": 9.0,
-                "V_death": 1.0,
-                "W_death": 16.0,
-                "dataTime": "2020-03-28T08:00:00"
             },
             {
                 "B_death": 2.0,
@@ -722,30 +386,6 @@
                 "dataTime": "2020-03-27T15:00:00"
             },
             {
-                "B_death": 2.0,
-                "K_death": 2.0,
-                "Noe_death": 13.0,
-                "Ooe_death": 4.0,
-                "S_death": 4.0,
-                "St_death": 17.0,
-                "T_death": 9.0,
-                "V_death": 1.0,
-                "W_death": 16.0,
-                "dataTime": "2020-03-29T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 19.0,
-                "Ooe_death": 7.0,
-                "S_death": 4.0,
-                "St_death": 19.0,
-                "T_death": 10.0,
-                "V_death": 1.0,
-                "W_death": 21.0,
-                "dataTime": "2020-03-29T08:00:00"
-            },
-            {
                 "B_death": 3.0,
                 "K_death": 2.0,
                 "Noe_death": 19.0,
@@ -756,30 +396,6 @@
                 "V_death": 1.0,
                 "W_death": 21.0,
                 "dataTime": "2020-03-29T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 19.0,
-                "Ooe_death": 7.0,
-                "S_death": 4.0,
-                "St_death": 19.0,
-                "T_death": 10.0,
-                "V_death": 1.0,
-                "W_death": 21.0,
-                "dataTime": "2020-03-30T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 7.0,
-                "S_death": 7.0,
-                "St_death": 24.0,
-                "T_death": 13.0,
-                "V_death": 1.0,
-                "W_death": 23.0,
-                "dataTime": "2020-03-30T08:00:00"
             },
             {
                 "B_death": 3.0,
@@ -803,43 +419,7 @@
                 "T_death": 19.0,
                 "V_death": 2.0,
                 "W_death": 25.0,
-                "dataTime": "2020-03-31T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 10.0,
-                "S_death": 9.0,
-                "St_death": 30.0,
-                "T_death": 19.0,
-                "V_death": 2.0,
-                "W_death": 25.0,
                 "dataTime": "2020-03-31T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 10.0,
-                "S_death": 9.0,
-                "St_death": 30.0,
-                "T_death": 19.0,
-                "V_death": 2.0,
-                "W_death": 25.0,
-                "dataTime": "2020-04-01T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 12.0,
-                "S_death": 11.0,
-                "St_death": 34.0,
-                "T_death": 24.0,
-                "V_death": 3.0,
-                "W_death": 29.0,
-                "dataTime": "2020-04-01T08:00:00"
             },
             {
                 "B_death": 3.0,
@@ -863,43 +443,7 @@
                 "T_death": 28.0,
                 "V_death": 5.0,
                 "W_death": 31.0,
-                "dataTime": "2020-04-02T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 14.0,
-                "S_death": 12.0,
-                "St_death": 35.0,
-                "T_death": 28.0,
-                "V_death": 5.0,
-                "W_death": 31.0,
                 "dataTime": "2020-04-02T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 14.0,
-                "S_death": 12.0,
-                "St_death": 35.0,
-                "T_death": 28.0,
-                "V_death": 5.0,
-                "W_death": 31.0,
-                "dataTime": "2020-04-03T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 2.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 14.0,
-                "S_death": 12.0,
-                "St_death": 35.0,
-                "T_death": 28.0,
-                "V_death": 5.0,
-                "W_death": 31.0,
-                "dataTime": "2020-04-03T08:00:00"
             },
             {
                 "B_death": 3.0,
@@ -916,18 +460,6 @@
             {
                 "B_death": 3.0,
                 "K_death": 3.0,
-                "Noe_death": 28.0,
-                "Ooe_death": 17.0,
-                "S_death": 12.0,
-                "St_death": 38.0,
-                "T_death": 29.0,
-                "V_death": 4.0,
-                "W_death": 34.0,
-                "dataTime": "2020-04-04T09:30:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 3.0,
                 "Noe_death": 31.0,
                 "Ooe_death": 18.0,
                 "S_death": 12.0,
@@ -936,18 +468,6 @@
                 "V_death": 4.0,
                 "W_death": 37.0,
                 "dataTime": "2020-04-04T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 3.0,
-                "Noe_death": 31.0,
-                "Ooe_death": 18.0,
-                "S_death": 12.0,
-                "St_death": 47.0,
-                "T_death": 31.0,
-                "V_death": 4.0,
-                "W_death": 37.0,
-                "dataTime": "2020-04-05T08:00:00"
             },
             {
                 "B_death": 3.0,
@@ -964,30 +484,6 @@
             {
                 "B_death": 3.0,
                 "K_death": 4.0,
-                "Noe_death": 31.0,
-                "Ooe_death": 20.0,
-                "S_death": 14.0,
-                "St_death": 53.0,
-                "T_death": 35.0,
-                "V_death": 4.0,
-                "W_death": 40.0,
-                "dataTime": "2020-04-06T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 4.0,
-                "Noe_death": 36.0,
-                "Ooe_death": 22.0,
-                "S_death": 15.0,
-                "St_death": 56.0,
-                "T_death": 35.0,
-                "V_death": 5.0,
-                "W_death": 44.0,
-                "dataTime": "2020-04-06T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 4.0,
                 "Noe_death": 36.0,
                 "Ooe_death": 22.0,
                 "S_death": 15.0,
@@ -996,18 +492,6 @@
                 "V_death": 5.0,
                 "W_death": 44.0,
                 "dataTime": "2020-04-06T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 4.0,
-                "Noe_death": 36.0,
-                "Ooe_death": 22.0,
-                "S_death": 15.0,
-                "St_death": 56.0,
-                "T_death": 35.0,
-                "V_death": 5.0,
-                "W_death": 44.0,
-                "dataTime": "2020-04-07T08:00:00"
             },
             {
                 "B_death": 3.0,
@@ -1031,55 +515,7 @@
                 "T_death": 46.0,
                 "V_death": 5.0,
                 "W_death": 58.0,
-                "dataTime": "2020-04-08T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 5.0,
-                "Noe_death": 42.0,
-                "Ooe_death": 28.0,
-                "S_death": 20.0,
-                "St_death": 66.0,
-                "T_death": 46.0,
-                "V_death": 5.0,
-                "W_death": 58.0,
-                "dataTime": "2020-04-08T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 5.0,
-                "Noe_death": 42.0,
-                "Ooe_death": 28.0,
-                "S_death": 20.0,
-                "St_death": 66.0,
-                "T_death": 46.0,
-                "V_death": 5.0,
-                "W_death": 58.0,
                 "dataTime": "2020-04-08T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 5.0,
-                "Noe_death": 42.0,
-                "Ooe_death": 28.0,
-                "S_death": 20.0,
-                "St_death": 66.0,
-                "T_death": 46.0,
-                "V_death": 5.0,
-                "W_death": 58.0,
-                "dataTime": "2020-04-09T08:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 5.0,
-                "Noe_death": 47.0,
-                "Ooe_death": 29.0,
-                "S_death": 20.0,
-                "St_death": 69.0,
-                "T_death": 53.0,
-                "V_death": 7.0,
-                "W_death": 62.0,
-                "dataTime": "2020-04-09T08:00:00"
             },
             {
                 "B_death": 3.0,
@@ -1092,30 +528,6 @@
                 "V_death": 7.0,
                 "W_death": 62.0,
                 "dataTime": "2020-04-09T15:00:00"
-            },
-            {
-                "B_death": 3.0,
-                "K_death": 5.0,
-                "Noe_death": 47.0,
-                "Ooe_death": 29.0,
-                "S_death": 20.0,
-                "St_death": 69.0,
-                "T_death": 53.0,
-                "V_death": 7.0,
-                "W_death": 62.0,
-                "dataTime": "2020-04-10T08:00:00"
-            },
-            {
-                "B_death": 4.0,
-                "K_death": 5.0,
-                "Noe_death": 54.0,
-                "Ooe_death": 29.0,
-                "S_death": 23.0,
-                "St_death": 71.0,
-                "T_death": 59.0,
-                "V_death": 7.0,
-                "W_death": 67.0,
-                "dataTime": "2020-04-10T08:00:00"
             },
             {
                 "B_death": 4.0,
@@ -1139,43 +551,7 @@
                 "T_death": 62.0,
                 "V_death": 7.0,
                 "W_death": 72.0,
-                "dataTime": "2020-04-11T08:00:00"
-            },
-            {
-                "B_death": 5.0,
-                "K_death": 5.0,
-                "Noe_death": 60.0,
-                "Ooe_death": 29.0,
-                "S_death": 24.0,
-                "St_death": 73.0,
-                "T_death": 62.0,
-                "V_death": 7.0,
-                "W_death": 72.0,
                 "dataTime": "2020-04-11T15:00:00"
-            },
-            {
-                "B_death": 6.0,
-                "K_death": 5.0,
-                "Noe_death": 62.0,
-                "Ooe_death": 30.0,
-                "S_death": 24.0,
-                "St_death": 76.0,
-                "T_death": 66.0,
-                "V_death": 7.0,
-                "W_death": 74.0,
-                "dataTime": "2020-04-12T09:30:00"
-            },
-            {
-                "B_death": 6.0,
-                "K_death": 5.0,
-                "Noe_death": 62.0,
-                "Ooe_death": 30.0,
-                "S_death": 24.0,
-                "St_death": 76.0,
-                "T_death": 66.0,
-                "V_death": 7.0,
-                "W_death": 74.0,
-                "dataTime": "2020-04-12T09:30:00"
             },
             {
                 "B_death": 6.0,
@@ -1199,18 +575,6 @@
                 "T_death": 68.0,
                 "V_death": 7.0,
                 "W_death": 75.0,
-                "dataTime": "2020-04-13T08:00:00"
-            },
-            {
-                "B_death": 6.0,
-                "K_death": 8.0,
-                "Noe_death": 66.0,
-                "Ooe_death": 32.0,
-                "S_death": 26.0,
-                "St_death": 80.0,
-                "T_death": 68.0,
-                "V_death": 7.0,
-                "W_death": 75.0,
                 "dataTime": "2020-04-13T15:00:00"
             },
             {
@@ -1223,31 +587,7 @@
                 "T_death": 72.0,
                 "V_death": 7.0,
                 "W_death": 78.0,
-                "dataTime": "2020-04-14T08:00:00"
-            },
-            {
-                "B_death": 6.0,
-                "K_death": 9.0,
-                "Noe_death": 67.0,
-                "Ooe_death": 32.0,
-                "S_death": 26.0,
-                "St_death": 87.0,
-                "T_death": 72.0,
-                "V_death": 7.0,
-                "W_death": 78.0,
                 "dataTime": "2020-04-14T15:00:00"
-            },
-            {
-                "B_death": 6.0,
-                "K_death": 9.0,
-                "Noe_death": 67.0,
-                "Ooe_death": 32.0,
-                "S_death": 26.0,
-                "St_death": 87.0,
-                "T_death": 72.0,
-                "V_death": 7.0,
-                "W_death": 78.0,
-                "dataTime": "2020-04-15T08:00:00"
             },
             {
                 "B_death": 6.0,
@@ -1271,31 +611,7 @@
                 "T_death": 80.0,
                 "V_death": 7.0,
                 "W_death": 82.0,
-                "dataTime": "2020-04-16T08:00:00"
-            },
-            {
-                "B_death": 6.0,
-                "K_death": 8.0,
-                "Noe_death": 73.0,
-                "Ooe_death": 34.0,
-                "S_death": 27.0,
-                "St_death": 93.0,
-                "T_death": 80.0,
-                "V_death": 7.0,
-                "W_death": 82.0,
                 "dataTime": "2020-04-16T15:00:00"
-            },
-            {
-                "B_death": 7.0,
-                "K_death": 8.0,
-                "Noe_death": 77.0,
-                "Ooe_death": 37.0,
-                "S_death": 28.0,
-                "St_death": 97.0,
-                "T_death": 83.0,
-                "V_death": 8.0,
-                "W_death": 86.0,
-                "dataTime": "2020-04-17T08:00:00"
             },
             {
                 "B_death": 7.0,
@@ -1319,31 +635,7 @@
                 "T_death": 85.0,
                 "V_death": 9.0,
                 "W_death": 88.0,
-                "dataTime": "2020-04-18T08:00:00"
-            },
-            {
-                "B_death": 7.0,
-                "K_death": 9.0,
-                "Noe_death": 80.0,
-                "Ooe_death": 37.0,
-                "S_death": 29.0,
-                "St_death": 99.0,
-                "T_death": 85.0,
-                "V_death": 9.0,
-                "W_death": 88.0,
                 "dataTime": "2020-04-18T15:00:00"
-            },
-            {
-                "B_death": 7.0,
-                "K_death": 9.0,
-                "Noe_death": 80.0,
-                "Ooe_death": 37.0,
-                "S_death": 29.0,
-                "St_death": 99.0,
-                "T_death": 85.0,
-                "V_death": 9.0,
-                "W_death": 88.0,
-                "dataTime": "2020-04-19T08:00:00"
             },
             {
                 "B_death": 8.0,
@@ -1360,30 +652,6 @@
             {
                 "B_death": 8.0,
                 "K_death": 10.0,
-                "Noe_death": 82.0,
-                "Ooe_death": 38.0,
-                "S_death": 29.0,
-                "St_death": 101.0,
-                "T_death": 85.0,
-                "V_death": 9.0,
-                "W_death": 90.0,
-                "dataTime": "2020-04-20T08:00:00"
-            },
-            {
-                "B_death": 8.0,
-                "K_death": 10.0,
-                "Noe_death": 83.0,
-                "Ooe_death": 41.0,
-                "S_death": 30.0,
-                "St_death": 106.0,
-                "T_death": 86.0,
-                "V_death": 10.0,
-                "W_death": 96.0,
-                "dataTime": "2020-04-20T08:00:00"
-            },
-            {
-                "B_death": 8.0,
-                "K_death": 10.0,
                 "Noe_death": 83.0,
                 "Ooe_death": 41.0,
                 "S_death": 30.0,
@@ -1392,18 +660,6 @@
                 "V_death": 10.0,
                 "W_death": 96.0,
                 "dataTime": "2020-04-20T15:00:00"
-            },
-            {
-                "B_death": 8.0,
-                "K_death": 12.0,
-                "Noe_death": 85.0,
-                "Ooe_death": 44.0,
-                "S_death": 30.0,
-                "St_death": 109.0,
-                "T_death": 91.0,
-                "V_death": 13.0,
-                "W_death": 99.0,
-                "dataTime": "2020-04-21T08:00:00"
             },
             {
                 "B_death": 8.0,
@@ -1439,31 +695,7 @@
                 "T_death": 98.0,
                 "V_death": 14.0,
                 "W_death": 105.0,
-                "dataTime": "2020-04-23T08:00:00"
-            },
-            {
-                "B_death": 9.0,
-                "K_death": 12.0,
-                "Noe_death": 88.0,
-                "Ooe_death": 48.0,
-                "S_death": 33.0,
-                "St_death": 115.0,
-                "T_death": 98.0,
-                "V_death": 14.0,
-                "W_death": 105.0,
                 "dataTime": "2020-04-23T15:00:00"
-            },
-            {
-                "B_death": 8.0,
-                "K_death": 12.0,
-                "Noe_death": 89.0,
-                "Ooe_death": 48.0,
-                "S_death": 33.0,
-                "St_death": 119.0,
-                "T_death": 101.0,
-                "V_death": 14.0,
-                "W_death": 106.0,
-                "dataTime": "2020-04-24T08:00:00"
             },
             {
                 "B_death": 8.0,
@@ -1487,43 +719,7 @@
                 "T_death": 101.0,
                 "V_death": 14.0,
                 "W_death": 107.0,
-                "dataTime": "2020-04-25T08:00:00"
-            },
-            {
-                "B_death": 8.0,
-                "K_death": 12.0,
-                "Noe_death": 90.0,
-                "Ooe_death": 51.0,
-                "S_death": 33.0,
-                "St_death": 120.0,
-                "T_death": 101.0,
-                "V_death": 14.0,
-                "W_death": 107.0,
                 "dataTime": "2020-04-25T15:00:00"
-            },
-            {
-                "B_death": 8.0,
-                "K_death": 12.0,
-                "Noe_death": 90.0,
-                "Ooe_death": 51.0,
-                "S_death": 33.0,
-                "St_death": 120.0,
-                "T_death": 101.0,
-                "V_death": 14.0,
-                "W_death": 107.0,
-                "dataTime": "2020-04-26T08:00:00"
-            },
-            {
-                "B_death": 9.0,
-                "K_death": 12.0,
-                "Noe_death": 90.0,
-                "Ooe_death": 52.0,
-                "S_death": 33.0,
-                "St_death": 121.0,
-                "T_death": 101.0,
-                "V_death": 14.0,
-                "W_death": 110.0,
-                "dataTime": "2020-04-26T08:00:00"
             },
             {
                 "B_death": 9.0,
@@ -1547,43 +743,7 @@
                 "T_death": 101.0,
                 "V_death": 15.0,
                 "W_death": 113.0,
-                "dataTime": "2020-04-27T08:00:00"
-            },
-            {
-                "B_death": 9.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 53.0,
-                "S_death": 33.0,
-                "St_death": 121.0,
-                "T_death": 101.0,
-                "V_death": 15.0,
-                "W_death": 113.0,
-                "dataTime": "2020-04-28T08:00:00"
-            },
-            {
-                "B_death": 9.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 53.0,
-                "S_death": 33.0,
-                "St_death": 121.0,
-                "T_death": 101.0,
-                "V_death": 15.0,
-                "W_death": 113.0,
                 "dataTime": "2020-04-27T15:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 53.0,
-                "S_death": 34.0,
-                "St_death": 123.0,
-                "T_death": 103.0,
-                "V_death": 15.0,
-                "W_death": 127.0,
-                "dataTime": "2020-04-28T08:00:00"
             },
             {
                 "B_death": 10.0,
@@ -1607,18 +767,6 @@
                 "T_death": 105.0,
                 "V_death": 15.0,
                 "W_death": 130.0,
-                "dataTime": "2020-04-29T08:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 55.0,
-                "S_death": 35.0,
-                "St_death": 126.0,
-                "T_death": 105.0,
-                "V_death": 15.0,
-                "W_death": 130.0,
                 "dataTime": "2020-04-29T15:00:00"
             },
             {
@@ -1631,43 +779,7 @@
                 "T_death": 105.0,
                 "V_death": 16.0,
                 "W_death": 130.0,
-                "dataTime": "2020-04-30T08:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 55.0,
-                "S_death": 35.0,
-                "St_death": 129.0,
-                "T_death": 105.0,
-                "V_death": 16.0,
-                "W_death": 130.0,
                 "dataTime": "2020-04-30T15:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 55.0,
-                "S_death": 35.0,
-                "St_death": 129.0,
-                "T_death": 105.0,
-                "V_death": 16.0,
-                "W_death": 130.0,
-                "dataTime": "2020-05-01T08:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 56.0,
-                "S_death": 36.0,
-                "St_death": 130.0,
-                "T_death": 105.0,
-                "V_death": 17.0,
-                "W_death": 131.0,
-                "dataTime": "2020-05-01T08:00:00"
             },
             {
                 "B_death": 10.0,
@@ -1687,35 +799,11 @@
                 "Noe_death": 92.0,
                 "Ooe_death": 56.0,
                 "S_death": 36.0,
-                "St_death": 130.0,
-                "T_death": 105.0,
-                "V_death": 17.0,
-                "W_death": 131.0,
-                "dataTime": "2020-05-02T08:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 56.0,
-                "S_death": 36.0,
                 "St_death": 133.0,
                 "T_death": 105.0,
                 "V_death": 17.0,
                 "W_death": 135.0,
                 "dataTime": "2020-05-02T15:00:00"
-            },
-            {
-                "B_death": 10.0,
-                "K_death": 12.0,
-                "Noe_death": 92.0,
-                "Ooe_death": 56.0,
-                "S_death": 36.0,
-                "St_death": 133.0,
-                "T_death": 105.0,
-                "V_death": 17.0,
-                "W_death": 135.0,
-                "dataTime": "2020-05-03T08:00:00"
             },
             {
                 "B_death": 10.0,
@@ -1739,31 +827,7 @@
                 "T_death": 105.0,
                 "V_death": 17.0,
                 "W_death": 136.0,
-                "dataTime": "2020-05-04T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 93.0,
-                "Ooe_death": 56.0,
-                "S_death": 36.0,
-                "St_death": 133.0,
-                "T_death": 105.0,
-                "V_death": 17.0,
-                "W_death": 136.0,
                 "dataTime": "2020-05-04T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 93.0,
-                "Ooe_death": 56.0,
-                "S_death": 36.0,
-                "St_death": 133.0,
-                "T_death": 105.0,
-                "V_death": 17.0,
-                "W_death": 136.0,
-                "dataTime": "2020-05-05T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -1776,30 +840,6 @@
                 "V_death": 18.0,
                 "W_death": 137.0,
                 "dataTime": "2020-05-05T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 57.0,
-                "S_death": 36.0,
-                "St_death": 134.0,
-                "T_death": 105.0,
-                "V_death": 18.0,
-                "W_death": 137.0,
-                "dataTime": "2020-05-06T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 57.0,
-                "S_death": 36.0,
-                "St_death": 134.0,
-                "T_death": 106.0,
-                "V_death": 19.0,
-                "W_death": 137.0,
-                "dataTime": "2020-05-06T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -1822,44 +862,8 @@
                 "St_death": 134.0,
                 "T_death": 106.0,
                 "V_death": 19.0,
-                "W_death": 137.0,
-                "dataTime": "2020-05-07T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 57.0,
-                "S_death": 36.0,
-                "St_death": 134.0,
-                "T_death": 106.0,
-                "V_death": 19.0,
                 "W_death": 138.0,
                 "dataTime": "2020-05-07T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 57.0,
-                "S_death": 36.0,
-                "St_death": 134.0,
-                "T_death": 106.0,
-                "V_death": 19.0,
-                "W_death": 138.0,
-                "dataTime": "2020-05-08T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 57.0,
-                "S_death": 36.0,
-                "St_death": 135.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 141.0,
-                "dataTime": "2020-05-08T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -1883,18 +887,6 @@
                 "T_death": 107.0,
                 "V_death": 19.0,
                 "W_death": 141.0,
-                "dataTime": "2020-05-09T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 58.0,
-                "S_death": 36.0,
-                "St_death": 135.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 141.0,
                 "dataTime": "2020-05-09T15:00:00"
             },
             {
@@ -1907,31 +899,7 @@
                 "T_death": 107.0,
                 "V_death": 19.0,
                 "W_death": 143.0,
-                "dataTime": "2020-05-10T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 58.0,
-                "S_death": 36.0,
-                "St_death": 136.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 143.0,
                 "dataTime": "2020-05-10T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 58.0,
-                "S_death": 36.0,
-                "St_death": 136.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 143.0,
-                "dataTime": "2020-05-11T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -1967,31 +935,7 @@
                 "T_death": 107.0,
                 "V_death": 19.0,
                 "W_death": 144.0,
-                "dataTime": "2020-05-13T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 59.0,
-                "S_death": 37.0,
-                "St_death": 139.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
                 "dataTime": "2020-05-13T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 95.0,
-                "Ooe_death": 59.0,
-                "S_death": 37.0,
-                "St_death": 139.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-14T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2015,31 +959,7 @@
                 "T_death": 107.0,
                 "V_death": 19.0,
                 "W_death": 144.0,
-                "dataTime": "2020-05-15T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 97.0,
-                "Ooe_death": 60.0,
-                "S_death": 37.0,
-                "St_death": 140.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
                 "dataTime": "2020-05-15T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 97.0,
-                "Ooe_death": 60.0,
-                "S_death": 37.0,
-                "St_death": 140.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-16T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2052,18 +972,6 @@
                 "V_death": 19.0,
                 "W_death": 144.0,
                 "dataTime": "2020-05-16T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 98.0,
-                "Ooe_death": 60.0,
-                "S_death": 37.0,
-                "St_death": 140.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-17T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2092,30 +1000,6 @@
             {
                 "B_death": 11.0,
                 "K_death": 13.0,
-                "Noe_death": 98.0,
-                "Ooe_death": 60.0,
-                "S_death": 37.0,
-                "St_death": 140.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-19T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 99.0,
-                "Ooe_death": 60.0,
-                "S_death": 37.0,
-                "St_death": 142.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-19T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
                 "Noe_death": 99.0,
                 "Ooe_death": 60.0,
                 "S_death": 37.0,
@@ -2124,18 +1008,6 @@
                 "V_death": 19.0,
                 "W_death": 144.0,
                 "dataTime": "2020-05-19T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 99.0,
-                "Ooe_death": 60.0,
-                "S_death": 38.0,
-                "St_death": 142.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-20T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2160,18 +1032,6 @@
                 "V_death": 19.0,
                 "W_death": 144.0,
                 "dataTime": "2020-05-20T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 99.0,
-                "Ooe_death": 60.0,
-                "S_death": 38.0,
-                "St_death": 142.0,
-                "T_death": 107.0,
-                "V_death": 19.0,
-                "W_death": 144.0,
-                "dataTime": "2020-05-22T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2207,18 +1067,6 @@
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 146.0,
-                "dataTime": "2020-05-24T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 60.0,
-                "S_death": 38.0,
-                "St_death": 145.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 146.0,
                 "dataTime": "2020-05-24T15:00:00"
             },
             {
@@ -2232,18 +1080,6 @@
                 "V_death": 19.0,
                 "W_death": 147.0,
                 "dataTime": "2020-05-25T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 60.0,
-                "S_death": 38.0,
-                "St_death": 147.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 147.0,
-                "dataTime": "2020-05-26T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2315,31 +1151,7 @@
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 172.0,
-                "dataTime": "2020-05-31T08:30:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 60.0,
-                "S_death": 38.0,
-                "St_death": 147.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 172.0,
                 "dataTime": "2020-05-31T15:30:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 60.0,
-                "S_death": 38.0,
-                "St_death": 147.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 172.0,
-                "dataTime": "2020-06-01T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2375,31 +1187,7 @@
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 172.0,
-                "dataTime": "2020-06-03T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 148.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 172.0,
                 "dataTime": "2020-06-03T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 148.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 172.0,
-                "dataTime": "2020-06-04T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2419,35 +1207,11 @@
                 "Noe_death": 100.0,
                 "Ooe_death": 61.0,
                 "S_death": 38.0,
-                "St_death": 148.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 172.0,
-                "dataTime": "2020-06-05T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
                 "St_death": 149.0,
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 173.0,
                 "dataTime": "2020-06-05T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 149.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 173.0,
-                "dataTime": "2020-06-06T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2484,18 +1248,6 @@
                 "V_death": 19.0,
                 "W_death": 173.0,
                 "dataTime": "2020-06-08T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 149.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 173.0,
-                "dataTime": "2020-06-09T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2580,18 +1332,6 @@
                 "V_death": 19.0,
                 "W_death": 178.0,
                 "dataTime": "2020-06-15T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 100.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 150.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 178.0,
-                "dataTime": "2020-06-16T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2783,31 +1523,7 @@
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 198.0,
-                "dataTime": "2020-07-01T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 104.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 153.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 198.0,
                 "dataTime": "2020-07-01T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 104.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 153.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 198.0,
-                "dataTime": "2020-07-02T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2851,18 +1567,6 @@
                 "Noe_death": 104.0,
                 "Ooe_death": 61.0,
                 "S_death": 38.0,
-                "St_death": 153.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 198.0,
-                "dataTime": "2020-07-05T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 104.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
                 "St_death": 154.0,
                 "T_death": 108.0,
                 "V_death": 19.0,
@@ -2892,18 +1596,6 @@
                 "V_death": 19.0,
                 "W_death": 198.0,
                 "dataTime": "2020-07-07T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 104.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 154.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 198.0,
-                "dataTime": "2020-07-08T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -2987,18 +1679,6 @@
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 200.0,
-                "dataTime": "2020-07-14T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 105.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 154.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 200.0,
                 "dataTime": "2020-07-14T15:00:00"
             },
             {
@@ -3023,18 +1703,6 @@
                 "T_death": 108.0,
                 "V_death": 19.0,
                 "W_death": 202.0,
-                "dataTime": "2020-07-16T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 105.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 154.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 202.0,
                 "dataTime": "2020-07-16T15:00:00"
             },
             {
@@ -3048,18 +1716,6 @@
                 "V_death": 19.0,
                 "W_death": 202.0,
                 "dataTime": "2020-07-17T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 105.0,
-                "Ooe_death": 61.0,
-                "S_death": 38.0,
-                "St_death": 154.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 202.0,
-                "dataTime": "2020-07-18T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -3118,18 +1774,6 @@
                 "St_death": 154.0,
                 "T_death": 108.0,
                 "V_death": 19.0,
-                "W_death": 202.0,
-                "dataTime": "2020-07-22T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 105.0,
-                "Ooe_death": 61.0,
-                "S_death": 37.0,
-                "St_death": 154.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
                 "W_death": 203.0,
                 "dataTime": "2020-07-22T15:00:00"
             },
@@ -3156,18 +1800,6 @@
                 "V_death": 19.0,
                 "W_death": 203.0,
                 "dataTime": "2020-07-24T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 105.0,
-                "Ooe_death": 61.0,
-                "S_death": 37.0,
-                "St_death": 154.0,
-                "T_death": 108.0,
-                "V_death": 19.0,
-                "W_death": 203.0,
-                "dataTime": "2020-07-25T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -3467,18 +2099,6 @@
                 "T_death": 108.0,
                 "V_death": 20.0,
                 "W_death": 207.0,
-                "dataTime": "2020-08-18T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 108.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 156.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 207.0,
                 "dataTime": "2020-08-19T15:00:00"
             },
             {
@@ -3575,18 +2195,6 @@
                 "T_death": 108.0,
                 "V_death": 20.0,
                 "W_death": 210.0,
-                "dataTime": "2020-08-27T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 108.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 210.0,
                 "dataTime": "2020-08-27T15:00:00"
             },
             {
@@ -3611,43 +2219,7 @@
                 "T_death": 108.0,
                 "V_death": 20.0,
                 "W_death": 210.0,
-                "dataTime": "2020-08-29T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 108.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 210.0,
-                "dataTime": "2020-08-30T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 108.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 210.0,
                 "dataTime": "2020-08-30T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 108.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 210.0,
-                "dataTime": "2020-08-31T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -3695,31 +2267,7 @@
                 "T_death": 108.0,
                 "V_death": 20.0,
                 "W_death": 211.0,
-                "dataTime": "2020-09-03T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 211.0,
                 "dataTime": "2020-09-03T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 211.0,
-                "dataTime": "2020-09-04T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -3744,18 +2292,6 @@
                 "V_death": 20.0,
                 "W_death": 211.0,
                 "dataTime": "2020-09-05T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 211.0,
-                "dataTime": "2020-09-06T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -3791,31 +2327,7 @@
                 "T_death": 108.0,
                 "V_death": 20.0,
                 "W_death": 223.0,
-                "dataTime": "2020-09-08T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 223.0,
                 "dataTime": "2020-09-08T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 223.0,
-                "dataTime": "2020-09-09T08:00:00"
             },
             {
                 "B_death": 11.0,
@@ -3838,32 +2350,8 @@
                 "St_death": 157.0,
                 "T_death": 108.0,
                 "V_death": 20.0,
-                "W_death": 223.0,
-                "dataTime": "2020-09-10T08:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
                 "W_death": 224.0,
                 "dataTime": "2020-09-10T15:00:00"
-            },
-            {
-                "B_death": 11.0,
-                "K_death": 13.0,
-                "Noe_death": 109.0,
-                "Ooe_death": 67.0,
-                "S_death": 39.0,
-                "St_death": 157.0,
-                "T_death": 108.0,
-                "V_death": 20.0,
-                "W_death": 226.0,
-                "dataTime": "2020-09-11T08:00:00"
             },
             {
                 "B_death": 11.0,
