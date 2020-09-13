@@ -25,10 +25,10 @@
         }
     },
     "data": {
-        "name": "data-167b0ceba09abf359e7e9aa205908c5f"
+        "name": "data-423504c8d703c043e4ec760f04e64545"
     },
     "datasets": {
-        "data-167b0ceba09abf359e7e9aa205908c5f": [
+        "data-423504c8d703c043e4ec760f04e64545": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1596,6 +1596,14 @@
                 "total_death": 754,
                 "total_recovered": 26579.0,
                 "total_tests": 1331493
+            },
+            {
+                "dataTime": "2020-09-13T15:00:00",
+                "total_active": 5673.0,
+                "total_confirmed": 33189,
+                "total_death": 756,
+                "total_recovered": 26760.0,
+                "total_tests": 1342066
             }
         ],
         "data-793b2339a016668726e02e8737965916": [
