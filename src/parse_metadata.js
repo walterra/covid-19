@@ -9,7 +9,7 @@ const fs = require('fs').promises;
     let lastUpdate = covid.pop().dataTime;
     console.log('last update', lastUpdate);
 
-    if (lastUpdate.search('8:00')) {
+    if (lastUpdate.search('8:00') > 0) {
       console.log('↥ last update was just this morning, skip it')
       lastUpdate = covid.pop().dataTime;
       console.log('last update', lastUpdate);
