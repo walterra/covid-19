@@ -3,6 +3,7 @@ import $ from 'jquery';
 var supportedKeys = [
   'chart_1',
   'chart_2',
+  'chart_2_doubling_rate',
   'chart_2test',
   'chart_3',
   'chart_4',
@@ -35,6 +36,7 @@ $(document).ready(function(){
   loadMetaData();
   loadVega('chart_1', 'vega_chart_1');
   loadVega('chart_2', 'vega_chart_2');
+  loadVega('chart_2_doubling_rate', 'vega_chart_2_doubling_rate');
   loadVega('chart_2test', 'vega_chart_2test');
   loadVega('chart_3', 'vega_chart_3');
   loadVega('chart_4', 'vega_chart_4');

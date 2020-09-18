@@ -30,6 +30,14 @@
         <td>Diese Grafik zeigt die tägliche Steigerungsrate von Neuinfektionen im Verhältnis zu allen akkumulierten identifizierten Fällen.</td>
         <td>Auch hier geht es wieder um tägliche Steigerung, allerdings zeigt die Grafik tägliche Neuinfektionen im Verhältnis zu noch aktiv Infizierten.</td>
       </tr></table>
+      <div style="padding-left: 250px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd">
+        <div id="vega_chart_2_doubling_rate"></div>
+        <table class="vis_table_notes"><tr>
+          <td>Die Verdopplungszeit berechnet sich durch Annahme einer exponentiellen Entwicklung und basiert auf der Berechnung log(2)/log(w), wobei 'w' in diesem Fall der Steigerung der neuen Fälle gegenüber allen bisherigen Fällen aus der Graphik darüber entspricht.</td>
+          <td>Die Berechnung dieser Variante basiert ebenfalls auf log(2)/log(w), 'w' entspricht hier allerdings der Steigerung neuer Fälle gegenüber zum jeweiligen Zeitpunkt aktiv infizierten Fällen, ebenfalls ersichtlich in der Graphik direkt darüber.</td>
+          <td></td>
+        </tr></table>
+      </div>
     </div>
 
     <div class="vis_wrapper">
