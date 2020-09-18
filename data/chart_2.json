@@ -13,7 +13,7 @@
         "title": {
             "anchor": "start",
             "color": "gray",
-            "dx": 50,
+            "dx": 0,
             "dy": 0,
             "fontSize": 12,
             "fontWeight": "normal"
@@ -1666,7 +1666,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "size": 2,
@@ -1725,7 +1725,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -1765,7 +1765,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "size": 2,
@@ -1842,7 +1842,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "align": "left",
                         "color": "#1f77b4",
@@ -1933,7 +1933,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "opacity": 1,
@@ -2027,7 +2027,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "align": "left",
                         "color": "lightblue",
@@ -2087,7 +2087,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2131,7 +2131,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "opacity": 1,
@@ -2189,7 +2189,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2247,7 +2247,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "opacity": 0,
@@ -2306,7 +2306,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2346,7 +2346,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "opacity": 0,
@@ -2427,7 +2427,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "size": 2,
@@ -2486,7 +2486,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2526,7 +2526,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "size": 2,
@@ -2603,7 +2603,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "align": "left",
                         "color": "#1f77b4",
@@ -2694,7 +2694,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "opacity": 1,
@@ -2788,7 +2788,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "align": "left",
                         "color": "lightblue",
@@ -2848,7 +2848,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2892,7 +2892,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "opacity": 1,
@@ -2950,7 +2950,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3008,7 +3008,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "opacity": 0,
@@ -3067,7 +3067,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3107,7 +3107,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "opacity": 0,
@@ -3188,7 +3188,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "size": 2,
@@ -3247,7 +3247,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3287,7 +3287,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "size": 2,
@@ -3364,7 +3364,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "align": "left",
                         "color": "#1f77b4",
@@ -3455,7 +3455,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "opacity": 1,
@@ -3549,7 +3549,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "align": "left",
                         "color": "lightblue",
@@ -3609,7 +3609,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3653,7 +3653,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "opacity": 1,
@@ -3711,7 +3711,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3769,7 +3769,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "lightblue",
                         "opacity": 0,
@@ -3828,7 +3828,7 @@
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3868,7 +3868,7 @@
                             "type": "quantitative"
                         }
                     },
-                    "height": 100,
+                    "height": 150,
                     "mark": {
                         "color": "#1f77b4",
                         "opacity": 0,
@@ -3967,5 +3967,6 @@
                 "type": "square"
             }
         }
-    ]
+    ],
+    "padding": 0
 }

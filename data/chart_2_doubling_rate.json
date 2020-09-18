@@ -1659,7 +1659,7 @@
                         },
                         "y": {
                             "axis": {
-                                "format": "2f",
+                                "format": "2s",
                                 "title": ""
                             },
                             "field": "rolling_mean",
@@ -1668,7 +1668,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -1682,13 +1682,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -1704,33 +1704,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -1772,7 +1767,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -1786,13 +1781,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -1808,29 +1803,24 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         }
                     ],
                     "width": 150
@@ -1839,7 +1829,7 @@
                     "encoding": {
                         "text": {
                             "field": "diff",
-                            "format": ".2f",
+                            "format": ".2s",
                             "type": "quantitative"
                         },
                         "x": {
@@ -1855,7 +1845,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -1869,13 +1859,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -1891,29 +1881,24 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         },
                         {
                             "sort": [
@@ -1950,7 +1935,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -1963,13 +1948,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -1985,29 +1970,24 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         },
                         {
                             "sort": [
@@ -2034,7 +2014,7 @@
                     "encoding": {
                         "text": {
                             "field": "rolling_mean",
-                            "format": ".2f",
+                            "format": ".2s",
                             "type": "quantitative"
                         },
                         "x": {
@@ -2050,7 +2030,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2064,13 +2044,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2086,33 +2066,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2158,7 +2133,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2171,13 +2146,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2193,33 +2168,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2261,7 +2231,7 @@
                             },
                             {
                                 "field": "rolling_mean",
-                                "format": ".2f",
+                                "format": ".2s",
                                 "title": "7d Moving Average",
                                 "type": "quantitative"
                             }
@@ -2279,7 +2249,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2293,13 +2263,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2315,33 +2285,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2365,8 +2330,8 @@
                             },
                             {
                                 "field": "diff",
-                                "format": ".2f",
-                                "title": "Neue Tests",
+                                "format": ".2s",
+                                "title": "Verdopplungsrate",
                                 "type": "quantitative"
                             }
                         ],
@@ -2383,7 +2348,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2397,13 +2362,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2419,35 +2384,30 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_max)))"
                         }
                     ],
                     "width": 150
                 }
             ],
-            "title": "Neue Tests pro Tag"
+            "title": "Verdopplungsrate aller best\u00e4tigten F\u00e4lle"
         },
         {
             "layer": [
@@ -2460,7 +2420,7 @@
                         },
                         "y": {
                             "axis": {
-                                "format": "2%",
+                                "format": "2s",
                                 "title": ""
                             },
                             "field": "rolling_mean",
@@ -2469,7 +2429,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -2483,13 +2443,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2505,33 +2465,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2573,7 +2528,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -2587,13 +2542,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2609,29 +2564,24 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         }
                     ],
                     "width": 150
@@ -2640,7 +2590,7 @@
                     "encoding": {
                         "text": {
                             "field": "diff",
-                            "format": ".2%",
+                            "format": ".2s",
                             "type": "quantitative"
                         },
                         "x": {
@@ -2656,7 +2606,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -2670,13 +2620,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2692,29 +2642,24 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         },
                         {
                             "sort": [
@@ -2751,7 +2696,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2764,13 +2709,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2786,29 +2731,24 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         },
                         {
                             "sort": [
@@ -2835,7 +2775,7 @@
                     "encoding": {
                         "text": {
                             "field": "rolling_mean",
-                            "format": ".2%",
+                            "format": ".2s",
                             "type": "quantitative"
                         },
                         "x": {
@@ -2851,7 +2791,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2865,13 +2805,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2887,33 +2827,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -2959,7 +2894,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2972,13 +2907,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -2994,33 +2929,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3062,7 +2992,7 @@
                             },
                             {
                                 "field": "rolling_mean",
-                                "format": ".2%",
+                                "format": ".2s",
                                 "title": "7d Moving Average",
                                 "type": "quantitative"
                             }
@@ -3080,7 +3010,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f4b1dd",
+                        "color": "lightblue",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3094,13 +3024,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -3116,33 +3046,28 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         },
                         {
                             "frame": [
-                                -7,
+                                7,
                                 0
                             ],
                             "window": [
@@ -3166,8 +3091,8 @@
                             },
                             {
                                 "field": "diff",
-                                "format": ".2%",
-                                "title": "Steigerung",
+                                "format": ".2s",
+                                "title": "Verdopplungsrate",
                                 "type": "quantitative"
                             }
                         ],
@@ -3184,7 +3109,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#f46ec6",
+                        "color": "#1f77b4",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3198,13 +3123,13 @@
                         {
                             "aggregate": [
                                 {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
                                     "op": "max"
                                 },
                                 {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
+                                    "as": "max_total_active",
+                                    "field": "total_active",
                                     "op": "max"
                                 }
                             ],
@@ -3220,836 +3145,30 @@
                             "window": [
                                 {
                                     "as": "rolling_max",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "max"
                                 },
                                 {
                                     "as": "rolling_min",
-                                    "field": "max_total_tests",
+                                    "field": "max_total_confirmed",
                                     "op": "min"
                                 },
                                 {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
                                 }
                             ]
                         },
                         {
                             "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                            "calculate": "log(2)/log(1 + ((max(1,datum.rolling_max - datum.rolling_min)) / (datum.rolling_active)))"
                         }
                     ],
                     "width": 150
                 }
             ],
-            "title": "Steigerung Tests"
-        },
-        {
-            "layer": [
-                {
-                    "encoding": {
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "axis": {
-                                "format": "2%",
-                                "title": ""
-                            },
-                            "field": "rolling_mean",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#f4b1dd",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        },
-                        {
-                            "frame": [
-                                -7,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_mean",
-                                    "field": "diff",
-                                    "op": "mean"
-                                }
-                            ]
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "diff",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "impute": {
-                                "method": "mean"
-                            },
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#f46ec6",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "text": {
-                            "field": "diff",
-                            "format": ".2%",
-                            "type": "quantitative"
-                        },
-                        "x": {
-                            "field": "date",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "align": "left",
-                        "color": "#f46ec6",
-                        "dx": 5,
-                        "dy": -5,
-                        "type": "text"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        },
-                        {
-                            "sort": [
-                                {
-                                    "field": "date",
-                                    "order": "descending"
-                                }
-                            ],
-                            "window": [
-                                {
-                                    "as": "rank",
-                                    "field": "date",
-                                    "op": "rank"
-                                }
-                            ]
-                        },
-                        {
-                            "filter": "(datum.rank === 1)"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "x": {
-                            "field": "date",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#f46ec6",
-                        "opacity": 1,
-                        "type": "circle"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        },
-                        {
-                            "sort": [
-                                {
-                                    "field": "date",
-                                    "order": "descending"
-                                }
-                            ],
-                            "window": [
-                                {
-                                    "as": "rank",
-                                    "field": "date",
-                                    "op": "rank"
-                                }
-                            ]
-                        },
-                        {
-                            "filter": "(datum.rank === 1)"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "text": {
-                            "field": "rolling_mean",
-                            "format": ".2%",
-                            "type": "quantitative"
-                        },
-                        "x": {
-                            "field": "date",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "rolling_mean",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "align": "left",
-                        "color": "#f4b1dd",
-                        "dx": 5,
-                        "dy": 5,
-                        "type": "text"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        },
-                        {
-                            "frame": [
-                                -7,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_mean",
-                                    "field": "diff",
-                                    "op": "mean"
-                                }
-                            ]
-                        },
-                        {
-                            "sort": [
-                                {
-                                    "field": "date",
-                                    "order": "descending"
-                                }
-                            ],
-                            "window": [
-                                {
-                                    "as": "rank",
-                                    "field": "date",
-                                    "op": "rank"
-                                }
-                            ]
-                        },
-                        {
-                            "filter": "(datum.rank === 1)"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "x": {
-                            "field": "date",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "rolling_mean",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#f4b1dd",
-                        "opacity": 1,
-                        "type": "circle"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        },
-                        {
-                            "frame": [
-                                -7,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_mean",
-                                    "field": "diff",
-                                    "op": "mean"
-                                }
-                            ]
-                        },
-                        {
-                            "sort": [
-                                {
-                                    "field": "date",
-                                    "order": "descending"
-                                }
-                            ],
-                            "window": [
-                                {
-                                    "as": "rank",
-                                    "field": "date",
-                                    "op": "rank"
-                                }
-                            ]
-                        },
-                        {
-                            "filter": "(datum.rank === 1)"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "title": "Datum",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "rolling_mean",
-                                "format": ".2%",
-                                "title": "7d Moving Average",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "rolling_mean",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#f4b1dd",
-                        "opacity": 0,
-                        "size": 200,
-                        "type": "circle"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        },
-                        {
-                            "frame": [
-                                -7,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_mean",
-                                    "field": "diff",
-                                    "op": "mean"
-                                }
-                            ]
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "title": "Datum",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "diff",
-                                "format": ".2%",
-                                "title": "Verh\u00e4ltnis",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#f46ec6",
-                        "opacity": 0,
-                        "size": 200,
-                        "type": "circle"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_tests",
-                                    "field": "total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_tests",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_tests",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_max_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min_confirmed",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max_confirmed - datum.rolling_min_confirmed) / (datum.rolling_max - datum.rolling_min)"
-                        }
-                    ],
-                    "width": 150
-                }
-            ],
-            "title": "Verh\u00e4ltnis Neue Tests / Neue F\u00e4lle"
+            "title": "Verdopplungsrate aktueller F\u00e4lle"
         },
         {
             "data": {
@@ -4065,8 +3184,8 @@
                             "7d Moving Average"
                         ],
                         "range": [
-                            "#f46ec6",
-                            "#f4b1dd"
+                            "#1f77b4",
+                            "lightblue"
                         ]
                     },
                     "type": "nominal"
