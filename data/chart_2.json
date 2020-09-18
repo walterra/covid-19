@@ -1700,6 +1700,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -1720,6 +1725,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -1776,6 +1791,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -1796,6 +1816,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -1867,6 +1897,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -1887,6 +1922,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -1956,6 +2001,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -1976,6 +2026,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2052,6 +2112,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2072,6 +2137,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2154,6 +2229,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2174,6 +2254,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2271,6 +2361,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2291,6 +2386,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2370,6 +2475,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2390,6 +2500,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2461,6 +2581,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2481,6 +2606,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2537,6 +2672,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2557,6 +2697,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2628,6 +2778,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2648,6 +2803,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2717,6 +2882,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2737,6 +2907,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2813,6 +2993,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2833,6 +3018,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -2915,6 +3110,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -2935,6 +3135,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3032,6 +3242,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3052,6 +3267,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3131,6 +3356,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3151,6 +3381,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3222,6 +3462,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3242,6 +3487,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3298,6 +3553,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3318,6 +3578,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3389,6 +3659,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3409,6 +3684,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3478,6 +3763,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3498,6 +3788,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3574,6 +3874,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3594,6 +3899,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3676,6 +3991,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3696,6 +4016,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3793,6 +4123,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3813,6 +4148,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
@@ -3892,6 +4237,11 @@
                                     "as": "max_total_active",
                                     "field": "total_active",
                                     "op": "max"
+                                },
+                                {
+                                    "as": "max_total_tests",
+                                    "field": "total_tests",
+                                    "op": "max"
                                 }
                             ],
                             "groupby": [
@@ -3912,6 +4262,16 @@
                                 {
                                     "as": "rolling_min",
                                     "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_max_tests",
+                                    "field": "max_total_tests",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min_tests",
+                                    "field": "max_total_tests",
                                     "op": "min"
                                 },
                                 {
