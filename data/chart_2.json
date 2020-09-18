@@ -1652,6 +1652,92 @@
             "layer": [
                 {
                     "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "impute": {
+                                "method": "mean"
+                            },
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 150,
+                    "mark": {
+                        "color": "lightgray",
+                        "size": 2,
+                        "strokeJoin": "round",
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "max_total_active",
+                                    "field": "total_active",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min)"
+                        }
+                    ],
+                    "width": 150
+                },
+                {
+                    "encoding": {
                         "x": {
                             "field": "date",
                             "title": "",
@@ -1668,7 +1754,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -1741,92 +1827,6 @@
                 },
                 {
                     "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "diff",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "impute": {
-                                "method": "mean"
-                            },
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#1f77b4",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_active",
-                                    "field": "total_active",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_active",
-                                    "field": "max_total_active",
-                                    "op": "last_value"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min)"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
                         "text": {
                             "field": "diff",
                             "format": ".2f",
@@ -1845,7 +1845,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -1935,7 +1935,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2030,7 +2030,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2133,7 +2133,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2249,7 +2249,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2348,7 +2348,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2413,6 +2413,92 @@
             "layer": [
                 {
                     "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "impute": {
+                                "method": "mean"
+                            },
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 150,
+                    "mark": {
+                        "color": "lightgray",
+                        "size": 2,
+                        "strokeJoin": "round",
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "max_total_active",
+                                    "field": "total_active",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        }
+                    ],
+                    "width": 150
+                },
+                {
+                    "encoding": {
                         "x": {
                             "field": "date",
                             "title": "",
@@ -2429,7 +2515,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -2502,92 +2588,6 @@
                 },
                 {
                     "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "diff",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "impute": {
-                                "method": "mean"
-                            },
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#1f77b4",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_active",
-                                    "field": "total_active",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_active",
-                                    "field": "max_total_active",
-                                    "op": "last_value"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
                         "text": {
                             "field": "diff",
                             "format": ".2%",
@@ -2606,7 +2606,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -2696,7 +2696,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2791,7 +2791,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2894,7 +2894,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -3010,7 +3010,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3109,7 +3109,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3174,6 +3174,92 @@
             "layer": [
                 {
                     "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "impute": {
+                                "method": "mean"
+                            },
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 150,
+                    "mark": {
+                        "color": "lightgray",
+                        "size": 2,
+                        "strokeJoin": "round",
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_confirmed",
+                                    "field": "total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "max_total_active",
+                                    "field": "total_active",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_confirmed",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_confirmed",
+                                    "op": "min"
+                                },
+                                {
+                                    "as": "rolling_active",
+                                    "field": "max_total_active",
+                                    "op": "last_value"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_active"
+                        }
+                    ],
+                    "width": 150
+                },
+                {
+                    "encoding": {
                         "x": {
                             "field": "date",
                             "title": "",
@@ -3190,7 +3276,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -3263,92 +3349,6 @@
                 },
                 {
                     "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "diff",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "impute": {
-                                "method": "mean"
-                            },
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 150,
-                    "mark": {
-                        "color": "#1f77b4",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_confirmed",
-                                    "field": "total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "max_total_active",
-                                    "field": "total_active",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_confirmed",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_confirmed",
-                                    "op": "min"
-                                },
-                                {
-                                    "as": "rolling_active",
-                                    "field": "max_total_active",
-                                    "op": "last_value"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_active"
-                        }
-                    ],
-                    "width": 150
-                },
-                {
-                    "encoding": {
                         "text": {
                             "field": "diff",
                             "format": ".2%",
@@ -3367,7 +3367,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -3457,7 +3457,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -3552,7 +3552,7 @@
                     "height": 150,
                     "mark": {
                         "align": "left",
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -3655,7 +3655,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -3771,7 +3771,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "lightblue",
+                        "color": "#1f77b4",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3870,7 +3870,7 @@
                     },
                     "height": 150,
                     "mark": {
-                        "color": "#1f77b4",
+                        "color": "lightgray",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3945,8 +3945,8 @@
                             "7d Moving Average"
                         ],
                         "range": [
-                            "#1f77b4",
-                            "lightblue"
+                            "lightgray",
+                            "#1f77b4"
                         ]
                     },
                     "type": "nominal"

@@ -1650,6 +1650,79 @@
             "layer": [
                 {
                     "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "type": "temporal"
+                            },
+                            {
+                                "field": "diff",
+                                "type": "quantitative"
+                            }
+                        ],
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "diff",
+                            "title": "",
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "lightgray",
+                        "size": 2,
+                        "strokeJoin": "round",
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "datum.rolling_max - datum.rolling_min"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
                         "x": {
                             "field": "date",
                             "title": "",
@@ -1663,7 +1736,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -1726,79 +1799,6 @@
                 },
                 {
                     "encoding": {
-                        "tooltip": [
-                            {
-                                "field": "date",
-                                "type": "temporal"
-                            },
-                            {
-                                "field": "diff",
-                                "type": "quantitative"
-                            }
-                        ],
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "diff",
-                            "title": "",
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 200,
-                    "mark": {
-                        "color": "#ff7f0e",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_recovered",
-                                    "field": "total_recovered",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_recovered",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_recovered",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "datum.rolling_max - datum.rolling_min"
-                        }
-                    ],
-                    "width": 300
-                },
-                {
-                    "encoding": {
                         "text": {
                             "field": "diff",
                             "type": "quantitative"
@@ -1816,7 +1816,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "#ff7f0e",
+                        "color": "lightgray",
                         "dx": 5,
                         "type": "text"
                     },
@@ -1895,7 +1895,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ff7f0e",
+                        "color": "lightgray",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -1980,7 +1980,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "dx": 5,
                         "type": "text"
                     },
@@ -2072,7 +2072,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2177,7 +2177,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2265,7 +2265,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ff7f0e",
+                        "color": "lightgray",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2330,13 +2330,85 @@
                                 "format": "%",
                                 "title": ""
                             },
+                            "field": "diff",
+                            "scale": {
+                                "domain": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            "type": "quantitative"
+                        }
+                    },
+                    "height": 200,
+                    "mark": {
+                        "color": "lightgray",
+                        "size": 2,
+                        "strokeJoin": "round",
+                        "type": "line"
+                    },
+                    "transform": [
+                        {
+                            "as": "date",
+                            "field": "dataTime",
+                            "timeUnit": "yearmonthdate"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "as": "max_total_recovered",
+                                    "field": "total_recovered",
+                                    "op": "max"
+                                }
+                            ],
+                            "groupby": [
+                                "date"
+                            ]
+                        },
+                        {
+                            "frame": [
+                                -1,
+                                0
+                            ],
+                            "window": [
+                                {
+                                    "as": "rolling_max",
+                                    "field": "max_total_recovered",
+                                    "op": "max"
+                                },
+                                {
+                                    "as": "rolling_min",
+                                    "field": "max_total_recovered",
+                                    "op": "min"
+                                }
+                            ]
+                        },
+                        {
+                            "as": "diff",
+                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
+                        }
+                    ],
+                    "width": 300
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "title": "",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "axis": {
+                                "format": "%",
+                                "title": ""
+                            },
                             "field": "rolling_mean",
                             "type": "quantitative"
                         }
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "size": 2,
                         "strokeJoin": "round",
                         "type": "line"
@@ -2399,78 +2471,6 @@
                 },
                 {
                     "encoding": {
-                        "x": {
-                            "field": "date",
-                            "title": "",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "axis": {
-                                "format": "%",
-                                "title": ""
-                            },
-                            "field": "diff",
-                            "scale": {
-                                "domain": [
-                                    0,
-                                    1
-                                ]
-                            },
-                            "type": "quantitative"
-                        }
-                    },
-                    "height": 200,
-                    "mark": {
-                        "color": "#ff7f0e",
-                        "size": 2,
-                        "strokeJoin": "round",
-                        "type": "line"
-                    },
-                    "transform": [
-                        {
-                            "as": "date",
-                            "field": "dataTime",
-                            "timeUnit": "yearmonthdate"
-                        },
-                        {
-                            "aggregate": [
-                                {
-                                    "as": "max_total_recovered",
-                                    "field": "total_recovered",
-                                    "op": "max"
-                                }
-                            ],
-                            "groupby": [
-                                "date"
-                            ]
-                        },
-                        {
-                            "frame": [
-                                -1,
-                                0
-                            ],
-                            "window": [
-                                {
-                                    "as": "rolling_max",
-                                    "field": "max_total_recovered",
-                                    "op": "max"
-                                },
-                                {
-                                    "as": "rolling_min",
-                                    "field": "max_total_recovered",
-                                    "op": "min"
-                                }
-                            ]
-                        },
-                        {
-                            "as": "diff",
-                            "calculate": "(datum.rolling_max - datum.rolling_min) / datum.rolling_max"
-                        }
-                    ],
-                    "width": 300
-                },
-                {
-                    "encoding": {
                         "text": {
                             "field": "rolling_mean",
                             "format": ".2%",
@@ -2489,7 +2489,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "dx": 5,
                         "dy": -5,
                         "type": "text"
@@ -2582,7 +2582,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2680,7 +2680,7 @@
                     "height": 200,
                     "mark": {
                         "align": "left",
-                        "color": "#ff7f0e",
+                        "color": "lightgray",
                         "dx": 5,
                         "dy": 5,
                         "type": "text"
@@ -2760,7 +2760,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ff7f0e",
+                        "color": "lightgray",
                         "opacity": 1,
                         "type": "circle"
                     },
@@ -2853,7 +2853,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ffbb78",
+                        "color": "#ff7f0e",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -2942,7 +2942,7 @@
                     },
                     "height": 200,
                     "mark": {
-                        "color": "#ff7f0e",
+                        "color": "rec_day_color",
                         "opacity": 0,
                         "size": 200,
                         "type": "circle"
@@ -3007,8 +3007,8 @@
                             "7d Moving Average"
                         ],
                         "range": [
-                            "#ff7f0e",
-                            "#ffbb78"
+                            "lightgray",
+                            "#ff7f0e"
                         ]
                     },
                     "type": "nominal"
