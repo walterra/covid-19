@@ -22,10 +22,24 @@
         }
     },
     "data": {
-        "name": "data-6f0e29368cb099feca5fddda5b4aa314"
+        "name": "data-8859a4b9af28aeaf96749ccb651ccd59"
     },
     "datasets": {
-        "data-6f0e29368cb099feca5fddda5b4aa314": [
+        "data-798a3947830f696cdc5da7a1b847e1fd": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            },
+            {
+                "label": "Aktuell Infizierte"
+            }
+        ],
+        "data-8859a4b9af28aeaf96749ccb651ccd59": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1705,20 +1719,14 @@
                 "total_death": 787,
                 "total_recovered": 33589.0,
                 "total_tests": 1555499
-            }
-        ],
-        "data-798a3947830f696cdc5da7a1b847e1fd": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
             },
             {
-                "label": "Todesf\u00e4lle"
-            },
-            {
-                "label": "Genesene"
-            },
-            {
-                "label": "Aktuell Infizierte"
+                "dataTime": "2020-09-28T15:00:00",
+                "total_active": 8773.0,
+                "total_confirmed": 43615,
+                "total_death": 790,
+                "total_recovered": 34052.0,
+                "total_tests": 1569992
             }
         ]
     },
