@@ -25,7 +25,7 @@
         }
     },
     "data": {
-        "name": "data-8f7c85fd40a475729ace4bbe98a9e2d6"
+        "name": "data-94fa5d04e8e88fbe8a7557b2f512a18c"
     },
     "datasets": {
         "data-793b2339a016668726e02e8737965916": [
@@ -36,7 +36,7 @@
                 "label": "7d Moving Average"
             }
         ],
-        "data-8f7c85fd40a475729ace4bbe98a9e2d6": [
+        "data-94fa5d04e8e88fbe8a7557b2f512a18c": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -2020,6 +2020,22 @@
                 "total_death": 1227,
                 "total_recovered": 77036.0,
                 "total_tests": 2334815
+            },
+            {
+                "dataTime": "2020-11-05T15:00:00",
+                "total_active": 52262.0,
+                "total_confirmed": 134134,
+                "total_death": 1268,
+                "total_recovered": 80604.0,
+                "total_tests": 2362948
+            },
+            {
+                "dataTime": "2020-11-06T15:00:00",
+                "total_active": 56250.0,
+                "total_confirmed": 141297,
+                "total_death": 1340,
+                "total_recovered": 83707.0,
+                "total_tests": 2396015
             }
         ]
     },
