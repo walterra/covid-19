@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-df89ef5ee500fc7df36b4c3ac5303a0d"
+        "name": "data-dbe015cb09e05909f9b17b7622db1766"
     },
     "datasets": {
-        "data-df89ef5ee500fc7df36b4c3ac5303a0d": [
+        "data-dbe015cb09e05909f9b17b7622db1766": [
             {
                 "B_recovered": null,
                 "K_recovered": null,
@@ -5172,6 +5172,30 @@
                 "V_recovered": 9152.0,
                 "W_recovered": 36490.0,
                 "dataTime": "2020-11-20T15:00:00"
+            },
+            {
+                "B_recovered": 4300.0,
+                "K_recovered": 6427.0,
+                "Noe_recovered": 24133.0,
+                "Ooe_recovered": 35172.0,
+                "S_recovered": 10687.0,
+                "St_recovered": 13075.0,
+                "T_recovered": 21938.0,
+                "V_recovered": 9422.0,
+                "W_recovered": 37597.0,
+                "dataTime": "2020-11-21T15:00:00"
+            },
+            {
+                "B_recovered": 4555.0,
+                "K_recovered": 7158.0,
+                "Noe_recovered": 25106.0,
+                "Ooe_recovered": 37241.0,
+                "S_recovered": 11037.0,
+                "St_recovered": 13371.0,
+                "T_recovered": 22728.0,
+                "V_recovered": 9945.0,
+                "W_recovered": 38119.0,
+                "dataTime": "2020-11-22T15:00:00"
             }
         ]
     },
