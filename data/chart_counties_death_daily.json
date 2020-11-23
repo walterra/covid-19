@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-519725c9bde540184f1d6bf432ee5ba9"
+        "name": "data-41c26e5a6d5e69d79f2481c8671085a4"
     },
     "datasets": {
-        "data-519725c9bde540184f1d6bf432ee5ba9": [
+        "data-41c26e5a6d5e69d79f2481c8671085a4": [
             {
                 "B_death": null,
                 "K_death": null,
@@ -5196,6 +5196,18 @@
                 "V_death": 88.0,
                 "W_death": 537.0,
                 "dataTime": "2020-11-22T15:00:00"
+            },
+            {
+                "B_death": 68.0,
+                "K_death": 132.0,
+                "Noe_death": 403.0,
+                "Ooe_death": 439.0,
+                "S_death": 120.0,
+                "St_death": 405.0,
+                "T_death": 255.0,
+                "V_death": 91.0,
+                "W_death": 546.0,
+                "dataTime": "2020-11-23T15:00:00"
             }
         ]
     },
