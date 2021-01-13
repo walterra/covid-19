@@ -22,7 +22,7 @@
         }
     },
     "data": {
-        "name": "data-e7dd72bd46f9b188963b04eda54ff011"
+        "name": "data-b41baba1a7b997126a4c6725b146195f"
     },
     "datasets": {
         "data-798a3947830f696cdc5da7a1b847e1fd": [
@@ -39,7 +39,7 @@
                 "label": "Aktuell Infizierte"
             }
         ],
-        "data-e7dd72bd46f9b188963b04eda54ff011": [
+        "data-b41baba1a7b997126a4c6725b146195f": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -2567,6 +2567,22 @@
                 "total_death": 6723,
                 "total_recovered": 353749.0,
                 "total_tests": 6679036
+            },
+            {
+                "dataTime": "2021-01-11T15:00:00",
+                "total_active": 17385.0,
+                "total_confirmed": 379662,
+                "total_death": 6747,
+                "total_recovered": 355530.0,
+                "total_tests": 6714575
+            },
+            {
+                "dataTime": "2021-01-12T15:00:00",
+                "total_active": 17227.0,
+                "total_confirmed": 381608,
+                "total_death": 6819,
+                "total_recovered": 357562.0,
+                "total_tests": 6865442
             }
         ]
     },
