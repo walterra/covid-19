@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-5a8a8ec03af5095dd465d5da44122714"
+        "name": "data-8313320dfc978203621b0729331c074b"
     },
     "datasets": {
-        "data-5a8a8ec03af5095dd465d5da44122714": [
+        "data-8313320dfc978203621b0729331c074b": [
             {
                 "B_recovered": null,
                 "K_recovered": null,
@@ -6084,6 +6084,18 @@
                 "V_recovered": 21001.0,
                 "W_recovered": 75336.0,
                 "dataTime": "2021-01-22T15:00:00"
+            },
+            {
+                "B_recovered": 10106.0,
+                "K_recovered": 23405.0,
+                "Noe_recovered": 57857.0,
+                "Ooe_recovered": 75299.0,
+                "S_recovered": 30704.0,
+                "St_recovered": 43749.0,
+                "T_recovered": 42354.0,
+                "V_recovered": 21106.0,
+                "W_recovered": 75668.0,
+                "dataTime": "2021-01-23T15:00:00"
             }
         ]
     },
