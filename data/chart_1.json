@@ -22,10 +22,24 @@
         }
     },
     "data": {
-        "name": "data-08d1d74335fd65c06bfb43ebb88046c0"
+        "name": "data-87fe48d2e253afef2eb7858c40476af9"
     },
     "datasets": {
-        "data-08d1d74335fd65c06bfb43ebb88046c0": [
+        "data-798a3947830f696cdc5da7a1b847e1fd": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            },
+            {
+                "label": "Aktuell Infizierte"
+            }
+        ],
+        "data-87fe48d2e253afef2eb7858c40476af9": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -2905,20 +2919,30 @@
                 "total_death": 8493,
                 "total_recovered": 425786.0,
                 "total_tests": 14209576
-            }
-        ],
-        "data-798a3947830f696cdc5da7a1b847e1fd": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
             },
             {
-                "label": "Todesf\u00e4lle"
+                "dataTime": "2021-02-26T15:00:00",
+                "total_active": 16697.0,
+                "total_confirmed": 452469,
+                "total_death": 8515,
+                "total_recovered": 427257.0,
+                "total_tests": 14432826
             },
             {
-                "label": "Genesene"
+                "dataTime": "2021-02-27T15:00:00",
+                "total_active": 17693.0,
+                "total_confirmed": 455135,
+                "total_death": 8538,
+                "total_recovered": 428904.0,
+                "total_tests": 14751767
             },
             {
-                "label": "Aktuell Infizierte"
+                "dataTime": "2021-02-28T15:00:00",
+                "total_active": 17844.0,
+                "total_confirmed": 456820,
+                "total_death": 8561,
+                "total_recovered": 430415.0,
+                "total_tests": 14907781
             }
         ]
     },
