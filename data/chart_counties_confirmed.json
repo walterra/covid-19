@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-e1308fdfbead3ee6eee1c143aadbab40"
+        "name": "data-2f877144a4e0c12a1a5c6d0cab72f732"
     },
     "datasets": {
-        "data-e1308fdfbead3ee6eee1c143aadbab40": [
+        "data-2f877144a4e0c12a1a5c6d0cab72f732": [
             {
                 "B_confirmed": null,
                 "K_confirmed": null,
@@ -4584,6 +4584,54 @@
                 "V_confirmed": 23802.0,
                 "W_confirmed": 102309.0,
                 "dataTime": "2021-03-17T15:00:00"
+            },
+            {
+                "B_confirmed": 14208.0,
+                "K_confirmed": 32022.0,
+                "Noe_confirmed": 82959.0,
+                "Ooe_confirmed": 93098.0,
+                "S_confirmed": 41584.0,
+                "St_confirmed": 61534.0,
+                "T_confirmed": 50365.0,
+                "V_confirmed": 23839.0,
+                "W_confirmed": 103338.0,
+                "dataTime": "2021-03-18T15:00:00"
+            },
+            {
+                "B_confirmed": 14316.0,
+                "K_confirmed": 32144.0,
+                "Noe_confirmed": 83697.0,
+                "Ooe_confirmed": 93559.0,
+                "S_confirmed": 41858.0,
+                "St_confirmed": 61936.0,
+                "T_confirmed": 50581.0,
+                "V_confirmed": 23884.0,
+                "W_confirmed": 104187.0,
+                "dataTime": "2021-03-19T15:00:00"
+            },
+            {
+                "B_confirmed": 14470.0,
+                "K_confirmed": 32278.0,
+                "Noe_confirmed": 84438.0,
+                "Ooe_confirmed": 94136.0,
+                "S_confirmed": 42069.0,
+                "St_confirmed": 62276.0,
+                "T_confirmed": 50892.0,
+                "V_confirmed": 23919.0,
+                "W_confirmed": 105457.0,
+                "dataTime": "2021-03-20T15:00:00"
+            },
+            {
+                "B_confirmed": 14522.0,
+                "K_confirmed": 32389.0,
+                "Noe_confirmed": 84991.0,
+                "Ooe_confirmed": 94425.0,
+                "S_confirmed": 42249.0,
+                "St_confirmed": 62611.0,
+                "T_confirmed": 51072.0,
+                "V_confirmed": 23955.0,
+                "W_confirmed": 106409.0,
+                "dataTime": "2021-03-21T15:00:00"
             }
         ]
     },
