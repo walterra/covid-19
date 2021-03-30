@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-3fdd98d597707e5dae9dddfb71df05af"
+        "name": "data-f2be416cceda3776e7c27b24a6c2eea6"
     },
     "datasets": {
-        "data-3fdd98d597707e5dae9dddfb71df05af": [
+        "data-f2be416cceda3776e7c27b24a6c2eea6": [
             {
                 "B_death": null,
                 "K_death": null,
@@ -6828,6 +6828,66 @@
                 "V_death": 280.0,
                 "W_death": 1840.0,
                 "dataTime": "2021-03-24T15:00:00"
+            },
+            {
+                "B_death": 267.0,
+                "K_death": 736.0,
+                "Noe_death": 1505.0,
+                "Ooe_death": 1577.0,
+                "S_death": 529.0,
+                "St_death": 1843.0,
+                "T_death": 592.0,
+                "V_death": 280.0,
+                "W_death": 1849.0,
+                "dataTime": "2021-03-25T15:00:00"
+            },
+            {
+                "B_death": 269.0,
+                "K_death": 737.0,
+                "Noe_death": 1508.0,
+                "Ooe_death": 1580.0,
+                "S_death": 531.0,
+                "St_death": 1846.0,
+                "T_death": 592.0,
+                "V_death": 280.0,
+                "W_death": 1857.0,
+                "dataTime": "2021-03-26T15:00:00"
+            },
+            {
+                "B_death": 270.0,
+                "K_death": 739.0,
+                "Noe_death": 1514.0,
+                "Ooe_death": 1582.0,
+                "S_death": 533.0,
+                "St_death": 1849.0,
+                "T_death": 592.0,
+                "V_death": 280.0,
+                "W_death": 1872.0,
+                "dataTime": "2021-03-27T15:00:00"
+            },
+            {
+                "B_death": 274.0,
+                "K_death": 740.0,
+                "Noe_death": 1520.0,
+                "Ooe_death": 1585.0,
+                "S_death": 534.0,
+                "St_death": 1850.0,
+                "T_death": 592.0,
+                "V_death": 280.0,
+                "W_death": 1881.0,
+                "dataTime": "2021-03-28T15:00:00"
+            },
+            {
+                "B_death": 275.0,
+                "K_death": 743.0,
+                "Noe_death": 1523.0,
+                "Ooe_death": 1587.0,
+                "S_death": 534.0,
+                "St_death": 1852.0,
+                "T_death": 593.0,
+                "V_death": 280.0,
+                "W_death": 1888.0,
+                "dataTime": "2021-03-29T15:00:00"
             }
         ]
     },

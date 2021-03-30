@@ -23,10 +23,18 @@
         }
     },
     "data": {
-        "name": "data-23e6c71a9de6f178908358273a516a1b"
+        "name": "data-e1e38eb75bfcc9dd30d6c2583af134cd"
     },
     "datasets": {
-        "data-23e6c71a9de6f178908358273a516a1b": [
+        "data-793b2339a016668726e02e8737965916": [
+            {
+                "label": "Tageswert"
+            },
+            {
+                "label": "7d Moving Average"
+            }
+        ],
+        "data-e1e38eb75bfcc9dd30d6c2583af134cd": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -3122,14 +3130,46 @@
                 "total_death": 9151,
                 "total_recovered": 480597.0,
                 "total_tests": 21147134
-            }
-        ],
-        "data-793b2339a016668726e02e8737965916": [
-            {
-                "label": "Tageswert"
             },
             {
-                "label": "7d Moving Average"
+                "dataTime": "2021-03-25T15:00:00",
+                "total_active": 31978.0,
+                "total_confirmed": 524616,
+                "total_death": 9178,
+                "total_recovered": 483460.0,
+                "total_tests": 21565462
+            },
+            {
+                "dataTime": "2021-03-26T15:00:00",
+                "total_active": 32683.0,
+                "total_confirmed": 527971,
+                "total_death": 9200,
+                "total_recovered": 486088.0,
+                "total_tests": 22051094
+            },
+            {
+                "dataTime": "2021-03-27T15:00:00",
+                "total_active": 34045.0,
+                "total_confirmed": 532240,
+                "total_death": 9231,
+                "total_recovered": 488964.0,
+                "total_tests": 22194436
+            },
+            {
+                "dataTime": "2021-03-28T15:00:00",
+                "total_active": 33725.0,
+                "total_confirmed": 534600,
+                "total_death": 9256,
+                "total_recovered": 491619.0,
+                "total_tests": 22455472
+            },
+            {
+                "dataTime": "2021-03-29T15:00:00",
+                "total_active": 34243.0,
+                "total_confirmed": 537895,
+                "total_death": 9275,
+                "total_recovered": 494377.0,
+                "total_tests": 22610260
             }
         ]
     },
