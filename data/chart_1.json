@@ -22,10 +22,24 @@
         }
     },
     "data": {
-        "name": "data-658ab9402bbb1f3901c384feb98355b1"
+        "name": "data-e1e38eb75bfcc9dd30d6c2583af134cd"
     },
     "datasets": {
-        "data-658ab9402bbb1f3901c384feb98355b1": [
+        "data-798a3947830f696cdc5da7a1b847e1fd": [
+            {
+                "label": "Best\u00e4tigte F\u00e4lle"
+            },
+            {
+                "label": "Todesf\u00e4lle"
+            },
+            {
+                "label": "Genesene"
+            },
+            {
+                "label": "Aktuell Infizierte"
+            }
+        ],
+        "data-e1e38eb75bfcc9dd30d6c2583af134cd": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -1633,20 +1647,1534 @@
                 "total_death": 758,
                 "total_recovered": 28044.0,
                 "total_tests": 1395111
-            }
-        ],
-        "data-798a3947830f696cdc5da7a1b847e1fd": [
-            {
-                "label": "Best\u00e4tigte F\u00e4lle"
             },
             {
-                "label": "Todesf\u00e4lle"
+                "dataTime": "2020-09-18T15:00:00",
+                "total_active": 7788.0,
+                "total_confirmed": 37002,
+                "total_death": 763,
+                "total_recovered": 28451.0,
+                "total_tests": 1413965
             },
             {
-                "label": "Genesene"
+                "dataTime": "2020-09-19T15:00:00",
+                "total_active": 8106.0,
+                "total_confirmed": 37832,
+                "total_death": 765,
+                "total_recovered": 28961.0,
+                "total_tests": 1432099
             },
             {
-                "label": "Aktuell Infizierte"
+                "dataTime": "2020-09-20T15:00:00",
+                "total_active": 8429.0,
+                "total_confirmed": 38424,
+                "total_death": 766,
+                "total_recovered": 29229.0,
+                "total_tests": 1444683
+            },
+            {
+                "dataTime": "2020-09-21T15:00:00",
+                "total_active": 8780.0,
+                "total_confirmed": 39063,
+                "total_death": 767,
+                "total_recovered": 29516.0,
+                "total_tests": 1458095
+            },
+            {
+                "dataTime": "2020-09-22T15:00:00",
+                "total_active": 8619.0,
+                "total_confirmed": 39702,
+                "total_death": 771,
+                "total_recovered": 30312.0,
+                "total_tests": 1472647
+            },
+            {
+                "dataTime": "2020-09-24T15:00:00",
+                "total_active": 8715.0,
+                "total_confirmed": 41159,
+                "total_death": 783,
+                "total_recovered": 31661.0,
+                "total_tests": 1507782
+            },
+            {
+                "dataTime": "2020-09-25T15:00:00",
+                "total_active": 8787.0,
+                "total_confirmed": 41874,
+                "total_death": 786,
+                "total_recovered": 32301.0,
+                "total_tests": 1528191
+            },
+            {
+                "dataTime": "2020-09-26T15:00:00",
+                "total_active": 8616.0,
+                "total_confirmed": 42557,
+                "total_death": 787,
+                "total_recovered": 33154.0,
+                "total_tests": 1545634
+            },
+            {
+                "dataTime": "2020-09-27T15:00:00",
+                "total_active": 8770.0,
+                "total_confirmed": 43146,
+                "total_death": 787,
+                "total_recovered": 33589.0,
+                "total_tests": 1555499
+            },
+            {
+                "dataTime": "2020-09-28T15:00:00",
+                "total_active": 8773.0,
+                "total_confirmed": 43615,
+                "total_death": 790,
+                "total_recovered": 34052.0,
+                "total_tests": 1569992
+            },
+            {
+                "dataTime": "2020-09-29T15:00:00",
+                "total_active": 8787.0,
+                "total_confirmed": 44499,
+                "total_death": 796,
+                "total_recovered": 34916.0,
+                "total_tests": 1586578
+            },
+            {
+                "dataTime": "2020-09-30T15:00:00",
+                "total_active": 8957.0,
+                "total_confirmed": 45400,
+                "total_death": 799,
+                "total_recovered": 35644.0,
+                "total_tests": 1617987
+            },
+            {
+                "dataTime": "2020-10-01T15:00:00",
+                "total_active": 8860.0,
+                "total_confirmed": 46138,
+                "total_death": 802,
+                "total_recovered": 36476.0,
+                "total_tests": 1636573
+            },
+            {
+                "dataTime": "2020-10-02T15:00:00",
+                "total_active": 9042.0,
+                "total_confirmed": 47031,
+                "total_death": 803,
+                "total_recovered": 37186.0,
+                "total_tests": 1658412
+            },
+            {
+                "dataTime": "2020-10-03T15:00:00",
+                "total_active": 9007.0,
+                "total_confirmed": 47861,
+                "total_death": 809,
+                "total_recovered": 38045.0,
+                "total_tests": 1673868
+            },
+            {
+                "dataTime": "2020-10-04T15:00:00",
+                "total_active": 9053.0,
+                "total_confirmed": 48495,
+                "total_death": 813,
+                "total_recovered": 38629.0,
+                "total_tests": 1686373
+            },
+            {
+                "dataTime": "2020-10-05T15:00:00",
+                "total_active": 9506.0,
+                "total_confirmed": 49382,
+                "total_death": 818,
+                "total_recovered": 39058.0,
+                "total_tests": 1698268
+            },
+            {
+                "dataTime": "2020-10-06T15:00:00",
+                "total_active": 9673.0,
+                "total_confirmed": 50285,
+                "total_death": 822,
+                "total_recovered": 39790.0,
+                "total_tests": 1716505
+            },
+            {
+                "dataTime": "2020-10-07T15:00:00",
+                "total_active": 10154.0,
+                "total_confirmed": 51483,
+                "total_death": 830,
+                "total_recovered": 40499.0,
+                "total_tests": 1735094
+            },
+            {
+                "dataTime": "2020-10-08T15:00:00",
+                "total_active": 10549.0,
+                "total_confirmed": 52676,
+                "total_death": 838,
+                "total_recovered": 41289.0,
+                "total_tests": 1756856
+            },
+            {
+                "dataTime": "2020-10-09T15:00:00",
+                "total_active": 10792.0,
+                "total_confirmed": 53673,
+                "total_death": 842,
+                "total_recovered": 42039.0,
+                "total_tests": 1775431
+            },
+            {
+                "dataTime": "2020-10-10T15:00:00",
+                "total_active": 11062.0,
+                "total_confirmed": 54743,
+                "total_death": 852,
+                "total_recovered": 42829.0,
+                "total_tests": 1795447
+            },
+            {
+                "dataTime": "2020-10-11T15:00:00",
+                "total_active": 11482.0,
+                "total_confirmed": 55781,
+                "total_death": 851,
+                "total_recovered": 43448.0,
+                "total_tests": 1809263
+            },
+            {
+                "dataTime": "2020-10-12T15:00:00",
+                "total_active": 11767.0,
+                "total_confirmed": 56687,
+                "total_death": 855,
+                "total_recovered": 44065.0,
+                "total_tests": 1822931
+            },
+            {
+                "dataTime": "2020-10-13T15:00:00",
+                "total_active": 12114.0,
+                "total_confirmed": 57924,
+                "total_death": 861,
+                "total_recovered": 44949.0,
+                "total_tests": 1844639
+            },
+            {
+                "dataTime": "2020-10-14T15:00:00",
+                "total_active": 12857.0,
+                "total_confirmed": 59575,
+                "total_death": 872,
+                "total_recovered": 45846.0,
+                "total_tests": 1861672
+            },
+            {
+                "dataTime": "2020-10-15T15:00:00",
+                "total_active": 13252.0,
+                "total_confirmed": 60927,
+                "total_death": 877,
+                "total_recovered": 46798.0,
+                "total_tests": 1881485
+            },
+            {
+                "dataTime": "2020-10-16T15:00:00",
+                "total_active": 14164.0,
+                "total_confirmed": 62664,
+                "total_death": 882,
+                "total_recovered": 47618.0,
+                "total_tests": 1902326
+            },
+            {
+                "dataTime": "2020-10-17T15:00:00",
+                "total_active": 14572.0,
+                "total_confirmed": 64232,
+                "total_death": 889,
+                "total_recovered": 48771.0,
+                "total_tests": 1926770
+            },
+            {
+                "dataTime": "2020-10-18T15:00:00",
+                "total_active": 15203.0,
+                "total_confirmed": 65657,
+                "total_death": 893,
+                "total_recovered": 49561.0,
+                "total_tests": 1938028
+            },
+            {
+                "dataTime": "2020-10-19T15:00:00",
+                "total_active": 15462.0,
+                "total_confirmed": 66725,
+                "total_death": 904,
+                "total_recovered": 50359.0,
+                "total_tests": 1952578
+            },
+            {
+                "dataTime": "2020-10-20T15:00:00",
+                "total_active": 16265.0,
+                "total_confirmed": 68586,
+                "total_death": 914,
+                "total_recovered": 51407.0,
+                "total_tests": 1972047
+            },
+            {
+                "dataTime": "2020-10-21T15:00:00",
+                "total_active": 17455.0,
+                "total_confirmed": 70997,
+                "total_death": 925,
+                "total_recovered": 52617.0,
+                "total_tests": 1993124
+            },
+            {
+                "dataTime": "2020-10-22T15:00:00",
+                "total_active": 18645.0,
+                "total_confirmed": 73556,
+                "total_death": 941,
+                "total_recovered": 53970.0,
+                "total_tests": 2018402
+            },
+            {
+                "dataTime": "2020-10-23T15:00:00",
+                "total_active": 20837.0,
+                "total_confirmed": 76986,
+                "total_death": 954,
+                "total_recovered": 55195.0,
+                "total_tests": 2046426
+            },
+            {
+                "dataTime": "2020-10-24T15:00:00",
+                "total_active": 22264.0,
+                "total_confirmed": 80020,
+                "total_death": 965,
+                "total_recovered": 56791.0,
+                "total_tests": 2070615
+            },
+            {
+                "dataTime": "2020-10-25T15:00:00",
+                "total_active": 23836.0,
+                "total_confirmed": 82673,
+                "total_death": 979,
+                "total_recovered": 57858.0,
+                "total_tests": 2088359
+            },
+            {
+                "dataTime": "2020-10-26T15:00:00",
+                "total_active": 25268.0,
+                "total_confirmed": 85296,
+                "total_death": 992,
+                "total_recovered": 59036.0,
+                "total_tests": 2111575
+            },
+            {
+                "dataTime": "2020-10-27T15:00:00",
+                "total_active": 26778.0,
+                "total_confirmed": 88091,
+                "total_death": 1005,
+                "total_recovered": 60308.0,
+                "total_tests": 2125687
+            },
+            {
+                "dataTime": "2020-10-28T15:00:00",
+                "total_active": 29184.0,
+                "total_confirmed": 91895,
+                "total_death": 1027,
+                "total_recovered": 61684.0,
+                "total_tests": 2153066
+            },
+            {
+                "dataTime": "2020-10-29T15:00:00",
+                "total_active": 32059.0,
+                "total_confirmed": 96482,
+                "total_death": 1057,
+                "total_recovered": 63366.0,
+                "total_tests": 2177572
+            },
+            {
+                "dataTime": "2020-10-30T15:00:00",
+                "total_active": 35814.0,
+                "total_confirmed": 101883,
+                "total_death": 1082,
+                "total_recovered": 64987.0,
+                "total_tests": 2203993
+            },
+            {
+                "dataTime": "2020-10-31T15:00:00",
+                "total_active": 38449.0,
+                "total_confirmed": 106784,
+                "total_death": 1109,
+                "total_recovered": 67226.0,
+                "total_tests": 2232735
+            },
+            {
+                "dataTime": "2020-11-01T15:00:00",
+                "total_active": 40797.0,
+                "total_confirmed": 111263,
+                "total_death": 1130,
+                "total_recovered": 69336.0,
+                "total_tests": 2256051
+            },
+            {
+                "dataTime": "2020-11-02T15:00:00",
+                "total_active": 42573.0,
+                "total_confirmed": 115423,
+                "total_death": 1159,
+                "total_recovered": 71691.0,
+                "total_tests": 2279501
+            },
+            {
+                "dataTime": "2020-11-03T15:00:00",
+                "total_active": 45073.0,
+                "total_confirmed": 120557,
+                "total_death": 1192,
+                "total_recovered": 74292.0,
+                "total_tests": 2305382
+            },
+            {
+                "dataTime": "2020-11-04T15:00:00",
+                "total_active": 48983.0,
+                "total_confirmed": 127246,
+                "total_death": 1227,
+                "total_recovered": 77036.0,
+                "total_tests": 2334815
+            },
+            {
+                "dataTime": "2020-11-05T15:00:00",
+                "total_active": 52262.0,
+                "total_confirmed": 134134,
+                "total_death": 1268,
+                "total_recovered": 80604.0,
+                "total_tests": 2362948
+            },
+            {
+                "dataTime": "2020-11-06T15:00:00",
+                "total_active": 56250.0,
+                "total_confirmed": 141297,
+                "total_death": 1340,
+                "total_recovered": 83707.0,
+                "total_tests": 2396015
+            },
+            {
+                "dataTime": "2020-11-07T15:00:00",
+                "total_active": 59320.0,
+                "total_confirmed": 148970,
+                "total_death": 1377,
+                "total_recovered": 88273.0,
+                "total_tests": 2425825
+            },
+            {
+                "dataTime": "2020-11-08T15:00:00",
+                "total_active": 61389.0,
+                "total_confirmed": 154519,
+                "total_death": 1411,
+                "total_recovered": 91719.0,
+                "total_tests": 2452692
+            },
+            {
+                "dataTime": "2020-11-09T15:00:00",
+                "total_active": 63593.0,
+                "total_confirmed": 159674,
+                "total_death": 1454,
+                "total_recovered": 94627.0,
+                "total_tests": 2479068
+            },
+            {
+                "dataTime": "2020-11-10T15:00:00",
+                "total_active": 66583.0,
+                "total_confirmed": 166745,
+                "total_death": 1499,
+                "total_recovered": 98663.0,
+                "total_tests": 2505608
+            },
+            {
+                "dataTime": "2020-11-11T15:00:00",
+                "total_active": 71327.0,
+                "total_confirmed": 176650,
+                "total_death": 1564,
+                "total_recovered": 103759.0,
+                "total_tests": 2537179
+            },
+            {
+                "dataTime": "2020-11-12T15:00:00",
+                "total_active": 76103.0,
+                "total_confirmed": 185586,
+                "total_death": 1608,
+                "total_recovered": 107875.0,
+                "total_tests": 2575405
+            },
+            {
+                "dataTime": "2020-11-13T15:00:00",
+                "total_active": 79219.0,
+                "total_confirmed": 193608,
+                "total_death": 1661,
+                "total_recovered": 112728.0,
+                "total_tests": 2607733
+            },
+            {
+                "dataTime": "2020-11-14T15:00:00",
+                "total_active": 79585.0,
+                "total_confirmed": 200746,
+                "total_death": 1746,
+                "total_recovered": 119415.0,
+                "total_tests": 2642553
+            },
+            {
+                "dataTime": "2020-11-15T15:00:00",
+                "total_active": 77230.0,
+                "total_confirmed": 204733,
+                "total_death": 1829,
+                "total_recovered": 125674.0,
+                "total_tests": 2667880
+            },
+            {
+                "dataTime": "2020-11-16T15:00:00",
+                "total_active": 78723.0,
+                "total_confirmed": 210281,
+                "total_death": 1887,
+                "total_recovered": 129671.0,
+                "total_tests": 2694112
+            },
+            {
+                "dataTime": "2020-11-17T15:00:00",
+                "total_active": 77887.0,
+                "total_confirmed": 216319,
+                "total_death": 1945,
+                "total_recovered": 136487.0,
+                "total_tests": 2723162
+            },
+            {
+                "dataTime": "2020-11-18T15:00:00",
+                "total_active": 79282.0,
+                "total_confirmed": 224074,
+                "total_death": 2054,
+                "total_recovered": 142738.0,
+                "total_tests": 2756290
+            },
+            {
+                "dataTime": "2020-11-19T15:00:00",
+                "total_active": 79520.0,
+                "total_confirmed": 231177,
+                "total_death": 2116,
+                "total_recovered": 149541.0,
+                "total_tests": 2787606
+            },
+            {
+                "dataTime": "2020-11-20T15:00:00",
+                "total_active": 78920.0,
+                "total_confirmed": 237627,
+                "total_death": 2224,
+                "total_recovered": 156483.0,
+                "total_tests": 2820796
+            },
+            {
+                "dataTime": "2020-11-21T15:00:00",
+                "total_active": 78326.0,
+                "total_confirmed": 243405,
+                "total_death": 2328,
+                "total_recovered": 162751.0,
+                "total_tests": 2851604
+            },
+            {
+                "dataTime": "2020-11-22T15:00:00",
+                "total_active": 75861.0,
+                "total_confirmed": 247509,
+                "total_death": 2388,
+                "total_recovered": 169260.0,
+                "total_tests": 2881435
+            },
+            {
+                "dataTime": "2020-11-23T15:00:00",
+                "total_active": 72344.0,
+                "total_confirmed": 250330,
+                "total_death": 2459,
+                "total_recovered": 175527.0,
+                "total_tests": 2901857
+            },
+            {
+                "dataTime": "2020-11-24T15:00:00",
+                "total_active": 70644.0,
+                "total_confirmed": 255841,
+                "total_death": 2577,
+                "total_recovered": 182620.0,
+                "total_tests": 2929927
+            },
+            {
+                "dataTime": "2020-11-25T15:00:00",
+                "total_active": 69421.0,
+                "total_confirmed": 261147,
+                "total_death": 2667,
+                "total_recovered": 189059.0,
+                "total_tests": 2960496
+            },
+            {
+                "dataTime": "2020-11-26T15:00:00",
+                "total_active": 67544.0,
+                "total_confirmed": 266659,
+                "total_death": 2773,
+                "total_recovered": 196342.0,
+                "total_tests": 2993814
+            },
+            {
+                "dataTime": "2020-11-27T15:00:00",
+                "total_active": 65412.0,
+                "total_confirmed": 271549,
+                "total_death": 2886,
+                "total_recovered": 203251.0,
+                "total_tests": 3020862
+            },
+            {
+                "dataTime": "2020-11-28T15:00:00",
+                "total_active": 62349.0,
+                "total_confirmed": 276064,
+                "total_death": 3018,
+                "total_recovered": 210697.0,
+                "total_tests": 3061067
+            },
+            {
+                "dataTime": "2020-11-29T15:00:00",
+                "total_active": 59100.0,
+                "total_confirmed": 279203,
+                "total_death": 3105,
+                "total_recovered": 216998.0,
+                "total_tests": 3083264
+            },
+            {
+                "dataTime": "2020-11-30T15:00:00",
+                "total_active": 56039.0,
+                "total_confirmed": 280915,
+                "total_death": 3184,
+                "total_recovered": 221692.0,
+                "total_tests": 3098318
+            },
+            {
+                "dataTime": "2020-12-01T15:00:00",
+                "total_active": 54684.0,
+                "total_confirmed": 285506,
+                "total_death": 3325,
+                "total_recovered": 227497.0,
+                "total_tests": 3121510
+            },
+            {
+                "dataTime": "2020-12-02T15:00:00",
+                "total_active": 52320.0,
+                "total_confirmed": 289423,
+                "total_death": 3446,
+                "total_recovered": 233657.0,
+                "total_tests": 3149372
+            },
+            {
+                "dataTime": "2020-12-03T15:00:00",
+                "total_active": 51770.0,
+                "total_confirmed": 293435,
+                "total_death": 3538,
+                "total_recovered": 238127.0,
+                "total_tests": 3180666
+            },
+            {
+                "dataTime": "2020-12-04T15:00:00",
+                "total_active": 48624.0,
+                "total_confirmed": 296050,
+                "total_death": 3651,
+                "total_recovered": 243775.0,
+                "total_tests": 3209340
+            },
+            {
+                "dataTime": "2020-12-05T15:00:00",
+                "total_active": 46527.0,
+                "total_confirmed": 299725,
+                "total_death": 3757,
+                "total_recovered": 249441.0,
+                "total_tests": 3229393
+            },
+            {
+                "dataTime": "2020-12-06T15:00:00",
+                "total_active": 45452.0,
+                "total_confirmed": 302057,
+                "total_death": 3840,
+                "total_recovered": 252765.0,
+                "total_tests": 3247511
+            },
+            {
+                "dataTime": "2020-12-07T15:00:00",
+                "total_active": 43774.0,
+                "total_confirmed": 304482,
+                "total_death": 3897,
+                "total_recovered": 256811.0,
+                "total_tests": 3262088
+            },
+            {
+                "dataTime": "2020-12-08T15:00:00",
+                "total_active": 41048.0,
+                "total_confirmed": 307364,
+                "total_death": 4002,
+                "total_recovered": 262314.0,
+                "total_tests": 3281731
+            },
+            {
+                "dataTime": "2020-12-09T15:00:00",
+                "total_active": 39911.0,
+                "total_confirmed": 309782,
+                "total_death": 4056,
+                "total_recovered": 265815.0,
+                "total_tests": 3302082
+            },
+            {
+                "dataTime": "2020-12-10T15:00:00",
+                "total_active": 38558.0,
+                "total_confirmed": 312386,
+                "total_death": 4163,
+                "total_recovered": 269665.0,
+                "total_tests": 3329997
+            },
+            {
+                "dataTime": "2020-12-11T15:00:00",
+                "total_active": 37697.0,
+                "total_confirmed": 315489,
+                "total_death": 4289,
+                "total_recovered": 273503.0,
+                "total_tests": 3355391
+            },
+            {
+                "dataTime": "2020-12-12T15:00:00",
+                "total_active": 36147.0,
+                "total_confirmed": 318445,
+                "total_death": 4415,
+                "total_recovered": 277883.0,
+                "total_tests": 3386308
+            },
+            {
+                "dataTime": "2020-12-13T15:00:00",
+                "total_active": 36053.0,
+                "total_confirmed": 321632,
+                "total_death": 4473,
+                "total_recovered": 281106.0,
+                "total_tests": 3407510
+            },
+            {
+                "dataTime": "2020-12-14T15:00:00",
+                "total_active": 35257.0,
+                "total_confirmed": 323961,
+                "total_death": 4530,
+                "total_recovered": 284174.0,
+                "total_tests": 3425072
+            },
+            {
+                "dataTime": "2020-12-15T15:00:00",
+                "total_active": 34150.0,
+                "total_confirmed": 326548,
+                "total_death": 4648,
+                "total_recovered": 287750.0,
+                "total_tests": 3446109
+            },
+            {
+                "dataTime": "2020-12-16T15:00:00",
+                "total_active": 33586.0,
+                "total_confirmed": 329392,
+                "total_death": 4764,
+                "total_recovered": 291042.0,
+                "total_tests": 3474856
+            },
+            {
+                "dataTime": "2020-12-17T15:00:00",
+                "total_active": 32199.0,
+                "total_confirmed": 331496,
+                "total_death": 4982,
+                "total_recovered": 294315.0,
+                "total_tests": 3503072
+            },
+            {
+                "dataTime": "2020-12-18T15:00:00",
+                "total_active": 30743.0,
+                "total_confirmed": 333294,
+                "total_death": 5127,
+                "total_recovered": 297424.0,
+                "total_tests": 3534486
+            },
+            {
+                "dataTime": "2020-12-19T15:00:00",
+                "total_active": 32065.0,
+                "total_confirmed": 334616,
+                "total_death": 5127,
+                "total_recovered": 297424.0,
+                "total_tests": 3534486
+            },
+            {
+                "dataTime": "2020-12-19T15:00:00",
+                "total_active": 29665.0,
+                "total_confirmed": 335485,
+                "total_death": 5209,
+                "total_recovered": 300611.0,
+                "total_tests": 3568286
+            },
+            {
+                "dataTime": "2020-12-20T15:00:00",
+                "total_active": 28477.0,
+                "total_confirmed": 337041,
+                "total_death": 5351,
+                "total_recovered": 303213.0,
+                "total_tests": 3593276
+            },
+            {
+                "dataTime": "2020-12-21T15:00:00",
+                "total_active": 27271.0,
+                "total_confirmed": 338364,
+                "total_death": 5435,
+                "total_recovered": 305658.0,
+                "total_tests": 3614233
+            },
+            {
+                "dataTime": "2020-12-22T15:00:00",
+                "total_active": 25638.0,
+                "total_confirmed": 340773,
+                "total_death": 5540,
+                "total_recovered": 309595.0,
+                "total_tests": 3643696
+            },
+            {
+                "dataTime": "2020-12-23T15:00:00",
+                "total_active": 24692.0,
+                "total_confirmed": 343267,
+                "total_death": 5654,
+                "total_recovered": 312921.0,
+                "total_tests": 3682136
+            },
+            {
+                "dataTime": "2020-12-24T15:00:00",
+                "total_active": 24172.0,
+                "total_confirmed": 345869,
+                "total_death": 5745,
+                "total_recovered": 315952.0,
+                "total_tests": 3712803
+            },
+            {
+                "dataTime": "2020-12-25T15:00:00",
+                "total_active": 23269.0,
+                "total_confirmed": 347206,
+                "total_death": 5783,
+                "total_recovered": 318154.0,
+                "total_tests": 3729944
+            },
+            {
+                "dataTime": "2020-12-26T15:00:00",
+                "total_active": 21870.0,
+                "total_confirmed": 348466,
+                "total_death": 5843,
+                "total_recovered": 320753.0,
+                "total_tests": 3747328
+            },
+            {
+                "dataTime": "2020-12-27T15:00:00",
+                "total_active": 21147.0,
+                "total_confirmed": 350030,
+                "total_death": 5881,
+                "total_recovered": 323002.0,
+                "total_tests": 3757237
+            },
+            {
+                "dataTime": "2020-12-28T15:00:00",
+                "total_active": 19065.0,
+                "total_confirmed": 351764,
+                "total_death": 5931,
+                "total_recovered": 326768.0,
+                "total_tests": 3778483
+            },
+            {
+                "dataTime": "2020-12-29T15:00:00",
+                "total_active": 18581.0,
+                "total_confirmed": 353614,
+                "total_death": 6059,
+                "total_recovered": 328974.0,
+                "total_tests": 3794046
+            },
+            {
+                "dataTime": "2020-12-30T15:00:00",
+                "total_active": 19774.0,
+                "total_confirmed": 356913,
+                "total_death": 6149,
+                "total_recovered": 330990.0,
+                "total_tests": 3812271
+            },
+            {
+                "dataTime": "2020-12-31T15:00:00",
+                "total_active": 20232.0,
+                "total_confirmed": 359406,
+                "total_death": 6222,
+                "total_recovered": 332952.0,
+                "total_tests": 3836920
+            },
+            {
+                "dataTime": "2021-01-01T15:00:00",
+                "total_active": 20461.0,
+                "total_confirmed": 361623,
+                "total_death": 6261,
+                "total_recovered": 334901.0,
+                "total_tests": 3857382
+            },
+            {
+                "dataTime": "2021-01-02T15:00:00",
+                "total_active": 19616.0,
+                "total_confirmed": 362813,
+                "total_death": 6275,
+                "total_recovered": 336922.0,
+                "total_tests": 3768447
+            },
+            {
+                "dataTime": "2021-01-03T15:00:00",
+                "total_active": 19365.0,
+                "total_confirmed": 364520,
+                "total_death": 6324,
+                "total_recovered": 338831.0,
+                "total_tests": 3780489
+            },
+            {
+                "dataTime": "2021-01-04T15:00:00",
+                "total_active": 19562.0,
+                "total_confirmed": 366192,
+                "total_death": 6357,
+                "total_recovered": 340273.0,
+                "total_tests": 5407690
+            },
+            {
+                "dataTime": "2021-01-05T15:00:00",
+                "total_active": 18825.0,
+                "total_confirmed": 368321,
+                "total_death": 6457,
+                "total_recovered": 343039.0,
+                "total_tests": 5725868
+            },
+            {
+                "dataTime": "2021-01-06T15:00:00",
+                "total_active": 19419.0,
+                "total_confirmed": 370918,
+                "total_death": 6525,
+                "total_recovered": 344974.0,
+                "total_tests": 6466812
+            },
+            {
+                "dataTime": "2021-01-07T15:00:00",
+                "total_active": 19577.0,
+                "total_confirmed": 373046,
+                "total_death": 6568,
+                "total_recovered": 346901.0,
+                "total_tests": 6499087
+            },
+            {
+                "dataTime": "2021-01-08T15:00:00",
+                "total_active": 19007.0,
+                "total_confirmed": 374863,
+                "total_death": 6641,
+                "total_recovered": 349215.0,
+                "total_tests": 6538823
+            },
+            {
+                "dataTime": "2021-01-09T15:00:00",
+                "total_active": 18924.0,
+                "total_confirmed": 376993,
+                "total_death": 6687,
+                "total_recovered": 351382.0,
+                "total_tests": 6644117
+            },
+            {
+                "dataTime": "2021-01-10T15:00:00",
+                "total_active": 17851.0,
+                "total_confirmed": 378323,
+                "total_death": 6723,
+                "total_recovered": 353749.0,
+                "total_tests": 6679036
+            },
+            {
+                "dataTime": "2021-01-11T15:00:00",
+                "total_active": 17385.0,
+                "total_confirmed": 379662,
+                "total_death": 6747,
+                "total_recovered": 355530.0,
+                "total_tests": 6714575
+            },
+            {
+                "dataTime": "2021-01-12T15:00:00",
+                "total_active": 17227.0,
+                "total_confirmed": 381608,
+                "total_death": 6819,
+                "total_recovered": 357562.0,
+                "total_tests": 6865442
+            },
+            {
+                "dataTime": "2021-01-13T15:00:00",
+                "total_active": 16523.0,
+                "total_confirmed": 383083,
+                "total_death": 6868,
+                "total_recovered": 359692.0,
+                "total_tests": 6989709
+            },
+            {
+                "dataTime": "2021-01-14T15:00:00",
+                "total_active": 14856.0,
+                "total_confirmed": 384708,
+                "total_death": 6921,
+                "total_recovered": 362931.0,
+                "total_tests": 7379973
+            },
+            {
+                "dataTime": "2021-01-15T15:00:00",
+                "total_active": 13750.0,
+                "total_confirmed": 385951,
+                "total_death": 6987,
+                "total_recovered": 365214.0,
+                "total_tests": 7459608
+            },
+            {
+                "dataTime": "2021-01-16T15:00:00",
+                "total_active": 12680.0,
+                "total_confirmed": 387518,
+                "total_death": 7053,
+                "total_recovered": 367785.0,
+                "total_tests": 7538732
+            },
+            {
+                "dataTime": "2021-01-17T15:00:00",
+                "total_active": 12419.0,
+                "total_confirmed": 388719,
+                "total_death": 7082,
+                "total_recovered": 369218.0,
+                "total_tests": 7590771
+            },
+            {
+                "dataTime": "2021-01-18T15:00:00",
+                "total_active": 11733.0,
+                "total_confirmed": 389720,
+                "total_death": 7122,
+                "total_recovered": 370865.0,
+                "total_tests": 7697762
+            },
+            {
+                "dataTime": "2021-01-19T15:00:00",
+                "total_active": 10647.0,
+                "total_confirmed": 390936,
+                "total_death": 7199,
+                "total_recovered": 373090.0,
+                "total_tests": 7878732
+            },
+            {
+                "dataTime": "2021-01-20T15:00:00",
+                "total_active": 10268.0,
+                "total_confirmed": 392329,
+                "total_death": 7237,
+                "total_recovered": 374824.0,
+                "total_tests": 8488882
+            },
+            {
+                "dataTime": "2021-01-21T15:00:00",
+                "total_active": 10360.0,
+                "total_confirmed": 394008,
+                "total_death": 7288,
+                "total_recovered": 376360.0,
+                "total_tests": 8542282
+            },
+            {
+                "dataTime": "2021-01-22T15:00:00",
+                "total_active": 9691.0,
+                "total_confirmed": 395429,
+                "total_death": 7330,
+                "total_recovered": 378408.0,
+                "total_tests": 8607152
+            },
+            {
+                "dataTime": "2021-01-23T15:00:00",
+                "total_active": 9292.0,
+                "total_confirmed": 396929,
+                "total_death": 7389,
+                "total_recovered": 380248.0,
+                "total_tests": 8683128
+            },
+            {
+                "dataTime": "2021-01-24T15:00:00",
+                "total_active": 9041.0,
+                "total_confirmed": 398113,
+                "total_death": 7418,
+                "total_recovered": 381654.0,
+                "total_tests": 8735122
+            },
+            {
+                "dataTime": "2021-01-25T15:00:00",
+                "total_active": 8433.0,
+                "total_confirmed": 399084,
+                "total_death": 7451,
+                "total_recovered": 383200.0,
+                "total_tests": 8802827
+            },
+            {
+                "dataTime": "2021-01-26T15:00:00",
+                "total_active": 8140.0,
+                "total_confirmed": 400581,
+                "total_death": 7515,
+                "total_recovered": 384926.0,
+                "total_tests": 8906083
+            },
+            {
+                "dataTime": "2021-01-28T15:00:00",
+                "total_active": 11968.0,
+                "total_confirmed": 407362,
+                "total_death": 7607,
+                "total_recovered": 387787.0,
+                "total_tests": 9089588
+            },
+            {
+                "dataTime": "2021-01-29T15:00:00",
+                "total_active": 11993.0,
+                "total_confirmed": 409127,
+                "total_death": 7658,
+                "total_recovered": 389476.0,
+                "total_tests": 9160616
+            },
+            {
+                "dataTime": "2021-01-30T15:00:00",
+                "total_active": 11633.0,
+                "total_confirmed": 410412,
+                "total_death": 7703,
+                "total_recovered": 391076.0,
+                "total_tests": 9286075
+            },
+            {
+                "dataTime": "2021-01-31T15:00:00",
+                "total_active": 11490.0,
+                "total_confirmed": 411708,
+                "total_death": 7721,
+                "total_recovered": 392497.0,
+                "total_tests": 9355779
+            },
+            {
+                "dataTime": "2021-02-01T15:00:00",
+                "total_active": 11214.0,
+                "total_confirmed": 412739,
+                "total_death": 7778,
+                "total_recovered": 393747.0,
+                "total_tests": 9481832
+            },
+            {
+                "dataTime": "2021-02-02T15:00:00",
+                "total_active": 10993.0,
+                "total_confirmed": 414156,
+                "total_death": 7847,
+                "total_recovered": 395316.0,
+                "total_tests": 9563229
+            },
+            {
+                "dataTime": "2021-02-03T15:00:00",
+                "total_active": 11079.0,
+                "total_confirmed": 415690,
+                "total_death": 7902,
+                "total_recovered": 396709.0,
+                "total_tests": 9745126
+            },
+            {
+                "dataTime": "2021-02-04T15:00:00",
+                "total_active": 11343.0,
+                "total_confirmed": 417189,
+                "total_death": 7936,
+                "total_recovered": 397910.0,
+                "total_tests": 9853428
+            },
+            {
+                "dataTime": "2021-02-05T15:00:00",
+                "total_active": 11315.0,
+                "total_confirmed": 418617,
+                "total_death": 7973,
+                "total_recovered": 399329.0,
+                "total_tests": 9940634
+            },
+            {
+                "dataTime": "2021-02-06T15:00:00",
+                "total_active": 11112.0,
+                "total_confirmed": 419957,
+                "total_death": 7994,
+                "total_recovered": 400851.0,
+                "total_tests": 10100523
+            },
+            {
+                "dataTime": "2021-02-07T15:00:00",
+                "total_active": 11180.0,
+                "total_confirmed": 421245,
+                "total_death": 8012,
+                "total_recovered": 402053.0,
+                "total_tests": 10313170
+            },
+            {
+                "dataTime": "2021-02-08T15:00:00",
+                "total_active": 10858.0,
+                "total_confirmed": 422192,
+                "total_death": 8032,
+                "total_recovered": 403302.0,
+                "total_tests": 10442158
+            },
+            {
+                "dataTime": "2021-02-09T15:00:00",
+                "total_active": 10399.0,
+                "total_confirmed": 423146,
+                "total_death": 8071,
+                "total_recovered": 404676.0,
+                "total_tests": 10752769
+            },
+            {
+                "dataTime": "2021-02-11T15:00:00",
+                "total_active": 11565.0,
+                "total_confirmed": 426858,
+                "total_death": 8138,
+                "total_recovered": 407155.0,
+                "total_tests": 11205451
+            },
+            {
+                "dataTime": "2021-02-12T15:00:00",
+                "total_active": 11474.0,
+                "total_confirmed": 428070,
+                "total_death": 8170,
+                "total_recovered": 408426.0,
+                "total_tests": 11409166
+            },
+            {
+                "dataTime": "2021-02-13T15:00:00",
+                "total_active": 11138.0,
+                "total_confirmed": 429210,
+                "total_death": 8195,
+                "total_recovered": 409877.0,
+                "total_tests": 11623487
+            },
+            {
+                "dataTime": "2021-02-14T15:00:00",
+                "total_active": 11096.0,
+                "total_confirmed": 430506,
+                "total_death": 8211,
+                "total_recovered": 411199.0,
+                "total_tests": 11763032
+            },
+            {
+                "dataTime": "2021-02-15T15:00:00",
+                "total_active": 11254.0,
+                "total_confirmed": 431932,
+                "total_death": 8221,
+                "total_recovered": 412457.0,
+                "total_tests": 11920050
+            },
+            {
+                "dataTime": "2021-02-16T15:00:00",
+                "total_active": 11047.0,
+                "total_confirmed": 433215,
+                "total_death": 8260,
+                "total_recovered": 413908.0,
+                "total_tests": 12211250
+            },
+            {
+                "dataTime": "2021-02-17T15:00:00",
+                "total_active": 11444.0,
+                "total_confirmed": 434955,
+                "total_death": 8290,
+                "total_recovered": 415221.0,
+                "total_tests": 12417609
+            },
+            {
+                "dataTime": "2021-02-18T15:00:00",
+                "total_active": 12211.0,
+                "total_confirmed": 436954,
+                "total_death": 8312,
+                "total_recovered": 416431.0,
+                "total_tests": 12691956
+            },
+            {
+                "dataTime": "2021-02-19T15:00:00",
+                "total_active": 13060.0,
+                "total_confirmed": 439062,
+                "total_death": 8348,
+                "total_recovered": 417654.0,
+                "total_tests": 12892721
+            },
+            {
+                "dataTime": "2021-02-20T15:00:00",
+                "total_active": 13351.0,
+                "total_confirmed": 441002,
+                "total_death": 8368,
+                "total_recovered": 419283.0,
+                "total_tests": 13128809
+            },
+            {
+                "dataTime": "2021-02-21T15:00:00",
+                "total_active": 13643.0,
+                "total_confirmed": 442538,
+                "total_death": 8386,
+                "total_recovered": 420509.0,
+                "total_tests": 13327784
+            },
+            {
+                "dataTime": "2021-02-22T15:00:00",
+                "total_active": 13472.0,
+                "total_confirmed": 443680,
+                "total_death": 8397,
+                "total_recovered": 421811.0,
+                "total_tests": 13420960
+            },
+            {
+                "dataTime": "2021-02-23T15:00:00",
+                "total_active": 13998.0,
+                "total_confirmed": 445446,
+                "total_death": 8434,
+                "total_recovered": 423014.0,
+                "total_tests": 13679356
+            },
+            {
+                "dataTime": "2021-02-24T15:00:00",
+                "total_active": 15094.0,
+                "total_confirmed": 447912,
+                "total_death": 8470,
+                "total_recovered": 424348.0,
+                "total_tests": 13940675
+            },
+            {
+                "dataTime": "2021-02-25T15:00:00",
+                "total_active": 16028.0,
+                "total_confirmed": 450307,
+                "total_death": 8493,
+                "total_recovered": 425786.0,
+                "total_tests": 14209576
+            },
+            {
+                "dataTime": "2021-02-26T15:00:00",
+                "total_active": 16697.0,
+                "total_confirmed": 452469,
+                "total_death": 8515,
+                "total_recovered": 427257.0,
+                "total_tests": 14432826
+            },
+            {
+                "dataTime": "2021-02-27T15:00:00",
+                "total_active": 17693.0,
+                "total_confirmed": 455135,
+                "total_death": 8538,
+                "total_recovered": 428904.0,
+                "total_tests": 14751767
+            },
+            {
+                "dataTime": "2021-02-28T15:00:00",
+                "total_active": 17844.0,
+                "total_confirmed": 456820,
+                "total_death": 8561,
+                "total_recovered": 430415.0,
+                "total_tests": 14907781
+            },
+            {
+                "dataTime": "2021-03-01T15:00:00",
+                "total_active": 17657.0,
+                "total_confirmed": 458247,
+                "total_death": 8574,
+                "total_recovered": 432016.0,
+                "total_tests": 15003345
+            },
+            {
+                "dataTime": "2021-03-02T15:00:00",
+                "total_active": 17735.0,
+                "total_confirmed": 460213,
+                "total_death": 8605,
+                "total_recovered": 433873.0,
+                "total_tests": 15358139
+            },
+            {
+                "dataTime": "2021-03-03T15:00:00",
+                "total_active": 18591.0,
+                "total_confirmed": 462885,
+                "total_death": 8625,
+                "total_recovered": 435669.0,
+                "total_tests": 15602870
+            },
+            {
+                "dataTime": "2021-03-04T15:00:00",
+                "total_active": 19587.0,
+                "total_confirmed": 465441,
+                "total_death": 8652,
+                "total_recovered": 437202.0,
+                "total_tests": 15864120
+            },
+            {
+                "dataTime": "2021-03-05T15:00:00",
+                "total_active": 20356.0,
+                "total_confirmed": 468126,
+                "total_death": 8669,
+                "total_recovered": 439101.0,
+                "total_tests": 16123615
+            },
+            {
+                "dataTime": "2021-03-06T15:00:00",
+                "total_active": 20726.0,
+                "total_confirmed": 470729,
+                "total_death": 8694,
+                "total_recovered": 441309.0,
+                "total_tests": 16374288
+            },
+            {
+                "dataTime": "2021-03-07T15:00:00",
+                "total_active": 20989.0,
+                "total_confirmed": 472854,
+                "total_death": 8713,
+                "total_recovered": 443152.0,
+                "total_tests": 16533132
+            },
+            {
+                "dataTime": "2021-03-08T15:00:00",
+                "total_active": 21191.0,
+                "total_confirmed": 474955,
+                "total_death": 8732,
+                "total_recovered": 445032.0,
+                "total_tests": 16655212
+            },
+            {
+                "dataTime": "2021-03-09T15:00:00",
+                "total_active": 21129.0,
+                "total_confirmed": 476927,
+                "total_death": 8757,
+                "total_recovered": 447041.0,
+                "total_tests": 17051119
+            },
+            {
+                "dataTime": "2021-03-10T15:00:00",
+                "total_active": 22432.0,
+                "total_confirmed": 480261,
+                "total_death": 8776,
+                "total_recovered": 449053.0,
+                "total_tests": 17329303
+            },
+            {
+                "dataTime": "2021-03-11T15:00:00",
+                "total_active": 23403.0,
+                "total_confirmed": 483063,
+                "total_death": 8798,
+                "total_recovered": 450862.0,
+                "total_tests": 17548957
+            },
+            {
+                "dataTime": "2021-03-12T15:00:00",
+                "total_active": 24191.0,
+                "total_confirmed": 486100,
+                "total_death": 8831,
+                "total_recovered": 453078.0,
+                "total_tests": 17906847
+            },
+            {
+                "dataTime": "2021-03-13T15:00:00",
+                "total_active": 24962.0,
+                "total_confirmed": 489089,
+                "total_death": 8856,
+                "total_recovered": 455271.0,
+                "total_tests": 18178608
+            },
+            {
+                "dataTime": "2021-03-14T15:00:00",
+                "total_active": 25344.0,
+                "total_confirmed": 491483,
+                "total_death": 8873,
+                "total_recovered": 457266.0,
+                "total_tests": 18346043
+            },
+            {
+                "dataTime": "2021-03-15T15:00:00",
+                "total_active": 25778.0,
+                "total_confirmed": 493958,
+                "total_death": 8892,
+                "total_recovered": 459288.0,
+                "total_tests": 18485146
+            },
+            {
+                "dataTime": "2021-03-16T15:00:00",
+                "total_active": 25546.0,
+                "total_confirmed": 496209,
+                "total_death": 8926,
+                "total_recovered": 461737.0,
+                "total_tests": 18840867
+            },
+            {
+                "dataTime": "2021-03-17T15:00:00",
+                "total_active": 26490.0,
+                "total_confirmed": 499160,
+                "total_death": 8956,
+                "total_recovered": 463714.0,
+                "total_tests": 19277527
+            },
+            {
+                "dataTime": "2021-03-18T15:00:00",
+                "total_active": 27981.0,
+                "total_confirmed": 502947,
+                "total_death": 8982,
+                "total_recovered": 465984.0,
+                "total_tests": 19576110
+            },
+            {
+                "dataTime": "2021-03-19T15:00:00",
+                "total_active": 28863.0,
+                "total_confirmed": 506162,
+                "total_death": 9024,
+                "total_recovered": 468275.0,
+                "total_tests": 19845558
+            },
+            {
+                "dataTime": "2021-03-20T15:00:00",
+                "total_active": 30199.0,
+                "total_confirmed": 509935,
+                "total_death": 9052,
+                "total_recovered": 470684.0,
+                "total_tests": 20123592
+            },
+            {
+                "dataTime": "2021-03-21T15:00:00",
+                "total_active": 30192.0,
+                "total_confirmed": 512623,
+                "total_death": 9074,
+                "total_recovered": 473357.0,
+                "total_tests": 20316556
+            },
+            {
+                "dataTime": "2021-03-22T15:00:00",
+                "total_active": 30870.0,
+                "total_confirmed": 515186,
+                "total_death": 9089,
+                "total_recovered": 475227.0,
+                "total_tests": 20476485
+            },
+            {
+                "dataTime": "2021-03-23T15:00:00",
+                "total_active": 30567.0,
+                "total_confirmed": 517628,
+                "total_death": 9121,
+                "total_recovered": 477940.0,
+                "total_tests": 20846292
+            },
+            {
+                "dataTime": "2021-03-24T15:00:00",
+                "total_active": 31245.0,
+                "total_confirmed": 520993,
+                "total_death": 9151,
+                "total_recovered": 480597.0,
+                "total_tests": 21147134
+            },
+            {
+                "dataTime": "2021-03-25T15:00:00",
+                "total_active": 31978.0,
+                "total_confirmed": 524616,
+                "total_death": 9178,
+                "total_recovered": 483460.0,
+                "total_tests": 21565462
+            },
+            {
+                "dataTime": "2021-03-26T15:00:00",
+                "total_active": 32683.0,
+                "total_confirmed": 527971,
+                "total_death": 9200,
+                "total_recovered": 486088.0,
+                "total_tests": 22051094
+            },
+            {
+                "dataTime": "2021-03-27T15:00:00",
+                "total_active": 34045.0,
+                "total_confirmed": 532240,
+                "total_death": 9231,
+                "total_recovered": 488964.0,
+                "total_tests": 22194436
+            },
+            {
+                "dataTime": "2021-03-28T15:00:00",
+                "total_active": 33725.0,
+                "total_confirmed": 534600,
+                "total_death": 9256,
+                "total_recovered": 491619.0,
+                "total_tests": 22455472
+            },
+            {
+                "dataTime": "2021-03-29T15:00:00",
+                "total_active": 34243.0,
+                "total_confirmed": 537895,
+                "total_death": 9275,
+                "total_recovered": 494377.0,
+                "total_tests": 22610260
             }
         ]
     },
