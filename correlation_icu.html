@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- https://vega.github.io/vega/usage/#ie -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5/build-es5/vega.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4/build-es5/vega-lite.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6/build-es5/vega-embed.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <link rel="stylesheet" href="src-www/styles.css?v=1.0.0">
+</head>
+<body>
+  <div class="main_content">
+    <h1>COVID-19 AT</h1>
+    <p><small>Letztes Update: 01.04.2021, Datenquellen: <a href="https://github.com/keriati/austria-covid-data">github.com/keriati</a></small></p>
+    <p>Angaben ohne Gewähr. Der <a href="https://github.com/walterra/covid-19">Quellcode</a> für die Datenaufbereitung und Charts ist Open Source. <br />
+      Feedback auf <a href="https://twitter.com/walterra">Twitter</a> oder im <a href="https://github.com/walterra/covid-19/issues">GitHub Repository</a> ist sehr willkommen.</p>
+
+    <div id="vis"></div>
+
+  </div>
+
+  <script type="text/javascript">
+    var spec = "./data/chart_correlation_icu.json";
+    vegaEmbed('#vis', spec).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+</body>
+</html>
