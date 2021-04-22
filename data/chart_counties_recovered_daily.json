@@ -21,10 +21,10 @@
         }
     },
     "data": {
-        "name": "data-a999b64973363826095418b5abb93f9c"
+        "name": "data-ba3997d51c56bd08221e6cbd5010bb7b"
     },
     "datasets": {
-        "data-a999b64973363826095418b5abb93f9c": [
+        "data-ba3997d51c56bd08221e6cbd5010bb7b": [
             {
                 "B_recovered": null,
                 "K_recovered": null,
@@ -7116,6 +7116,54 @@
                 "V_recovered": 25273.0,
                 "W_recovered": 119078.0,
                 "dataTime": "2021-04-18T15:00:00"
+            },
+            {
+                "B_recovered": 16235.0,
+                "K_recovered": 34722.0,
+                "Noe_recovered": 95149.0,
+                "Ooe_recovered": 101695.0,
+                "S_recovered": 43937.0,
+                "St_recovered": 65684.0,
+                "T_recovered": 55208.0,
+                "V_recovered": 25318.0,
+                "W_recovered": 119519.0,
+                "dataTime": "2021-04-19T15:00:00"
+            },
+            {
+                "B_recovered": 16299.0,
+                "K_recovered": 34894.0,
+                "Noe_recovered": 95640.0,
+                "Ooe_recovered": 102176.0,
+                "S_recovered": 44108.0,
+                "St_recovered": 65968.0,
+                "T_recovered": 55380.0,
+                "V_recovered": 25378.0,
+                "W_recovered": 120649.0,
+                "dataTime": "2021-04-20T15:00:00"
+            },
+            {
+                "B_recovered": 16401.0,
+                "K_recovered": 35030.0,
+                "Noe_recovered": 96080.0,
+                "Ooe_recovered": 102552.0,
+                "S_recovered": 44279.0,
+                "St_recovered": 66238.0,
+                "T_recovered": 55551.0,
+                "V_recovered": 25453.0,
+                "W_recovered": 121672.0,
+                "dataTime": "2021-04-21T15:00:00"
+            },
+            {
+                "B_recovered": 16481.0,
+                "K_recovered": 35152.0,
+                "Noe_recovered": 96546.0,
+                "Ooe_recovered": 102906.0,
+                "S_recovered": 44454.0,
+                "St_recovered": 66487.0,
+                "T_recovered": 55750.0,
+                "V_recovered": 25536.0,
+                "W_recovered": 122201.0,
+                "dataTime": "2021-04-22T15:00:00"
             }
         ]
     },
