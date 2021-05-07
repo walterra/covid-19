@@ -23,10 +23,18 @@
         }
     },
     "data": {
-        "name": "data-386a3f03362a6c0b392f647dc25b83bc"
+        "name": "data-a6d73520a0e0ba33d898d1d58705d904"
     },
     "datasets": {
-        "data-386a3f03362a6c0b392f647dc25b83bc": [
+        "data-793b2339a016668726e02e8737965916": [
+            {
+                "label": "Tageswert"
+            },
+            {
+                "label": "7d Moving Average"
+            }
+        ],
+        "data-a6d73520a0e0ba33d898d1d58705d904": [
             {
                 "dataTime": "2020-02-25T14:30:00",
                 "total_active": 2.0,
@@ -3426,14 +3434,38 @@
                 "total_death": 10245,
                 "total_recovered": 589534.0,
                 "total_tests": 32383974
-            }
-        ],
-        "data-793b2339a016668726e02e8737965916": [
-            {
-                "label": "Tageswert"
             },
             {
-                "label": "7d Moving Average"
+                "dataTime": "2021-05-03T15:00:00",
+                "total_active": 18250.0,
+                "total_confirmed": 620035,
+                "total_death": 10260,
+                "total_recovered": 591525.0,
+                "total_tests": 32495877
+            },
+            {
+                "dataTime": "2021-05-04T15:00:00",
+                "total_active": 17431.0,
+                "total_confirmed": 621406,
+                "total_death": 10291,
+                "total_recovered": 593684.0,
+                "total_tests": 32895293
+            },
+            {
+                "dataTime": "2021-05-05T15:00:00",
+                "total_active": 16752.0,
+                "total_confirmed": 622940,
+                "total_death": 10311,
+                "total_recovered": 595877.0,
+                "total_tests": 33241683
+            },
+            {
+                "dataTime": "2021-05-06T15:00:00",
+                "total_active": 16046.0,
+                "total_confirmed": 624301,
+                "total_death": 10333,
+                "total_recovered": 597922.0,
+                "total_tests": 33702259
             }
         ]
     },
